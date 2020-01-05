@@ -1,0 +1,287 @@
+DIGEST f41868cd3b59e0cfafe64e2f0b1ec481
+FCoq.Structures.DecidableType
+R691:700 Coq.Lists.SetoidList <> <> lib
+R711:720 Coq.Structures.Equalities <> <> lib
+R1026:1052 Coq.Structures.Equalities EqualityTypeOrig <> mod
+modtype 1010:1021 <> EqualityType
+R1145:1172 Coq.Structures.Equalities DecidableTypeOrig <> mod
+modtype 1128:1140 <> DecidableType
+R1265:1277 Coq.Structures.DecidableType DecidableType <> mod
+mod 1246:1261 <> KeyDecidableType
+sec 1302:1304 KeyDecidableType Elt
+var 1317:1319 KeyDecidableType.Elt elt
+syndef 1339:1341 KeyDecidableType key
+R1344:1344 Coq.Structures.DecidableType D t defax
+def 1361:1363 KeyDecidableType eqk
+R1374:1374 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1371:1373 Coq.Structures.DecidableType KeyDecidableType key syndef
+R1375:1377 Coq.Structures.DecidableType <> KeyDecidableType.Elt.elt var
+R1383:1384 Coq.Structures.DecidableType D eq defax
+R1395:1397 Coq.Init.Datatypes <> fst def
+R1399:1400 Coq.Structures.DecidableType <> p' var
+R1387:1389 Coq.Init.Datatypes <> fst def
+R1391:1391 Coq.Structures.DecidableType <> p var
+def 1417:1420 KeyDecidableType eqke
+R1431:1431 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1428:1430 Coq.Structures.DecidableType KeyDecidableType key syndef
+R1432:1434 Coq.Structures.DecidableType <> KeyDecidableType.Elt.elt var
+R1469:1472 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1450:1451 Coq.Structures.DecidableType D eq defax
+R1462:1464 Coq.Init.Datatypes <> fst def
+R1466:1467 Coq.Structures.DecidableType <> p' var
+R1454:1456 Coq.Init.Datatypes <> fst def
+R1458:1458 Coq.Structures.DecidableType <> p var
+R1473:1473 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1479:1483 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1490:1490 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1474:1476 Coq.Init.Datatypes <> snd def
+R1478:1478 Coq.Structures.DecidableType <> p var
+R1484:1486 Coq.Init.Datatypes <> snd def
+R1488:1489 Coq.Structures.DecidableType <> p' var
+R1508:1510 Coq.Structures.DecidableType KeyDecidableType eqk def
+R1512:1515 Coq.Structures.DecidableType KeyDecidableType eqke def
+R1542:1545 Coq.Structures.DecidableType KeyDecidableType eqke def
+prf 1617:1624 KeyDecidableType eqke_eqk
+R1650:1653 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1654:1656 Coq.Structures.DecidableType KeyDecidableType eqk def
+R1660:1661 Coq.Structures.DecidableType <> x' var
+R1658:1658 Coq.Structures.DecidableType <> x var
+R1641:1644 Coq.Structures.DecidableType KeyDecidableType eqke def
+R1648:1649 Coq.Structures.DecidableType <> x' var
+R1646:1646 Coq.Structures.DecidableType <> x var
+R1686:1688 Coq.Structures.DecidableType KeyDecidableType eqk def
+R1691:1694 Coq.Structures.DecidableType KeyDecidableType eqke def
+prf 1759:1766 KeyDecidableType eqk_refl
+R1780:1782 Coq.Structures.DecidableType KeyDecidableType eqk def
+R1786:1786 Coq.Structures.DecidableType <> e var
+R1784:1784 Coq.Structures.DecidableType <> e var
+prf 1818:1826 KeyDecidableType eqke_refl
+R1840:1843 Coq.Structures.DecidableType KeyDecidableType eqke def
+R1847:1847 Coq.Structures.DecidableType <> e var
+R1845:1845 Coq.Structures.DecidableType <> e var
+prf 1879:1885 KeyDecidableType eqk_sym
+R1910:1913 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1914:1916 Coq.Structures.DecidableType KeyDecidableType eqk def
+R1921:1921 Coq.Structures.DecidableType <> e var
+R1918:1919 Coq.Structures.DecidableType <> e' var
+R1902:1904 Coq.Structures.DecidableType KeyDecidableType eqk def
+R1908:1909 Coq.Structures.DecidableType <> e' var
+R1906:1906 Coq.Structures.DecidableType <> e var
+prf 1953:1960 KeyDecidableType eqke_sym
+R1986:1989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1990:1993 Coq.Structures.DecidableType KeyDecidableType eqke def
+R1998:1998 Coq.Structures.DecidableType <> e var
+R1995:1996 Coq.Structures.DecidableType <> e' var
+R1977:1980 Coq.Structures.DecidableType KeyDecidableType eqke def
+R1984:1985 Coq.Structures.DecidableType <> e' var
+R1982:1982 Coq.Structures.DecidableType <> e var
+R2017:2020 Coq.Structures.DecidableType KeyDecidableType eqke def
+prf 2048:2056 KeyDecidableType eqk_trans
+R2085:2088 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2099:2102 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2103:2105 Coq.Structures.DecidableType KeyDecidableType eqk def
+R2109:2111 Coq.Structures.DecidableType <> e'' var
+R2107:2107 Coq.Structures.DecidableType <> e var
+R2089:2091 Coq.Structures.DecidableType KeyDecidableType eqk def
+R2096:2098 Coq.Structures.DecidableType <> e'' var
+R2093:2094 Coq.Structures.DecidableType <> e' var
+R2077:2079 Coq.Structures.DecidableType KeyDecidableType eqk def
+R2083:2084 Coq.Structures.DecidableType <> e' var
+R2081:2081 Coq.Structures.DecidableType <> e var
+prf 2144:2153 KeyDecidableType eqke_trans
+R2183:2186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2198:2201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2202:2205 Coq.Structures.DecidableType KeyDecidableType eqke def
+R2209:2211 Coq.Structures.DecidableType <> e'' var
+R2207:2207 Coq.Structures.DecidableType <> e var
+R2187:2190 Coq.Structures.DecidableType KeyDecidableType eqke def
+R2195:2197 Coq.Structures.DecidableType <> e'' var
+R2192:2193 Coq.Structures.DecidableType <> e' var
+R2174:2177 Coq.Structures.DecidableType KeyDecidableType eqke def
+R2181:2182 Coq.Structures.DecidableType <> e' var
+R2179:2179 Coq.Structures.DecidableType <> e var
+R2234:2237 Coq.Structures.DecidableType KeyDecidableType eqke def
+inst 2407:2415 KeyDecidableType eqk_equiv
+R2419:2429 Coq.Classes.RelationClasses <> Equivalence class
+R2431:2433 Coq.Structures.DecidableType KeyDecidableType eqk def
+inst 2483:2492 KeyDecidableType eqke_equiv
+R2496:2506 Coq.Classes.RelationClasses <> Equivalence class
+R2508:2511 Coq.Structures.DecidableType KeyDecidableType eqke def
+prf 2551:2562 KeyDecidableType InA_eqke_eqk
+R2595:2598 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2599:2601 Coq.Lists.SetoidList <> InA ind
+R2609:2609 Coq.Structures.DecidableType <> m var
+R2607:2607 Coq.Structures.DecidableType <> x var
+R2603:2605 Coq.Structures.DecidableType KeyDecidableType eqk def
+R2583:2585 Coq.Lists.SetoidList <> InA ind
+R2594:2594 Coq.Structures.DecidableType <> m var
+R2592:2592 Coq.Structures.DecidableType <> x var
+R2587:2590 Coq.Structures.DecidableType KeyDecidableType eqke def
+R2632:2635 Coq.Structures.DecidableType KeyDecidableType eqke def
+prf 2715:2721 KeyDecidableType InA_eqk
+R2746:2749 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2761:2764 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2765:2767 Coq.Lists.SetoidList <> InA ind
+R2775:2775 Coq.Structures.DecidableType <> m var
+R2773:2773 Coq.Structures.DecidableType <> q var
+R2769:2771 Coq.Structures.DecidableType KeyDecidableType eqk def
+R2750:2752 Coq.Lists.SetoidList <> InA ind
+R2760:2760 Coq.Structures.DecidableType <> m var
+R2758:2758 Coq.Structures.DecidableType <> p var
+R2754:2756 Coq.Structures.DecidableType KeyDecidableType eqk def
+R2739:2741 Coq.Structures.DecidableType KeyDecidableType eqk def
+R2745:2745 Coq.Structures.DecidableType <> q var
+R2743:2743 Coq.Structures.DecidableType <> p var
+R2804:2810 Coq.Lists.SetoidList <> InA_eqA thm
+R2831:2839 Coq.Structures.DecidableType KeyDecidableType eqk_equiv inst
+R2804:2810 Coq.Lists.SetoidList <> InA_eqA thm
+R2831:2839 Coq.Structures.DecidableType KeyDecidableType eqk_equiv inst
+R2831:2839 Coq.Structures.DecidableType KeyDecidableType eqk_equiv inst
+R2831:2839 Coq.Structures.DecidableType KeyDecidableType eqk_equiv inst
+def 2863:2868 KeyDecidableType MapsTo
+R2873:2875 Coq.Structures.DecidableType KeyDecidableType key syndef
+R2880:2882 Coq.Structures.DecidableType <> KeyDecidableType.Elt.elt var
+R2887:2889 Coq.Lists.SetoidList <> InA ind
+R2896:2896 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2898:2898 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2900:2900 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2897:2897 Coq.Structures.DecidableType <> k var
+R2899:2899 Coq.Structures.DecidableType <> e var
+R2891:2894 Coq.Structures.DecidableType KeyDecidableType eqke def
+def 2916:2917 KeyDecidableType In
+R2926:2932 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2938:2939 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2935:2937 Coq.Structures.DecidableType <> KeyDecidableType.Elt.elt var
+R2940:2945 Coq.Structures.DecidableType KeyDecidableType MapsTo def
+R2951:2951 Coq.Structures.DecidableType <> m var
+R2949:2949 Coq.Structures.DecidableType <> e var
+R2947:2947 Coq.Structures.DecidableType <> k var
+R2969:2974 Coq.Structures.DecidableType KeyDecidableType MapsTo def
+R2976:2977 Coq.Structures.DecidableType KeyDecidableType In def
+prf 3076:3081 KeyDecidableType In_alt
+R3103:3107 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3097:3098 Coq.Structures.DecidableType KeyDecidableType In def
+R3102:3102 Coq.Structures.DecidableType <> l var
+R3100:3100 Coq.Structures.DecidableType <> k var
+R3108:3114 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3116:3117 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3118:3120 Coq.Lists.SetoidList <> InA ind
+R3132:3132 Coq.Structures.DecidableType <> l var
+R3126:3126 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3128:3128 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3130:3130 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3127:3127 Coq.Structures.DecidableType <> k var
+R3129:3129 Coq.Structures.DecidableType <> e var
+R3122:3124 Coq.Structures.DecidableType KeyDecidableType eqk def
+prf 3285:3293 KeyDecidableType MapsTo_eq
+R3319:3322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3335:3338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3339:3344 Coq.Structures.DecidableType KeyDecidableType MapsTo def
+R3350:3350 Coq.Structures.DecidableType <> l var
+R3348:3348 Coq.Structures.DecidableType <> e var
+R3346:3346 Coq.Structures.DecidableType <> y var
+R3323:3328 Coq.Structures.DecidableType KeyDecidableType MapsTo def
+R3334:3334 Coq.Structures.DecidableType <> l var
+R3332:3332 Coq.Structures.DecidableType <> e var
+R3330:3330 Coq.Structures.DecidableType <> x var
+R3313:3314 Coq.Structures.DecidableType D eq defax
+R3318:3318 Coq.Structures.DecidableType <> y var
+R3316:3316 Coq.Structures.DecidableType <> x var
+R3381:3386 Coq.Structures.DecidableType KeyDecidableType MapsTo def
+R3413:3413 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3415:3415 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3417:3417 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3400:3406 Coq.Lists.SetoidList <> InA_eqA thm
+R3431:3440 Coq.Structures.DecidableType KeyDecidableType eqke_equiv inst
+R3413:3413 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3415:3415 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3417:3417 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3400:3406 Coq.Lists.SetoidList <> InA_eqA thm
+R3431:3440 Coq.Structures.DecidableType KeyDecidableType eqke_equiv inst
+R3431:3440 Coq.Structures.DecidableType KeyDecidableType eqke_equiv inst
+R3431:3440 Coq.Structures.DecidableType KeyDecidableType eqke_equiv inst
+prf 3459:3463 KeyDecidableType In_eq
+R3487:3490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3497:3500 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3501:3502 Coq.Structures.DecidableType KeyDecidableType In def
+R3506:3506 Coq.Structures.DecidableType <> l var
+R3504:3504 Coq.Structures.DecidableType <> y var
+R3491:3492 Coq.Structures.DecidableType KeyDecidableType In def
+R3496:3496 Coq.Structures.DecidableType <> l var
+R3494:3494 Coq.Structures.DecidableType <> x var
+R3481:3482 Coq.Structures.DecidableType D eq defax
+R3486:3486 Coq.Structures.DecidableType <> y var
+R3484:3484 Coq.Structures.DecidableType <> x var
+R3558:3566 Coq.Structures.DecidableType KeyDecidableType MapsTo_eq thm
+R3558:3566 Coq.Structures.DecidableType KeyDecidableType MapsTo_eq thm
+prf 3592:3597 KeyDecidableType In_inv
+R3636:3639 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3647:3650 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3640:3641 Coq.Structures.DecidableType D eq defax
+R3645:3646 Coq.Structures.DecidableType <> k' var
+R3643:3643 Coq.Structures.DecidableType <> k var
+R3651:3652 Coq.Structures.DecidableType KeyDecidableType In def
+R3656:3656 Coq.Structures.DecidableType <> l var
+R3654:3654 Coq.Structures.DecidableType <> k var
+R3618:3619 Coq.Structures.DecidableType KeyDecidableType In def
+R3630:3633 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3624:3624 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3627:3627 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3629:3629 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3625:3626 Coq.Structures.DecidableType <> k' var
+R3628:3628 Coq.Structures.DecidableType <> e var
+R3634:3634 Coq.Structures.DecidableType <> l var
+R3621:3621 Coq.Structures.DecidableType <> k var
+prf 3772:3779 KeyDecidableType In_inv_2
+R3839:3842 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3852:3855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3856:3858 Coq.Lists.SetoidList <> InA ind
+R3871:3871 Coq.Structures.DecidableType <> l var
+R3864:3864 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3866:3867 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3869:3869 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3865:3865 Coq.Structures.DecidableType <> k var
+R3868:3868 Coq.Structures.DecidableType <> e var
+R3860:3862 Coq.Structures.DecidableType KeyDecidableType eqk def
+R3843:3844 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3845:3846 Coq.Structures.DecidableType D eq defax
+R3850:3851 Coq.Structures.DecidableType <> k' var
+R3848:3848 Coq.Structures.DecidableType <> k var
+R3809:3811 Coq.Lists.SetoidList <> InA ind
+R3833:3836 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3825:3825 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3828:3829 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3832:3832 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3826:3827 Coq.Structures.DecidableType <> k' var
+R3830:3831 Coq.Structures.DecidableType <> e' var
+R3837:3837 Coq.Structures.DecidableType <> l var
+R3817:3817 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3819:3820 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3822:3822 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3818:3818 Coq.Structures.DecidableType <> k var
+R3821:3821 Coq.Structures.DecidableType <> e var
+R3813:3815 Coq.Structures.DecidableType KeyDecidableType eqk def
+prf 3947:3954 KeyDecidableType In_inv_3
+R3999:4002 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4013:4016 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4017:4019 Coq.Lists.SetoidList <> InA ind
+R4028:4028 Coq.Structures.DecidableType <> l var
+R4026:4026 Coq.Structures.DecidableType <> x var
+R4021:4024 Coq.Structures.DecidableType KeyDecidableType eqke def
+R4003:4004 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4005:4007 Coq.Structures.DecidableType KeyDecidableType eqk def
+R4011:4012 Coq.Structures.DecidableType <> x' var
+R4009:4009 Coq.Structures.DecidableType <> x var
+R3979:3981 Coq.Lists.SetoidList <> InA ind
+R3993:3996 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3991:3992 Coq.Structures.DecidableType <> x' var
+R3997:3997 Coq.Structures.DecidableType <> l var
+R3988:3988 Coq.Structures.DecidableType <> x var
+R3983:3986 Coq.Structures.DecidableType KeyDecidableType eqke def
+R4101:4103 Coq.Structures.DecidableType KeyDecidableType.Elt <> sec
+R4120:4122 Coq.Structures.DecidableType KeyDecidableType eqk def
+R4124:4127 Coq.Structures.DecidableType KeyDecidableType eqke def
+R4153:4156 Coq.Structures.DecidableType KeyDecidableType eqke def
+R4333:4338 Coq.Structures.DecidableType KeyDecidableType MapsTo def
+R4340:4341 Coq.Structures.DecidableType KeyDecidableType In def
+R4396:4411 Coq.Structures.DecidableType KeyDecidableType <> mod

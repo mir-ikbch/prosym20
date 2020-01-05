@@ -1,0 +1,4 @@
+EXCLUDE_QUERY_DIR
+B ../../../_build/jscoq+32bit/_vendor+v8.10+32bit/coq/coqpp/.coqpp_main.eobjs/byte
+S .
+FLG -w -40 -rectypes

@@ -1,0 +1,110 @@
+DIGEST db3999f0a31df9aebdce4cb332ff87d9
+FCoq.micromega.VarMap
+R1021:1026 Coq.ZArith.ZArith <> <> lib
+R1044:1056 Coq.Arith.Max <> <> lib
+R1074:1077 Coq.Lists.List <> <> lib
+ind 1387:1387 <> t
+constr 1405:1409 <> Empty
+constr 1417:1419 <> Elt
+constr 1432:1437 <> Branch
+R1413:1413 Coq.micromega.VarMap <> t ind
+R1413:1413 Coq.micromega.VarMap <> A var
+R1424:1427 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1428:1428 Coq.micromega.VarMap <> t ind
+R1428:1428 Coq.micromega.VarMap <> A var
+R1423:1423 Coq.micromega.VarMap <> A var
+R1442:1446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1448:1451 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1453:1457 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1458:1458 Coq.micromega.VarMap <> t ind
+R1458:1458 Coq.micromega.VarMap <> A var
+R1452:1452 Coq.micromega.VarMap <> t ind
+R1452:1452 Coq.micromega.VarMap <> A var
+R1447:1447 Coq.micromega.VarMap <> A var
+R1441:1441 Coq.micromega.VarMap <> t ind
+R1441:1441 Coq.micromega.VarMap <> A var
+R1472:1472 Coq.micromega.VarMap <> t ind
+R1472:1472 Coq.micromega.VarMap <> t ind
+sec 1502:1511 <> MakeVarMap
+var 1528:1528 MakeVarMap A
+var 1549:1555 MakeVarMap default
+R1559:1559 Coq.micromega.VarMap <> MakeVarMap.A var
+syndef 1574:1574 <> t
+R1580:1580 Coq.micromega.VarMap <> t ind
+R1582:1582 Coq.micromega.VarMap <> MakeVarMap.A var
+def 1598:1601 <> find
+R1609:1609 Coq.micromega.VarMap <> t syndef
+R1615:1622 Coq.Numbers.BinNums <> positive ind
+R1639:1639 Coq.micromega.VarMap <> MakeVarMap.A var
+R1654:1655 Coq.micromega.VarMap <> vm var
+R1670:1674 Coq.micromega.VarMap <> Empty constr
+R1679:1685 Coq.micromega.VarMap <> MakeVarMap.default var
+R1695:1697 Coq.micromega.VarMap <> Elt constr
+R1714:1719 Coq.micromega.VarMap <> Branch constr
+R1736:1736 Coq.micromega.VarMap <> p var
+R1769:1770 Coq.Numbers.BinNums <> xH constr
+R1803:1804 Coq.Numbers.BinNums <> xO constr
+R1811:1814 Coq.micromega.VarMap <> find def
+R1818:1818 Coq.micromega.VarMap <> p var
+R1846:1847 Coq.Numbers.BinNums <> xI constr
+R1854:1857 Coq.micromega.VarMap <> find def
+R1861:1861 Coq.micromega.VarMap <> p var
+def 1910:1918 <> singleton
+R1923:1930 Coq.Numbers.BinNums <> positive ind
+R1938:1938 Coq.micromega.VarMap <> MakeVarMap.A var
+R1943:1943 Coq.micromega.VarMap <> t syndef
+R1958:1958 Coq.micromega.VarMap <> x var
+R1971:1972 Coq.Numbers.BinNums <> xH constr
+R1977:1979 Coq.micromega.VarMap <> Elt constr
+R1981:1981 Coq.micromega.VarMap <> v var
+R1989:1990 Coq.Numbers.BinNums <> xO constr
+R1997:2002 Coq.micromega.VarMap <> Branch constr
+R2028:2032 Coq.micromega.VarMap <> Empty constr
+R2020:2026 Coq.micromega.VarMap <> MakeVarMap.default var
+R2005:2013 Coq.micromega.VarMap <> singleton def
+R2017:2017 Coq.micromega.VarMap <> v var
+R2040:2041 Coq.Numbers.BinNums <> xI constr
+R2048:2053 Coq.micromega.VarMap <> Branch constr
+R2070:2078 Coq.micromega.VarMap <> singleton def
+R2082:2082 Coq.micromega.VarMap <> v var
+R2061:2067 Coq.micromega.VarMap <> MakeVarMap.default var
+R2055:2059 Coq.micromega.VarMap <> Empty constr
+def 2108:2113 <> vm_add
+R2119:2126 Coq.Numbers.BinNums <> positive ind
+R2134:2134 Coq.micromega.VarMap <> MakeVarMap.A var
+R2142:2142 Coq.micromega.VarMap <> t syndef
+R2158:2158 Coq.micromega.VarMap <> t syndef
+R2173:2173 Coq.micromega.VarMap <> m var
+R2186:2190 Coq.micromega.VarMap <> Empty constr
+R2197:2205 Coq.micromega.VarMap <> singleton def
+R2209:2209 Coq.micromega.VarMap <> v var
+R2207:2207 Coq.micromega.VarMap <> x var
+R2217:2219 Coq.micromega.VarMap <> Elt constr
+R2239:2239 Coq.micromega.VarMap <> x var
+R2254:2255 Coq.Numbers.BinNums <> xH constr
+R2260:2262 Coq.micromega.VarMap <> Elt constr
+R2264:2264 Coq.micromega.VarMap <> v var
+R2274:2275 Coq.Numbers.BinNums <> xO constr
+R2282:2287 Coq.micromega.VarMap <> Branch constr
+R2308:2312 Coq.micromega.VarMap <> Empty constr
+R2290:2298 Coq.micromega.VarMap <> singleton def
+R2302:2302 Coq.micromega.VarMap <> v var
+R2322:2323 Coq.Numbers.BinNums <> xI constr
+R2330:2335 Coq.micromega.VarMap <> Branch constr
+R2347:2355 Coq.micromega.VarMap <> singleton def
+R2359:2359 Coq.micromega.VarMap <> v var
+R2337:2341 Coq.micromega.VarMap <> Empty constr
+R2378:2383 Coq.micromega.VarMap <> Branch constr
+R2406:2406 Coq.micromega.VarMap <> x var
+R2421:2422 Coq.Numbers.BinNums <> xH constr
+R2427:2432 Coq.micromega.VarMap <> Branch constr
+R2436:2436 Coq.micromega.VarMap <> v var
+R2448:2449 Coq.Numbers.BinNums <> xI constr
+R2456:2461 Coq.micromega.VarMap <> Branch constr
+R2468:2473 Coq.micromega.VarMap <> vm_add def
+R2477:2477 Coq.micromega.VarMap <> v var
+R2490:2491 Coq.Numbers.BinNums <> xO constr
+R2498:2503 Coq.micromega.VarMap <> Branch constr
+R2506:2511 Coq.micromega.VarMap <> vm_add def
+R2515:2515 Coq.micromega.VarMap <> v var
+R2551:2560 Coq.micromega.VarMap MakeVarMap <> sec

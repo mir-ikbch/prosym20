@@ -1,0 +1,57 @@
+DIGEST 332902df33ec36d1a24f3f9d865dda1b
+FCoq.micromega.Fourier_util
+R15:19 Coq.Reals.Rbase <> <> lib
+R37:39 Coq.micromega.Lra <> <> lib
+prf 70:85 <> Rlt_mult_inv_pos
+R100:100 Coq.Reals.Rdefinitions <> R defax
+R108:111 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R117:120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R122:124 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R126:128 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R125:125 Coq.micromega.Fourier_util <> x var
+R129:130 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R131:131 Coq.micromega.Fourier_util <> y var
+R113:115 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R116:116 Coq.micromega.Fourier_util <> y var
+R104:106 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R107:107 Coq.micromega.Fourier_util <> x var
+R184:186 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R184:186 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R197:213 Coq.Reals.Raxioms <> Rmult_lt_compat_l prfax
+R197:213 Coq.Reals.Raxioms <> Rmult_lt_compat_l prfax
+prf 250:267 <> Rlt_zero_pos_plus1
+R280:280 Coq.Reals.Rdefinitions <> R defax
+R288:291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R293:295 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R297:299 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R300:300 Coq.micromega.Fourier_util <> x var
+R284:286 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R287:287 Coq.micromega.Fourier_util <> x var
+R339:348 Coq.Reals.Raxioms <> Rplus_comm prfax
+R339:348 Coq.Reals.Raxioms <> Rplus_comm prfax
+R339:348 Coq.Reals.Raxioms <> Rplus_comm prfax
+R357:371 Coq.Reals.RIneq <> Rle_lt_0_plus_1 thm
+R357:371 Coq.Reals.RIneq <> Rle_lt_0_plus_1 thm
+prf 407:424 <> Rle_zero_pos_plus1
+R437:437 Coq.Reals.Rdefinitions <> R defax
+R446:449 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R451:454 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R456:458 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R459:459 Coq.micromega.Fourier_util <> x var
+R441:444 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R445:445 Coq.micromega.Fourier_util <> x var
+prf 489:504 <> Rle_mult_inv_pos
+R519:519 Coq.Reals.Rdefinitions <> R defax
+R528:531 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R537:540 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R542:545 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R547:549 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R546:546 Coq.micromega.Fourier_util <> x var
+R550:551 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R552:552 Coq.micromega.Fourier_util <> y var
+R533:535 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R536:536 Coq.micromega.Fourier_util <> y var
+R523:526 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R527:527 Coq.micromega.Fourier_util <> x var
+R621:636 Coq.micromega.Fourier_util <> Rlt_mult_inv_pos thm
+R621:636 Coq.micromega.Fourier_util <> Rlt_mult_inv_pos thm

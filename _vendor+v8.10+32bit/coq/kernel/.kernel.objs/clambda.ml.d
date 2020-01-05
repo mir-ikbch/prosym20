@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/kernel/clambda.ml: Array CPrimitives Cemitcodes Constant Constr Context Declarations Environ Esubst Evar Feedback Format Hashtbl Id List Mod_subst MutInd Name Names Obj Pp Projection Reduction Sorts Sys Term Uint63 Util Vmvalues

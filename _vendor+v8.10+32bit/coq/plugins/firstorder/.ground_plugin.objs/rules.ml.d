@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/plugins/firstorder/rules.ml: Array CErrors Context Control EConstr EInstance Formula GlobRef Globnames List Names Pp Proofview Sequent Sorts Tacmach Tacticals Tactics Termops Util Vars

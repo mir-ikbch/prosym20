@@ -1,0 +1,26 @@
+(** @canonical Recdef_plugin.Functional_principles_proofs *)
+module Functional_principles_proofs = Recdef_plugin__Functional_principles_proofs
+
+(** @canonical Recdef_plugin.Functional_principles_types *)
+module Functional_principles_types = Recdef_plugin__Functional_principles_types
+
+(** @canonical Recdef_plugin.G_indfun *)
+module G_indfun = Recdef_plugin__G_indfun
+
+(** @canonical Recdef_plugin.Glob_term_to_relation *)
+module Glob_term_to_relation = Recdef_plugin__Glob_term_to_relation
+
+(** @canonical Recdef_plugin.Glob_termops *)
+module Glob_termops = Recdef_plugin__Glob_termops
+
+(** @canonical Recdef_plugin.Indfun *)
+module Indfun = Recdef_plugin__Indfun
+
+(** @canonical Recdef_plugin.Indfun_common *)
+module Indfun_common = Recdef_plugin__Indfun_common
+
+(** @canonical Recdef_plugin.Invfun *)
+module Invfun = Recdef_plugin__Invfun
+
+(** @canonical Recdef_plugin.Recdef *)
+module Recdef = Recdef_plugin__Recdef

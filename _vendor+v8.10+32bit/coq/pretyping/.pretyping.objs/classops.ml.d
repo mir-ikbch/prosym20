@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/pretyping/classops.ml: Array CErrors CWarnings Constant Constr EConstr EInstance Evd GlobRef Global Globnames Goptions Id Inductiveops Int Lib Libnames Libobject List Map Mod_subst Names Nametab Option Pervasives Pp Projection Recordops Reductionops Summary Tacred Typeops Univ Util

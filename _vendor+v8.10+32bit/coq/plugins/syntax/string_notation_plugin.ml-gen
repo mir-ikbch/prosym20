@@ -1,0 +1,5 @@
+(** @canonical String_notation_plugin.G_string *)
+module G_string = String_notation_plugin__G_string
+
+(** @canonical String_notation_plugin.String_notation *)
+module String_notation = String_notation_plugin__String_notation

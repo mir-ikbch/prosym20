@@ -1,0 +1,8 @@
+(** @canonical Newring_plugin.G_newring *)
+module G_newring = Newring_plugin__G_newring
+
+(** @canonical Newring_plugin.Newring *)
+module Newring = Newring_plugin__Newring
+
+(** @canonical Newring_plugin.Newring_ast *)
+module Newring_ast = Newring_plugin__Newring_ast

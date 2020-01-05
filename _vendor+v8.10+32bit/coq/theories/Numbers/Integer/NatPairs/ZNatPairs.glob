@@ -1,0 +1,931 @@
+DIGEST 216e2070916be8abb961d12b8a733b0b
+FCoq.Numbers.Integer.NatPairs.ZNatPairs
+R841:844 Coq.Numbers.Natural.Abstract.NSub <> <> lib
+R846:852 Coq.Numbers.Integer.Abstract.ZAxioms <> <> lib
+R870:873 Coq.setoid_ring.Ring <> <> lib
+R953:955 Coq.Init.Datatypes <> fst def
+not 942:942 <> ::pair_scope:x_'#1'
+R1024:1026 Coq.Init.Datatypes <> snd def
+not 1013:1013 <> ::pair_scope:x_'#2'
+R1111:1124 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsMiniSig <> mod
+R1130:1143 Coq.Numbers.Integer.Abstract.ZAxioms ZAxiomsMiniSig <> mod
+mod 1083:1097 <> ZPairsAxiomsMod
+mod 1161:1165 <> ZPairsAxiomsMod.NProp
+R1179:1186 Coq.Numbers.Natural.Abstract.NSub NSubProp <> mod
+R1188:1188 Coq.Numbers.Integer.NatPairs.ZNatPairs N <> modtype
+R1196:1200 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.NProp <> mod
+R1298:1301 Coq.Numbers.Integer.NatPairs.ZNatPairs N eq defax
+not 1289:1289 ZPairsAxiomsMod ::NScope:x_'=='_x
+R1349:1350 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1351:1354 Coq.Numbers.Integer.NatPairs.ZNatPairs N eq defax
+not 1336:1336 ZPairsAxiomsMod ::NScope:x_'~='_x
+R1401:1406 Coq.Numbers.Integer.NatPairs.ZNatPairs N zero defax
+not 1394:1394 ZPairsAxiomsMod ::NScope:'0'
+R1434:1438 Coq.Numbers.Integer.NatPairs.ZNatPairs N one defax
+not 1427:1427 ZPairsAxiomsMod ::NScope:'1'
+R1466:1470 Coq.Numbers.Integer.NatPairs.ZNatPairs N two defax
+not 1459:1459 ZPairsAxiomsMod ::NScope:'2'
+R1495:1499 Coq.Numbers.Integer.NatPairs.ZNatPairs N add defax
+not 1488:1488 ZPairsAxiomsMod ::NScope:x_'+'_x
+R1524:1528 Coq.Numbers.Integer.NatPairs.ZNatPairs N sub defax
+not 1517:1517 ZPairsAxiomsMod ::NScope:x_'-'_x
+R1553:1557 Coq.Numbers.Integer.NatPairs.ZNatPairs N mul defax
+not 1546:1546 ZPairsAxiomsMod ::NScope:x_'*'_x
+R1582:1585 Coq.Numbers.Integer.NatPairs.ZNatPairs N lt defax
+not 1575:1575 ZPairsAxiomsMod ::NScope:x_'<'_x
+R1611:1614 Coq.Numbers.Integer.NatPairs.ZNatPairs N le defax
+not 1603:1603 ZPairsAxiomsMod ::NScope:x_'<='_x
+mod 1955:1955 <> ZPairsAxiomsMod.Z
+def 1970:1970 ZPairsAxiomsMod.Z t
+R1979:1981 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1976:1978 Coq.Numbers.Integer.NatPairs.ZNatPairs N t defax
+R1982:1984 Coq.Numbers.Integer.NatPairs.ZNatPairs N t defax
+def 2004:2007 ZPairsAxiomsMod.Z zero
+R2011:2011 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2016:2016 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2018:2019 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2021:2021 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 2035:2037 ZPairsAxiomsMod.Z one
+R2041:2041 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2046:2046 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2048:2048 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2050:2050 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 2064:2066 ZPairsAxiomsMod.Z two
+R2070:2070 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2075:2075 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2077:2077 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2079:2079 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 2093:2094 ZPairsAxiomsMod.Z eq
+R2103:2103 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2119:2122 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'=='_x not
+R2113:2115 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2111:2112 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2110:2110 Coq.Numbers.Integer.NatPairs.ZNatPairs <> p var
+R2117:2118 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2116:2116 Coq.Numbers.Integer.NatPairs.ZNatPairs <> q var
+R2126:2128 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2124:2125 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2123:2123 Coq.Numbers.Integer.NatPairs.ZNatPairs <> q var
+R2130:2131 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2129:2129 Coq.Numbers.Integer.NatPairs.ZNatPairs <> p var
+def 2146:2149 ZPairsAxiomsMod.Z succ
+R2156:2156 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2161:2161 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2166:2166 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2177:2178 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2182:2182 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2167:2172 Coq.Numbers.Integer.NatPairs.ZNatPairs N succ defax
+R2175:2176 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2174:2174 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2180:2181 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2179:2179 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+def 2196:2199 ZPairsAxiomsMod.Z pred
+R2206:2206 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2211:2211 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2216:2216 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2220:2221 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2232:2232 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2218:2219 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2217:2217 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2222:2227 Coq.Numbers.Integer.NatPairs.ZNatPairs N succ defax
+R2230:2231 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2229:2229 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+def 2246:2248 ZPairsAxiomsMod.Z opp
+R2255:2255 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2260:2260 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2265:2265 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2269:2270 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2274:2274 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2267:2268 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2266:2266 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2272:2273 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2271:2271 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+def 2288:2290 ZPairsAxiomsMod.Z add
+R2299:2299 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2304:2304 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2309:2309 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2319:2320 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2330:2330 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2313:2315 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2311:2312 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2310:2310 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2317:2318 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2316:2316 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R2324:2326 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2322:2323 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2321:2321 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2328:2329 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2327:2327 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+def 2344:2346 ZPairsAxiomsMod.Z sub
+R2355:2355 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2360:2360 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2365:2365 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2375:2376 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2386:2386 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2369:2371 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2367:2368 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2366:2366 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2373:2374 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2372:2372 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R2380:2382 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2378:2379 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2377:2377 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2384:2385 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2383:2383 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+def 2400:2402 ZPairsAxiomsMod.Z mul
+R2411:2411 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2416:2416 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2423:2423 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2445:2446 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2468:2468 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2433:2435 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2427:2429 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'*'_x not
+R2425:2426 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2424:2424 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2431:2432 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2430:2430 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R2439:2441 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'*'_x not
+R2437:2438 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2436:2436 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2443:2444 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2442:2442 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R2456:2458 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2450:2452 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'*'_x not
+R2448:2449 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2447:2447 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2454:2455 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2453:2453 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R2462:2464 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'*'_x not
+R2460:2461 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2459:2459 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2466:2467 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2465:2465 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+def 2482:2483 ZPairsAxiomsMod.Z lt
+R2492:2492 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2507:2509 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'<'_x not
+R2501:2503 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2499:2500 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2498:2498 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2505:2506 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2504:2504 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R2513:2515 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2511:2512 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2510:2510 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R2517:2518 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2516:2516 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+def 2532:2533 ZPairsAxiomsMod.Z le
+R2542:2542 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2557:2560 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'<='_x not
+R2551:2553 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2549:2550 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2548:2548 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2555:2556 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2554:2554 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R2564:2566 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2562:2563 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2561:2561 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R2568:2569 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2567:2567 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+def 2583:2585 ZPairsAxiomsMod.Z min
+R2594:2594 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2599:2599 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2604:2604 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2632:2633 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2643:2643 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2605:2607 Coq.Numbers.Integer.NatPairs.ZNatPairs N min defax
+R2625:2627 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2623:2624 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2622:2622 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R2629:2630 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2628:2628 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2613:2615 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2611:2612 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2610:2610 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2617:2618 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2616:2616 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R2637:2639 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2635:2636 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2634:2634 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2641:2642 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2640:2640 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+def 2657:2659 ZPairsAxiomsMod.Z max
+R2668:2668 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2673:2673 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z t def
+R2678:2678 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2706:2707 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2717:2717 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2679:2681 Coq.Numbers.Integer.NatPairs.ZNatPairs N max defax
+R2699:2701 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2697:2698 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2696:2696 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R2703:2704 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2702:2702 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2687:2689 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2685:2686 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#1' not
+R2684:2684 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2691:2692 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2690:2690 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R2711:2713 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R2709:2710 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2708:2708 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R2715:2716 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ::pair_scope:x_'#2' not
+R2714:2714 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R3213:3213 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Z <> mod
+R3311:3314 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+not 3302:3302 ZPairsAxiomsMod ::ZScope:x_'=='_x
+R3362:3363 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3364:3367 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+not 3349:3349 ZPairsAxiomsMod ::ZScope:x_'~='_x
+R3414:3419 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod zero def
+not 3407:3407 ZPairsAxiomsMod ::ZScope:'0'
+R3447:3451 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod one def
+not 3440:3440 ZPairsAxiomsMod ::ZScope:'1'
+R3479:3483 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod two def
+not 3472:3472 ZPairsAxiomsMod ::ZScope:'2'
+R3508:3512 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add def
+not 3501:3501 ZPairsAxiomsMod ::ZScope:x_'+'_x
+R3537:3541 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod sub def
+not 3530:3530 ZPairsAxiomsMod ::ZScope:x_'-'_x
+R3566:3570 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul def
+not 3559:3559 ZPairsAxiomsMod ::ZScope:x_'*'_x
+R3601:3605 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod opp def
+not 3591:3591 ZPairsAxiomsMod ::ZScope:'-'_x
+R3633:3636 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod lt def
+not 3626:3626 ZPairsAxiomsMod ::ZScope:x_'<'_x
+R3662:3665 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod le def
+not 3654:3654 ZPairsAxiomsMod ::ZScope:x_'<='_x
+prf 3709:3719 ZPairsAxiomsMod sub_add_opp
+R3744:3746 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3735:3739 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod sub def
+R3743:3743 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R3741:3741 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R3747:3751 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add def
+R3756:3760 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod opp def
+R3762:3762 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R3753:3753 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+inst 3801:3808 ZPairsAxiomsMod eq_equiv
+R3812:3822 Coq.Classes.RelationClasses <> Equivalence class
+R3824:3827 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R3851:3859 Coq.Classes.RelationClasses <> Reflexive class
+R3862:3865 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R3888:3896 Coq.Classes.RelationClasses <> Symmetric class
+R3899:3902 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R3926:3935 Coq.Classes.RelationClasses <> Transitive class
+R3938:3941 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4001:4012 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_cancel_r thm
+R4021:4021 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R4001:4012 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_cancel_r thm
+R4021:4021 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R4038:4049 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle2 thm
+R4056:4067 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R4038:4049 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle2 thm
+R4038:4049 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle2 thm
+R4056:4067 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R4056:4067 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R4086:4097 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R4101:4108 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R4086:4097 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R4086:4097 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R4101:4108 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R4101:4108 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+inst 4130:4136 ZPairsAxiomsMod pair_wd
+R4140:4145 Coq.Classes.Morphisms <> Proper class
+R4170:4173 Coq.Init.Datatypes <> pair constr
+R4179:4181 Coq.Numbers.Integer.NatPairs.ZNatPairs N t defax
+R4175:4177 Coq.Numbers.Integer.NatPairs.ZNatPairs N t defax
+R4152:4154 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4148:4151 Coq.Numbers.Integer.NatPairs.ZNatPairs N eq defax
+R4159:4161 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4155:4158 Coq.Numbers.Integer.NatPairs.ZNatPairs N eq defax
+R4162:4165 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4225:4228 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+inst 4273:4279 ZPairsAxiomsMod succ_wd
+R4283:4288 Coq.Classes.Morphisms <> Proper class
+R4306:4311 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+R4295:4299 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4291:4294 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4300:4303 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4328:4333 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+R4336:4339 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4376:4385 Coq.Numbers.Integer.NatPairs.ZNatPairs N add_succ_l prfax
+R4376:4385 Coq.Numbers.Integer.NatPairs.ZNatPairs N add_succ_l prfax
+R4376:4385 Coq.Numbers.Integer.NatPairs.ZNatPairs N add_succ_l prfax
+R4376:4385 Coq.Numbers.Integer.NatPairs.ZNatPairs N add_succ_l prfax
+R4376:4385 Coq.Numbers.Integer.NatPairs.ZNatPairs N add_succ_l prfax
+inst 4418:4424 ZPairsAxiomsMod pred_wd
+R4428:4433 Coq.Classes.Morphisms <> Proper class
+R4451:4456 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod pred def
+R4440:4444 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4436:4439 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4445:4448 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4473:4478 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod pred def
+R4481:4484 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4521:4530 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_succ_r thm
+R4521:4530 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_succ_r thm
+R4521:4530 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_succ_r thm
+R4521:4530 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_succ_r thm
+R4521:4530 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_succ_r thm
+inst 4563:4568 ZPairsAxiomsMod add_wd
+R4572:4577 Coq.Classes.Morphisms <> Proper class
+R4604:4608 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add def
+R4584:4588 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4580:4583 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4593:4597 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4589:4592 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4598:4601 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4625:4628 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4631:4635 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add def
+R4683:4694 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R4705:4716 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R4683:4694 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R4683:4694 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R4705:4716 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R4705:4716 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+inst 4734:4739 ZPairsAxiomsMod opp_wd
+R4743:4748 Coq.Classes.Morphisms <> Proper class
+R4766:4770 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod opp def
+R4755:4759 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4751:4754 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4760:4763 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4787:4790 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4793:4797 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod opp def
+R4851:4858 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R4866:4873 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R4851:4858 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R4851:4858 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R4866:4873 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R4866:4873 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+inst 4895:4900 ZPairsAxiomsMod sub_wd
+R4904:4909 Coq.Classes.Morphisms <> Proper class
+R4936:4940 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod sub def
+R4916:4920 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4912:4915 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4925:4929 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4921:4924 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4930:4933 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R4986:4996 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod sub_add_opp thm
+R4986:4996 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod sub_add_opp thm
+R4986:4996 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod sub_add_opp thm
+R4986:4996 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod sub_add_opp thm
+prf 5029:5036 ZPairsAxiomsMod mul_comm
+R5055:5058 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R5053:5053 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'*'_x not
+R5052:5052 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R5054:5054 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R5060:5060 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'*'_x not
+R5059:5059 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R5061:5061 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R5113:5120 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R5125:5125 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'*'_x not
+R5113:5120 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R5125:5125 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'*'_x not
+R5113:5120 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R5125:5125 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'*'_x not
+R5154:5161 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_comm thm
+R5154:5161 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_comm thm
+R5154:5161 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_comm thm
+R5154:5161 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_comm thm
+R5154:5161 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_comm thm
+inst 5179:5184 ZPairsAxiomsMod mul_wd
+R5188:5193 Coq.Classes.Morphisms <> Proper class
+R5220:5224 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul def
+R5200:5204 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5196:5199 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R5209:5213 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5205:5208 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R5214:5217 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R5252:5257 Coq.Classes.Morphisms <> Proper class
+R5276:5280 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul def
+R5282:5282 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R5264:5268 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5260:5263 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R5269:5272 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R5252:5257 Coq.Classes.Morphisms <> Proper class
+R5276:5280 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul def
+R5282:5282 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R5264:5268 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5260:5263 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R5269:5272 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R5295:5299 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul def
+R5302:5305 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R5363:5374 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R5378:5385 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R5390:5390 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'*'_x not
+R5363:5374 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R5363:5374 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R5378:5385 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R5390:5390 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'*'_x not
+R5378:5385 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R5390:5390 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'*'_x not
+R5418:5429 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R5418:5429 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R5418:5429 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R5446:5460 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_add_distr_l thm
+R5446:5460 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_add_distr_l thm
+R5446:5460 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_add_distr_l thm
+R5446:5460 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_add_distr_l thm
+R5446:5460 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_add_distr_l thm
+R5446:5460 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_add_distr_l thm
+R5446:5460 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_add_distr_l thm
+R5473:5480 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R5488:5495 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R5473:5480 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R5473:5480 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R5488:5495 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R5488:5495 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R5556:5563 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_comm thm
+R5570:5577 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_comm thm
+R5556:5563 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_comm thm
+R5556:5563 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_comm thm
+R5570:5577 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_comm thm
+R5570:5577 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul_comm thm
+sec 5615:5623 ZPairsAxiomsMod Induction
+var 5635:5635 ZPairsAxiomsMod.Induction A
+R5642:5645 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5639:5641 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod t def
+var 5663:5666 ZPairsAxiomsMod.Induction A_wd
+R5670:5675 Coq.Classes.Morphisms <> Proper class
+R5690:5690 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ZPairsAxiomsMod.Induction.A var
+R5682:5684 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5678:5681 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R5685:5687 Coq.Init.Logic <> iff def
+prf 5702:5713 ZPairsAxiomsMod bi_induction
+R5722:5725 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5726:5726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5757:5761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5772:5772 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ZPairsAxiomsMod.Induction.A var
+R5774:5774 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R5740:5744 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5737:5737 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ZPairsAxiomsMod.Induction.A var
+R5739:5739 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R5745:5745 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ZPairsAxiomsMod.Induction.A var
+R5748:5753 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+R5755:5755 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R5719:5719 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ZPairsAxiomsMod.Induction.A var
+R5826:5831 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod zero def
+R5834:5839 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+R5842:5845 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R5889:5889 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ZPairsAxiomsMod.Induction.A var
+R5891:5891 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5893:5894 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5896:5896 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5892:5892 Coq.Numbers.Integer.NatPairs.ZNatPairs <> p var
+R5889:5889 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ZPairsAxiomsMod.Induction.A var
+R5891:5891 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5893:5894 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5896:5896 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5892:5892 Coq.Numbers.Integer.NatPairs.ZNatPairs <> p var
+R5929:5929 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ZPairsAxiomsMod.Induction.A var
+R5931:5931 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5933:5934 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5936:5936 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5935:5935 Coq.Numbers.Integer.NatPairs.ZNatPairs <> p var
+R5929:5929 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ZPairsAxiomsMod.Induction.A var
+R5931:5931 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5933:5934 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5936:5936 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5935:5935 Coq.Numbers.Integer.NatPairs.ZNatPairs <> p var
+R5964:5976 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_dichotomy thm
+R5964:5976 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_dichotomy thm
+R6044:6050 Coq.Numbers.Integer.NatPairs.ZNatPairs N add_0_l prfax
+R6065:6072 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R6012:6015 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ZPairsAxiomsMod.Induction.A_wd var
+R6024:6024 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6026:6027 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6029:6029 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6017:6017 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6019:6020 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6022:6022 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6012:6015 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ZPairsAxiomsMod.Induction.A_wd var
+R6024:6024 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6026:6027 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6029:6029 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6017:6017 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6019:6020 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6022:6022 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6044:6050 Coq.Numbers.Integer.NatPairs.ZNatPairs N add_0_l prfax
+R6044:6050 Coq.Numbers.Integer.NatPairs.ZNatPairs N add_0_l prfax
+R6065:6072 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R6065:6072 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R6012:6015 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ZPairsAxiomsMod.Induction.A_wd var
+R6024:6024 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6026:6027 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6029:6029 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6017:6017 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6019:6020 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6022:6022 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6130:6136 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_0_r thm
+R6095:6098 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ZPairsAxiomsMod.Induction.A_wd var
+R6107:6107 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6109:6110 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6112:6112 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6100:6100 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6102:6103 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6105:6105 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6095:6098 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ZPairsAxiomsMod.Induction.A_wd var
+R6107:6107 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6109:6110 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6112:6112 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6100:6100 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6102:6103 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6105:6105 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6130:6136 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_0_r thm
+R6130:6136 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_0_r thm
+R6095:6098 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ZPairsAxiomsMod.Induction.A_wd var
+R6107:6107 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6109:6110 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6112:6112 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6100:6100 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6102:6103 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6105:6105 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6191:6194 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ZPairsAxiomsMod.Induction.A_wd var
+R6203:6203 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6205:6206 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6215:6215 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6207:6212 Coq.Numbers.Integer.NatPairs.ZNatPairs N succ defax
+R6196:6196 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6198:6199 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6201:6201 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6240:6246 Coq.Numbers.Integer.NatPairs.ZNatPairs N add_0_l prfax
+R6249:6255 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_1_l thm
+R6191:6194 Coq.Numbers.Integer.NatPairs.ZNatPairs <> ZPairsAxiomsMod.Induction.A_wd var
+R6203:6203 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6205:6206 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6215:6215 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6207:6212 Coq.Numbers.Integer.NatPairs.ZNatPairs N succ defax
+R6196:6196 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6198:6199 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6201:6201 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6240:6246 Coq.Numbers.Integer.NatPairs.ZNatPairs N add_0_l prfax
+R6240:6246 Coq.Numbers.Integer.NatPairs.ZNatPairs N add_0_l prfax
+R6249:6255 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_1_l thm
+R6249:6255 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_1_l thm
+R6267:6274 Coq.Numbers.Integer.NatPairs.ZNatPairs N one_succ prfax
+R6267:6274 Coq.Numbers.Integer.NatPairs.ZNatPairs N one_succ prfax
+R6267:6274 Coq.Numbers.Integer.NatPairs.ZNatPairs N one_succ prfax
+R6348:6350 Coq.Init.Datatypes <> snd def
+R6352:6352 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6354:6355 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6357:6357 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6348:6350 Coq.Init.Datatypes <> snd def
+R6352:6352 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6354:6355 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6357:6357 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6387:6392 Coq.Numbers.Integer.NatPairs.ZNatPairs N succ defax
+R6403:6408 Coq.Numbers.Integer.NatPairs.ZNatPairs N succ defax
+R6411:6413 Coq.Init.Datatypes <> fst def
+R6415:6415 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6417:6418 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6420:6420 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6387:6392 Coq.Numbers.Integer.NatPairs.ZNatPairs N succ defax
+R6403:6408 Coq.Numbers.Integer.NatPairs.ZNatPairs N succ defax
+R6411:6413 Coq.Init.Datatypes <> fst def
+R6415:6415 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6417:6418 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6420:6420 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6489:6497 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod.Induction <> sec
+prf 6560:6568 ZPairsAxiomsMod pred_succ
+R6599:6602 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R6582:6587 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod pred def
+R6590:6595 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+R6597:6597 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R6603:6603 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R6620:6625 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod pred def
+R6628:6633 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+R6636:6639 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+prf 6685:6693 ZPairsAxiomsMod succ_pred
+R6724:6727 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R6707:6712 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+R6715:6720 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod pred def
+R6722:6722 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R6728:6728 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R6754:6759 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+R6762:6767 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod pred def
+R6770:6773 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+prf 6810:6817 ZPairsAxiomsMod one_succ
+R6822:6825 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R6826:6831 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+R6850:6853 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+prf 6891:6898 ZPairsAxiomsMod two_succ
+R6903:6906 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R6907:6912 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+R6931:6934 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+prf 6972:6976 ZPairsAxiomsMod opp_0
+R6983:6986 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R6980:6981 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:'-'_x not
+R7004:7008 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod opp def
+R7011:7014 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+prf 7051:7058 ZPairsAxiomsMod opp_succ
+R7084:7087 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R7072:7074 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:'-'_x not
+R7083:7083 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:'-'_x not
+R7075:7080 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+R7082:7082 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R7088:7093 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod pred def
+R7096:7097 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:'-'_x not
+R7098:7098 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+prf 7136:7142 ZPairsAxiomsMod add_0_l
+R7161:7164 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R7157:7159 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'+'_x not
+R7160:7160 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R7165:7165 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R7191:7195 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add def
+R7198:7201 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+prf 7238:7247 ZPairsAxiomsMod add_succ_l
+R7277:7280 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R7263:7263 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'+'_x not
+R7272:7275 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'+'_x not
+R7264:7269 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+R7271:7271 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R7276:7276 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R7281:7286 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+R7290:7292 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'+'_x not
+R7289:7289 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R7293:7293 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R7323:7327 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add def
+R7330:7333 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+prf 7370:7376 ZPairsAxiomsMod sub_0_r
+R7395:7398 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R7391:7393 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'-'_x not
+R7390:7390 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R7399:7399 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R7425:7429 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod sub def
+R7432:7435 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+prf 7472:7481 ZPairsAxiomsMod sub_succ_r
+R7511:7514 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R7498:7501 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'-'_x not
+R7510:7510 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'-'_x not
+R7497:7497 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R7502:7507 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+R7509:7509 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R7515:7520 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod pred def
+R7524:7526 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'-'_x not
+R7523:7523 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R7527:7527 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R7557:7561 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod sub def
+R7564:7567 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R7599:7608 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_succ_r thm
+R7599:7608 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_succ_r thm
+R7599:7608 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_succ_r thm
+prf 7625:7631 ZPairsAxiomsMod mul_0_l
+R7650:7653 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R7646:7648 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'*'_x not
+R7649:7649 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R7687:7691 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul def
+R7694:7697 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+prf 7734:7743 ZPairsAxiomsMod mul_succ_l
+R7773:7776 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R7759:7759 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'*'_x not
+R7768:7771 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'*'_x not
+R7760:7765 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+R7767:7767 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R7772:7772 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R7782:7784 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'+'_x not
+R7778:7780 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'*'_x not
+R7777:7777 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R7781:7781 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R7785:7785 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R7826:7830 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul def
+R7833:7838 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+R7841:7844 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R7875:7883 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R7893:7900 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R7908:7916 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R7875:7883 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R7875:7883 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R7893:7900 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R7893:7900 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R7908:7916 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R7908:7916 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R7943:7951 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R7961:7968 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R7976:7984 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R7991:7991 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'*'_x not
+R7943:7951 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R7943:7951 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R7961:7968 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R7961:7968 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R7976:7984 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R7991:7991 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'*'_x not
+R7976:7984 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R7991:7991 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'*'_x not
+prf 8029:8039 ZPairsAxiomsMod lt_eq_cases
+R8059:8063 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8056:8057 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'<='_x not
+R8055:8055 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R8058:8058 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R8067:8070 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8065:8065 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'<'_x not
+R8064:8064 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R8066:8066 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R8072:8073 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R8071:8071 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R8074:8074 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R8098:8110 Coq.Numbers.Integer.NatPairs.ZNatPairs N lt_eq_cases prfax
+R8098:8110 Coq.Numbers.Integer.NatPairs.ZNatPairs N lt_eq_cases prfax
+prf 8127:8135 ZPairsAxiomsMod lt_irrefl
+R8149:8151 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8157:8157 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8153:8155 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'<'_x not
+R8152:8152 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R8156:8156 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R8181:8191 Coq.Numbers.Integer.NatPairs.ZNatPairs N lt_irrefl prfax
+R8181:8191 Coq.Numbers.Integer.NatPairs.ZNatPairs N lt_irrefl prfax
+prf 8208:8216 ZPairsAxiomsMod lt_succ_r
+R8246:8250 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8233:8236 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'<'_x not
+R8245:8245 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'<'_x not
+R8232:8232 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R8237:8242 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+R8244:8244 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R8252:8255 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'<='_x not
+R8251:8251 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R8256:8256 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R8285:8288 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod lt def
+R8291:8294 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod le def
+R8297:8300 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R8325:8333 Coq.Numbers.Integer.NatPairs.ZNatPairs N lt_succ_r prfax
+R8325:8333 Coq.Numbers.Integer.NatPairs.ZNatPairs N lt_succ_r prfax
+prf 8350:8354 ZPairsAxiomsMod min_l
+R8376:8379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8389:8392 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R8380:8384 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod min def
+R8388:8388 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R8386:8386 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R8393:8393 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R8371:8374 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'<='_x not
+R8370:8370 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R8375:8375 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R8410:8414 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod min def
+R8417:8420 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod le def
+R8423:8426 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R8482:8486 Coq.Numbers.Integer.NatPairs.ZNatPairs N min_l defax
+R8482:8486 Coq.Numbers.Integer.NatPairs.ZNatPairs N min_l defax
+R8482:8486 Coq.Numbers.Integer.NatPairs.ZNatPairs N min_l defax
+R8518:8526 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R8530:8537 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R8518:8526 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R8518:8526 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R8530:8537 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R8530:8537 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+prf 8558:8562 ZPairsAxiomsMod min_r
+R8584:8587 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8597:8600 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R8588:8592 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod min def
+R8596:8596 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R8594:8594 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R8601:8601 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R8579:8582 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'<='_x not
+R8578:8578 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R8583:8583 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R8618:8622 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod min def
+R8625:8628 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod le def
+R8631:8634 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R8690:8694 Coq.Numbers.Integer.NatPairs.ZNatPairs N min_r defax
+R8690:8694 Coq.Numbers.Integer.NatPairs.ZNatPairs N min_r defax
+R8690:8694 Coq.Numbers.Integer.NatPairs.ZNatPairs N min_r defax
+R8723:8731 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R8723:8731 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R8723:8731 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+prf 8748:8752 ZPairsAxiomsMod max_l
+R8774:8777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8787:8790 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R8778:8782 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod max def
+R8786:8786 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R8784:8784 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R8791:8791 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R8769:8772 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'<='_x not
+R8768:8768 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R8773:8773 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R8808:8812 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod max def
+R8815:8818 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod le def
+R8821:8824 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R8880:8884 Coq.Numbers.Integer.NatPairs.ZNatPairs N max_l defax
+R8880:8884 Coq.Numbers.Integer.NatPairs.ZNatPairs N max_l defax
+R8880:8884 Coq.Numbers.Integer.NatPairs.ZNatPairs N max_l defax
+R8916:8924 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R8928:8935 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R8916:8924 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R8916:8924 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R8928:8935 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R8928:8935 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+prf 8956:8960 ZPairsAxiomsMod max_r
+R8982:8985 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8995:8998 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'=='_x not
+R8986:8990 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod max def
+R8994:8994 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R8992:8992 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R8999:8999 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R8977:8980 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'<='_x not
+R8976:8976 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R8981:8981 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R9016:9020 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod max def
+R9023:9026 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod le def
+R9029:9032 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R9064:9068 Coq.Numbers.Integer.NatPairs.ZNatPairs N max_r defax
+R9064:9068 Coq.Numbers.Integer.NatPairs.ZNatPairs N max_r defax
+R9064:9068 Coq.Numbers.Integer.NatPairs.ZNatPairs N max_r defax
+R9097:9105 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R9097:9105 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+R9097:9105 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_assoc thm
+prf 9122:9127 ZPairsAxiomsMod lt_nge
+R9148:9152 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9144:9146 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'<'_x not
+R9143:9143 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R9147:9147 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R9153:9154 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9159:9159 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9156:9157 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::ZScope:x_'<='_x not
+R9155:9155 Coq.Numbers.Integer.NatPairs.ZNatPairs <> m var
+R9158:9158 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R9183:9188 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod lt_nge thm
+R9183:9188 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod lt_nge thm
+inst 9206:9210 ZPairsAxiomsMod lt_wd
+R9214:9219 Coq.Classes.Morphisms <> Proper class
+R9245:9248 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod lt def
+R9226:9230 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9222:9225 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R9235:9239 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9231:9234 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R9240:9242 Coq.Init.Logic <> iff def
+R9276:9281 Coq.Classes.Morphisms <> Proper class
+R9297:9300 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod lt def
+R9302:9302 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R9288:9290 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9284:9287 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R9291:9293 Coq.Init.Logic <> iff def
+R9276:9281 Coq.Classes.Morphisms <> Proper class
+R9297:9300 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod lt def
+R9302:9302 Coq.Numbers.Integer.NatPairs.ZNatPairs <> n var
+R9288:9290 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9284:9287 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R9291:9293 Coq.Init.Logic <> iff def
+R9330:9348 Coq.Classes.Morphisms <> proper_sym_impl_iff thm
+R9330:9348 Coq.Classes.Morphisms <> proper_sym_impl_iff thm
+R9372:9375 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod lt def
+R9378:9381 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+R9453:9453 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R9463:9463 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R9432:9443 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod le_lt_add_lt thm
+R9478:9484 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod le_refl thm
+R9453:9453 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R9463:9463 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod ::NScope:x_'+'_x not
+R9432:9443 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod le_lt_add_lt thm
+R9478:9484 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod le_refl thm
+R9511:9522 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle2 thm
+R9526:9533 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R9511:9522 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle2 thm
+R9511:9522 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle2 thm
+R9526:9533 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R9526:9533 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R9554:9561 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R9572:9583 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R9591:9598 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R9554:9561 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R9554:9561 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R9572:9583 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R9572:9583 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_shuffle1 thm
+R9591:9598 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R9591:9598 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_comm thm
+R9624:9636 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_lt_mono_r thm
+R9624:9636 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_lt_mono_r thm
+R9624:9636 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add_lt_mono_r thm
+R9685:9690 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod lt_nge thm
+R9695:9705 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod lt_eq_cases thm
+R9685:9690 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod lt_nge thm
+R9685:9690 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod lt_nge thm
+R9685:9690 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod lt_nge thm
+R9695:9705 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod lt_eq_cases thm
+R9695:9705 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod lt_eq_cases thm
+R9695:9705 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod lt_eq_cases thm
+def 9742:9742 ZPairsAxiomsMod t
+R9747:9749 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod t def
+def 9763:9764 ZPairsAxiomsMod eq
+R9769:9772 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod eq def
+def 9786:9789 ZPairsAxiomsMod zero
+R9794:9799 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod zero def
+def 9813:9815 ZPairsAxiomsMod one
+R9820:9824 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod one def
+def 9838:9840 ZPairsAxiomsMod two
+R9845:9849 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod two def
+def 9863:9866 ZPairsAxiomsMod succ
+R9871:9876 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod succ def
+def 9890:9893 ZPairsAxiomsMod pred
+R9898:9903 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod pred def
+def 9917:9919 ZPairsAxiomsMod add
+R9924:9928 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod add def
+def 9942:9944 ZPairsAxiomsMod sub
+R9949:9953 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod sub def
+def 9967:9969 ZPairsAxiomsMod mul
+R9974:9978 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod mul def
+def 9992:9994 ZPairsAxiomsMod opp
+R9999:10003 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod opp def
+def 10017:10018 ZPairsAxiomsMod lt
+R10023:10026 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod lt def
+def 10040:10041 ZPairsAxiomsMod le
+R10046:10049 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod le def
+def 10063:10065 ZPairsAxiomsMod min
+R10070:10074 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod min def
+def 10088:10090 ZPairsAxiomsMod max
+R10095:10099 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod max def
+R10107:10121 Coq.Numbers.Integer.NatPairs.ZNatPairs ZPairsAxiomsMod <> mod

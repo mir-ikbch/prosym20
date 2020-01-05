@@ -1,0 +1,8 @@
+(** @canonical Omega_plugin.Coq_omega *)
+module Coq_omega = Omega_plugin__Coq_omega
+
+(** @canonical Omega_plugin.G_omega *)
+module G_omega = Omega_plugin__G_omega
+
+(** @canonical Omega_plugin.Omega *)
+module Omega = Omega_plugin__Omega

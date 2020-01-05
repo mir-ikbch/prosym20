@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/plugins/ltac/g_obligations.ml: Attributes Constr Constrexpr Constrexpr_ops Extend Extraargs Feedback Genarg Genintern Global Libnames Locality Obligations Pcoq Pltac Pp Pptactic Prim Proofview Stdarg Tacarg Tacexpr Tacintern Tacinterp Tactic_option Tok Vernacextend Vernacstate

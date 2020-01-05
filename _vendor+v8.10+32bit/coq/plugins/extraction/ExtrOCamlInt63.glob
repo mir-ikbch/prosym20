@@ -1,0 +1,8 @@
+DIGEST d5c70bd550562ee6e29c25212ca42d34
+FCoq.extraction.ExtrOCamlInt63
+R756:760 Coq.Numbers.Cyclic.Int63.Int63 <> <> lib
+R762:771 Coq.extraction.Extraction <> <> lib
+R852:855 Coq.Init.Datatypes <> bool ind
+R899:902 Coq.Init.Datatypes <> prod ind
+R941:950 Coq.Init.Datatypes <> comparison ind
+R997:1012 Coq.Numbers.Cyclic.Abstract.DoubleType <> carry variant

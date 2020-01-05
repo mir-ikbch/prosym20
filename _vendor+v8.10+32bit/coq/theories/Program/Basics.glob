@@ -1,0 +1,50 @@
+DIGEST 4fdbf8d4ec9ac58d874cd4517bb57bcf
+FCoq.Program.Basics
+R1006:1007 Coq.Init.Datatypes <> id def
+R1006:1007 Coq.Init.Datatypes <> id def
+def 1058:1064 <> compose
+R1080:1083 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1084:1084 Coq.Program.Basics <> C var
+R1079:1079 Coq.Program.Basics <> B var
+R1093:1096 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1097:1097 Coq.Program.Basics <> B var
+R1092:1092 Coq.Program.Basics <> A var
+R1113:1113 Coq.Program.Basics <> A var
+R1118:1118 Coq.Program.Basics <> g var
+R1121:1121 Coq.Program.Basics <> f var
+R1123:1123 Coq.Program.Basics <> x var
+R1140:1146 Coq.Program.Basics <> compose def
+R1212:1218 Coq.Program.Basics <> compose def
+not 1196:1196 <> ::program_scope:x_'∘'_x
+def 1385:1389 <> arrow
+R1408:1411 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1412:1412 Coq.Program.Basics <> B var
+R1407:1407 Coq.Program.Basics <> A var
+def 1456:1459 <> impl
+R1485:1488 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1489:1489 Coq.Program.Basics <> B var
+R1484:1484 Coq.Program.Basics <> A var
+def 1564:1568 <> const
+R1581:1581 Coq.Program.Basics <> A var
+R1595:1595 Coq.Program.Basics <> B var
+R1600:1600 Coq.Program.Basics <> a var
+def 1693:1696 <> flip
+R1712:1715 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1717:1720 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1721:1721 Coq.Program.Basics <> C var
+R1716:1716 Coq.Program.Basics <> B var
+R1711:1711 Coq.Program.Basics <> A var
+R1731:1731 Coq.Program.Basics <> f var
+R1735:1735 Coq.Program.Basics <> x var
+R1733:1733 Coq.Program.Basics <> y var
+def 1787:1791 <> apply
+R1805:1808 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1809:1809 Coq.Program.Basics <> B var
+R1804:1804 Coq.Program.Basics <> A var
+R1817:1817 Coq.Program.Basics <> A var
+R1823:1823 Coq.Program.Basics <> f var
+R1825:1825 Coq.Program.Basics <> x var
+R1904:1913 Coq.Init.Datatypes <> prod_curry def
+R1904:1913 Coq.Init.Datatypes <> prod_curry def
+R1940:1951 Coq.Init.Datatypes <> prod_uncurry def
+R1940:1951 Coq.Init.Datatypes <> prod_uncurry def

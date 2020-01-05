@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/pretyping/reductionops.mli: CClosure CPrimitives Constant Constr Constraint Context EConstr EInstance ESorts Environ Evd GlobRef Lazy Metamap Name Names Pp Projection Reduction TransparentState Univ

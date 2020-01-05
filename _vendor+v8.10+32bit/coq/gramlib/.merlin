@@ -1,0 +1,14 @@
+EXCLUDE_QUERY_DIR
+B /Users/erutuf/.opam/jscoq+32bit/lib/ocaml
+B /Users/erutuf/.opam/jscoq+32bit/lib/ocaml/threads
+B ../../../_build/jscoq+32bit/_vendor+v8.10+32bit/coq/clib/.clib.objs/byte
+B ../../../_build/jscoq+32bit/_vendor+v8.10+32bit/coq/config/.config.objs/byte
+B ../../../_build/jscoq+32bit/_vendor+v8.10+32bit/coq/gramlib/.gramlib.objs/byte
+B ../../../_build/jscoq+32bit/_vendor+v8.10+32bit/coq/lib/.lib.objs/byte
+S /Users/erutuf/.opam/jscoq+32bit/lib/ocaml
+S /Users/erutuf/.opam/jscoq+32bit/lib/ocaml/threads
+S ../clib
+S ../config
+S .
+S ../lib
+FLG -open Gramlib -w -40 -rectypes

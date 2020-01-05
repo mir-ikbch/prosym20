@@ -1,0 +1,15 @@
+DIGEST cace77a518a07a82759a21e667a044ac
+FCoq.Logic.ProofIrrelevance
+R769:789 Coq.Logic.ProofIrrelevanceFacts <> <> lib
+ax 799:815 <> proof_irrelevance
+R842:842 Coq.Logic.ProofIrrelevance <> P var
+R848:850 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R846:847 Coq.Logic.ProofIrrelevance <> p1 var
+R851:852 Coq.Logic.ProofIrrelevance <> p2 var
+mod 918:919 <> PI
+def 933:949 PI proof_irrelevance
+R954:970 Coq.Logic.ProofIrrelevance <> proof_irrelevance prfax
+R977:978 Coq.Logic.ProofIrrelevance PI <> mod
+R1015:1036 Coq.Logic.ProofIrrelevanceFacts ProofIrrelevanceTheory <> modtype
+R1038:1039 Coq.Logic.ProofIrrelevance PI <> modtype
+mod 989:1010 <> ProofIrrelevanceTheory

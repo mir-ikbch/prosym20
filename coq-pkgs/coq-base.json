@@ -1,0 +1,254 @@
+{
+  "desc": "coq-base",
+  "deps": [],
+  "pkgs": [
+    {
+      "pkg_id": [ "Coq", "Logic" ],
+      "vo_files": [
+        [ "Berardi.vo", null ],
+        [ "ChoiceFacts.vo", null ],
+        [ "Classical.vo", null ],
+        [ "Classical_Pred_Type.vo", null ],
+        [ "Classical_Prop.vo", null ],
+        [ "ClassicalChoice.vo", null ],
+        [ "ClassicalDescription.vo", null ],
+        [ "ClassicalEpsilon.vo", null ],
+        [ "ClassicalFacts.vo", null ],
+        [ "ClassicalUniqueChoice.vo", null ],
+        [ "ConstructiveEpsilon.vo", null ],
+        [ "Decidable.vo", null ],
+        [ "Description.vo", null ],
+        [ "Diaconescu.vo", null ],
+        [ "Epsilon.vo", null ],
+        [ "Eqdep.vo", null ],
+        [ "Eqdep_dec.vo", null ],
+        [ "EqdepFacts.vo", null ],
+        [ "ExtensionalFunctionRepresentative.vo", null ],
+        [ "ExtensionalityFacts.vo", null ],
+        [ "FinFun.vo", null ],
+        [ "FunctionalExtensionality.vo", null ],
+        [ "Hurkens.vo", null ],
+        [ "IndefiniteDescription.vo", null ],
+        [ "JMeq.vo", null ],
+        [ "ProofIrrelevance.vo", null ],
+        [ "ProofIrrelevanceFacts.vo", null ],
+        [ "PropExtensionality.vo", null ],
+        [ "PropExtensionalityFacts.vo", null ],
+        [ "PropFacts.vo", null ],
+        [ "RelationalChoice.vo", null ],
+        [ "SetIsType.vo", null ],
+        [ "SetoidChoice.vo", null ],
+        [ "StrictProp.vo", null ],
+        [ "WeakFan.vo", null ],
+        [ "WKL.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "Program" ],
+      "vo_files": [
+        [ "Basics.vo", null ],
+        [ "Combinators.vo", null ],
+        [ "Equality.vo", null ],
+        [ "Program.vo", null ],
+        [ "Subset.vo", null ],
+        [ "Syntax.vo", null ],
+        [ "Tactics.vo", null ],
+        [ "Utils.vo", null ],
+        [ "Wf.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "Classes" ],
+      "vo_files": [
+        [ "CEquivalence.vo", null ],
+        [ "CMorphisms.vo", null ],
+        [ "CRelationClasses.vo", null ],
+        [ "DecidableClass.vo", null ],
+        [ "Equivalence.vo", null ],
+        [ "EquivDec.vo", null ],
+        [ "Init.vo", null ],
+        [ "Morphisms.vo", null ],
+        [ "Morphisms_Prop.vo", null ],
+        [ "Morphisms_Relations.vo", null ],
+        [ "RelationClasses.vo", null ],
+        [ "RelationPairs.vo", null ],
+        [ "SetoidClass.vo", null ],
+        [ "SetoidDec.vo", null ],
+        [ "SetoidTactics.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "Structures" ],
+      "vo_files": [
+        [ "DecidableType.vo", null ],
+        [ "DecidableTypeEx.vo", null ],
+        [ "Equalities.vo", null ],
+        [ "EqualitiesFacts.vo", null ],
+        [ "GenericMinMax.vo", null ],
+        [ "OrderedType.vo", null ],
+        [ "OrderedTypeAlt.vo", null ],
+        [ "OrderedTypeEx.vo", null ],
+        [ "Orders.vo", null ],
+        [ "OrdersAlt.vo", null ],
+        [ "OrdersEx.vo", null ],
+        [ "OrdersFacts.vo", null ],
+        [ "OrdersLists.vo", null ],
+        [ "OrdersTac.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "Relations" ],
+      "vo_files": [
+        [ "Operators_Properties.vo", null ],
+        [ "Relation_Definitions.vo", null ],
+        [ "Relation_Operators.vo", null ],
+        [ "Relations.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "Setoids" ],
+      "vo_files": [ [ "Setoid.vo", null ] ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "Wellfounded" ],
+      "vo_files": [
+        [ "Disjoint_Union.vo", null ],
+        [ "Inclusion.vo", null ],
+        [ "Inverse_Image.vo", null ],
+        [ "Lexicographic_Exponentiation.vo", null ],
+        [ "Lexicographic_Product.vo", null ],
+        [ "Transitive_Closure.vo", null ],
+        [ "Union.vo", null ],
+        [ "Well_Ordering.vo", null ],
+        [ "Wellfounded.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "Strings" ],
+      "vo_files": [
+        [ "Ascii.vo", null ],
+        [ "BinaryString.vo", null ],
+        [ "Byte.vo", null ],
+        [ "ByteVector.vo", null ],
+        [ "HexString.vo", null ],
+        [ "OctalString.vo", null ],
+        [ "String.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "Numbers" ],
+      "vo_files": [
+        [ "AltBinNotations.vo", null ],
+        [ "BinNums.vo", null ],
+        [ "DecimalFacts.vo", null ],
+        [ "DecimalN.vo", null ],
+        [ "DecimalNat.vo", null ],
+        [ "DecimalPos.vo", null ],
+        [ "DecimalString.vo", null ],
+        [ "DecimalZ.vo", null ],
+        [ "NaryFunctions.vo", null ],
+        [ "NumPrelude.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "Numbers", "NatInt" ],
+      "vo_files": [
+        [ "NZAdd.vo", null ],
+        [ "NZAddOrder.vo", null ],
+        [ "NZAxioms.vo", null ],
+        [ "NZBase.vo", null ],
+        [ "NZBits.vo", null ],
+        [ "NZDiv.vo", null ],
+        [ "NZDomain.vo", null ],
+        [ "NZGcd.vo", null ],
+        [ "NZLog.vo", null ],
+        [ "NZMul.vo", null ],
+        [ "NZMulOrder.vo", null ],
+        [ "NZOrder.vo", null ],
+        [ "NZParity.vo", null ],
+        [ "NZPow.vo", null ],
+        [ "NZProperties.vo", null ],
+        [ "NZSqrt.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "Numbers", "Natural", "Abstract" ],
+      "vo_files": [
+        [ "NAdd.vo", null ],
+        [ "NAddOrder.vo", null ],
+        [ "NAxioms.vo", null ],
+        [ "NBase.vo", null ],
+        [ "NBits.vo", null ],
+        [ "NDefOps.vo", null ],
+        [ "NDiv.vo", null ],
+        [ "NGcd.vo", null ],
+        [ "NIso.vo", null ],
+        [ "NLcm.vo", null ],
+        [ "NLog.vo", null ],
+        [ "NMaxMin.vo", null ],
+        [ "NMulOrder.vo", null ],
+        [ "NOrder.vo", null ],
+        [ "NParity.vo", null ],
+        [ "NPow.vo", null ],
+        [ "NProperties.vo", null ],
+        [ "NSqrt.vo", null ],
+        [ "NStrongRec.vo", null ],
+        [ "NSub.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "extraction" ],
+      "vo_files": [
+        [ "Extraction.vo", null ],
+        [ "ExtrHaskellBasic.vo", null ],
+        [ "ExtrHaskellNatInt.vo", null ],
+        [ "ExtrHaskellNatInteger.vo", null ],
+        [ "ExtrHaskellNatNum.vo", null ],
+        [ "ExtrHaskellString.vo", null ],
+        [ "ExtrHaskellZInt.vo", null ],
+        [ "ExtrHaskellZInteger.vo", null ],
+        [ "ExtrHaskellZNum.vo", null ],
+        [ "ExtrOcamlBasic.vo", null ],
+        [ "ExtrOcamlBigIntConv.vo", null ],
+        [ "ExtrOCamlInt63.vo", null ],
+        [ "ExtrOcamlIntConv.vo", null ],
+        [ "ExtrOcamlNatBigInt.vo", null ],
+        [ "ExtrOcamlNatInt.vo", null ],
+        [ "ExtrOcamlString.vo", null ],
+        [ "ExtrOcamlZBigInt.vo", null ],
+        [ "ExtrOcamlZInt.vo", null ]
+      ],
+      "cma_files": [ [ "extraction_plugin.cma", null ] ]
+    },
+    {
+      "pkg_id": [ "Coq", "funind" ],
+      "vo_files": [ [ "FunInd.vo", null ], [ "Recdef.vo", null ] ],
+      "cma_files": [ [ "recdef_plugin.cma", null ] ]
+    },
+    {
+      "pkg_id": [ "Coq", "Arith" ],
+      "vo_files": [
+        [ "Compare_dec.vo", null ],
+        [ "Gt.vo", null ],
+        [ "Le.vo", null ],
+        [ "Lt.vo", null ],
+        [ "Minus.vo", null ],
+        [ "PeanoNat.vo", null ],
+        [ "Plus.vo", null ],
+        [ "Wf_nat.vo", null ]
+      ],
+      "cma_files": []
+    }
+  ]
+}

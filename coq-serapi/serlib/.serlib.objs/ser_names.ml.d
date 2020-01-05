@@ -1,0 +1,1 @@
+coq-serapi/serlib/ser_names.ml: Cmap Cmap_env Constant DirPath Id KerName Label MBId MPmap Mindmap Mindmap_env MutInd Names Obj Ppx_deriving_runtime Ppx_deriving_yojson_runtime Ppx_sexp_conv_lib Result Ser_cAst Ser_cMap Ser_cSet Ser_int Sexplib Yojson

@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/tactics/autorewrite.ml: Array CAst CErrors Clenv Constr EConstr Equality Evd Ftactic Genarg Genintern Geninterp Global Id Lib Libobject List Locus Locusops Mod_subst Names Option Pp Pputils Printer Proofview Reductionops String Summary Tacmach Tacticals Term_dnet Termops Typing Univ UnivGen Unsafe Util Vars

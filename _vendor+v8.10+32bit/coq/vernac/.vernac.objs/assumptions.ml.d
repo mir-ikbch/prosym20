@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/vernac/assumptions.ml: Array CErrors Constant Constr Context ContextObjectMap Declarations Declareops GlobRef Global Globnames Inductive KerName Label List MPmap ModPath Mod_subst Modops MutInd Names Option Pp Printer Rel Term TransparentState Univ Util Vars

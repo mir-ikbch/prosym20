@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/doc/plugin_tutorial/tuto3/src/tuto_tactic.ml: CAst CErrors Constr Context Coqlib EConstr Environ Evarutil Goal List Logic Names Pp Proofview Refine Tacmach Tactics Tactypes Termops UnivGen Vars

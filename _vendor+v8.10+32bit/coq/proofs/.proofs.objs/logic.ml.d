@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/proofs/logic.ml: Array CArray CErrors Constr Context EConstr Environ Evd Flags Global Goal Id Indrec Inductiveops Int List Name Nameops Names Nametab Notation Option Pp Pretype_errors Proof Reductionops Retyping Tacred Term Termops Type_errors Typing Util Vars

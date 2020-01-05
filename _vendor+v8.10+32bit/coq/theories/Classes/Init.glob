@@ -1,0 +1,13 @@
+DIGEST 24bd515529f72860173b38da6c37a815
+FCoq.Classes.Init
+R960:977 Coq.Program.Basics <> <> lib
+ind 1296:1308 <> Unconvertible
+constr 1334:1346 <> unconvertible
+rec 1296:1308 <> Unconvertible
+proj 1334:1346 <> unconvertible
+R1328:1328 Coq.Classes.Init <> A var
+R1350:1353 Coq.Init.Datatypes <> unit ind
+R1407:1419 Coq.Classes.Init <> Unconvertible class
+R1407:1419 Coq.Classes.Init <> Unconvertible class
+R1510:1511 Coq.Init.Datatypes <> tt constr
+R1537:1549 Coq.Classes.Init <> Unconvertible class

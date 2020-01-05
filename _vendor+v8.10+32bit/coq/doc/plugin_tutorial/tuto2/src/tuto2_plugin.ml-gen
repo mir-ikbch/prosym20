@@ -1,0 +1,2 @@
+(** @canonical Tuto2_plugin.Demo *)
+module Demo = Tuto2_plugin__Demo

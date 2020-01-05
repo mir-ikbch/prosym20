@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/pretyping/recordops.ml: Array CErrors CWarnings Cmap Cmap_env Constant Constr Declarations EConstr Environ Evd GlobRef Global Globnames Id Indmap Inductive Int Lib Libobject List Mod_subst Name Names Nametab Option Pp Projection Reductionops Sorts Stack Summary Termops Typeops Univ Util Vars

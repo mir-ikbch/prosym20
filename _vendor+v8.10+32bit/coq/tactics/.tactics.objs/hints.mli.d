@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/tactics/hints.mli: Clenv Constrexpr Context Cset Decl_kinds EConstr Environ Evd Genarg GlobRef Id Libnames Names Pattern Pp Proof_global Proofview String Tactypes TransparentState Typeclasses Univ Util

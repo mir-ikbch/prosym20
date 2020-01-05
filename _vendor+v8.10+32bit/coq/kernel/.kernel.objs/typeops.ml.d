@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/kernel/typeops.ml: Array CClosure CErrors CList CPrimitives CProfile CWarnings Constr Context Declarations Declareops Environ Esubst Flags Id Inductive Int Name Names Nativeconv Nativelambda Option Pp Projection Reduction Retroknowledge Sorts Term Type_errors UGraph Univ Universe Util Vars Vconv

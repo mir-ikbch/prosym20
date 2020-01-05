@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/tactics/hipattern.ml: Array CErrors Constr Constr_matching Context Coqlib DAst Decl_kinds Declarations EConstr EInstance Evar_kinds Evd Glob_term Global Id Inductiveops Int Lazy List Namegen Nameops Names Option Patternops Pp Reductionops Tacmach Term Termops Util Vars

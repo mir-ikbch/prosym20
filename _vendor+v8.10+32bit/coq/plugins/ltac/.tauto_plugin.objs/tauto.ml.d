@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/plugins/ltac/tauto.ml: CAst Constant Constr Declarations DirPath EConstr Geninterp Genredexpr Global Goptions Hipattern Id Int Label Libnames List Locus Locusops Ltac_plugin Mltop ModPath Names Nametab Pp Proofview Sorts Tacenv Tacexpr Tacinterp Tacticals Tactics Tactypes Util Val Value

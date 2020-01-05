@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/plugins/syntax/string_notation.ml: Array CAst CErrors Constrexpr Constrexpr_ops Constrintern Coqlib Decl_kinds Declarations Evd Glob_term Global Globnames Id Libnames Names Nametab Notation Pp Pretype_errors Smartlocate Util

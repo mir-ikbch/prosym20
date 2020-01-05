@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/vernac/search.ml: Array CSet Constr Constr_matching Context Coqlib Declarations Declaremods Declareops DirPath EConstr Environ Evd GlobRef Global Globnames Goptions Heap Id Inductiveops Libnames Libobject List Names Nametab Pattern Pervasives Pfedit Pp Str String Termops Typeops Univ Util

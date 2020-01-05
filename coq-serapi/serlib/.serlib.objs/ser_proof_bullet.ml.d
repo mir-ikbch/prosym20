@@ -1,0 +1,1 @@
+coq-serapi/serlib/ser_proof_bullet.ml: Ppx_deriving_yojson_runtime Ppx_sexp_conv_lib Proof_bullet Sexplib Yojson

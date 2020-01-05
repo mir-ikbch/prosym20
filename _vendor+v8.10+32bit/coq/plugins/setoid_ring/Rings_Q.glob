@@ -1,0 +1,60 @@
+DIGEST 7890a2262af8a8fe5fe73e360d81d603
+FCoq.setoid_ring.Rings_Q
+R691:695 Coq.setoid_ring.Cring <> <> lib
+R713:727 Coq.setoid_ring.Integral_domain <> <> lib
+R769:774 Coq.QArith.QArith <> <> lib
+inst 787:790 <> Qops
+R795:802 Coq.setoid_ring.Ncring <> Ring_ops class
+R838:840 Coq.QArith.QArith_base <> Qeq def
+R833:836 Coq.QArith.QArith_base <> Qopp def
+R826:831 Coq.QArith.QArith_base <> Qminus def
+R820:824 Coq.QArith.QArith_base <> Qmult def
+R814:818 Coq.QArith.QArith_base <> Qplus def
+R804:804 Coq.QArith.QArith_base <> Q rec
+inst 863:865 <> Qri
+R870:873 Coq.setoid_ring.Ncring <> Ring class
+R880:883 Coq.setoid_ring.Rings_Q <> Qops inst
+R911:918 Coq.QArith.QArith_base <> Q_Setoid inst
+R911:918 Coq.QArith.QArith_base <> Q_Setoid inst
+R928:937 Coq.QArith.QArith_base <> Qplus_comp inst
+R928:937 Coq.QArith.QArith_base <> Qplus_comp inst
+R947:956 Coq.QArith.QArith_base <> Qmult_comp inst
+R947:956 Coq.QArith.QArith_base <> Qmult_comp inst
+R966:976 Coq.QArith.QArith_base <> Qminus_comp inst
+R966:976 Coq.QArith.QArith_base <> Qminus_comp inst
+R986:994 Coq.QArith.QArith_base <> Qopp_comp inst
+R986:994 Coq.QArith.QArith_base <> Qopp_comp inst
+R1004:1012 Coq.QArith.QArith_base <> Qplus_0_l thm
+R1004:1012 Coq.QArith.QArith_base <> Qplus_0_l thm
+R1021:1030 Coq.QArith.QArith_base <> Qplus_comm thm
+R1021:1030 Coq.QArith.QArith_base <> Qplus_comm thm
+R1039:1049 Coq.QArith.QArith_base <> Qplus_assoc thm
+R1039:1049 Coq.QArith.QArith_base <> Qplus_assoc thm
+R1059:1067 Coq.QArith.QArith_base <> Qmult_1_l thm
+R1059:1067 Coq.QArith.QArith_base <> Qmult_1_l thm
+R1077:1085 Coq.QArith.QArith_base <> Qmult_1_r thm
+R1077:1085 Coq.QArith.QArith_base <> Qmult_1_r thm
+R1094:1104 Coq.QArith.QArith_base <> Qmult_assoc thm
+R1094:1104 Coq.QArith.QArith_base <> Qmult_assoc thm
+R1114:1131 Coq.QArith.QArith_base <> Qmult_plus_distr_l thm
+R1114:1131 Coq.QArith.QArith_base <> Qmult_plus_distr_l thm
+R1149:1166 Coq.QArith.QArith_base <> Qmult_plus_distr_r thm
+R1149:1166 Coq.QArith.QArith_base <> Qmult_plus_distr_r thm
+R1189:1199 Coq.QArith.QArith_base <> Qplus_opp_r thm
+R1189:1199 Coq.QArith.QArith_base <> Qplus_opp_r thm
+inst 1221:1224 <> Qcri
+R1228:1232 Coq.setoid_ring.Cring <> Cring class
+R1239:1241 Coq.setoid_ring.Rings_Q <> Qri inst
+R1257:1266 Coq.QArith.QArith_base <> Qmult_comm thm
+R1257:1266 Coq.QArith.QArith_base <> Qmult_comm thm
+prf 1285:1294 <> Q_one_zero
+R1297:1299 Coq.Init.Logic <> not def
+R1302:1304 Coq.QArith.QArith_base <> Qeq def
+R1323:1325 Coq.QArith.QArith_base <> Qeq def
+inst 1363:1365 <> Qdi
+R1370:1384 Coq.setoid_ring.Integral_domain <> Integral_domain class
+R1392:1395 Coq.setoid_ring.Rings_Q <> Qcri inst
+R1421:1434 Coq.QArith.QArith_base <> Qmult_integral thm
+R1421:1434 Coq.QArith.QArith_base <> Qmult_integral thm
+R1443:1452 Coq.setoid_ring.Rings_Q <> Q_one_zero thm
+R1443:1452 Coq.setoid_ring.Rings_Q <> Q_one_zero thm

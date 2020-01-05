@@ -1,0 +1,716 @@
+DIGEST 9c4588d3e107e4e0ffe11ffde5db6098
+FCoq.Structures.Orders
+R691:699 Coq.Relations.Relations <> <> lib
+R701:709 Coq.Classes.Morphisms <> <> lib
+R711:716 Coq.Setoids.Setoid <> <> lib
+R718:727 Coq.Structures.Equalities <> <> lib
+R886:888 Coq.Structures.Equalities Typ <> mod
+modtype 870:874 <> HasLt
+ax 915:916 HasLt lt
+R921:924 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R926:929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R925:925 Coq.Structures.Orders T t defax
+R920:920 Coq.Structures.Orders T t defax
+R940:944 Coq.Structures.Orders HasLt <> modtype
+R976:978 Coq.Structures.Equalities Typ <> mod
+modtype 960:964 <> HasLe
+ax 1005:1006 HasLe le
+R1011:1014 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1016:1019 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1015:1015 Coq.Structures.Orders T t defax
+R1010:1010 Coq.Structures.Orders T t defax
+R1030:1034 Coq.Structures.Orders HasLe <> modtype
+R1058:1060 Coq.Structures.Equalities Typ <> mod
+R1065:1069 Coq.Structures.Equalities HasEq <> mod
+R1074:1078 Coq.Structures.Orders HasLt <> mod
+modtype 1050:1053 <> EqLt
+R1101:1103 Coq.Structures.Equalities Typ <> mod
+R1108:1112 Coq.Structures.Equalities HasEq <> mod
+R1117:1121 Coq.Structures.Orders HasLe <> mod
+modtype 1093:1096 <> EqLe
+R1146:1148 Coq.Structures.Equalities Typ <> mod
+R1153:1157 Coq.Structures.Equalities HasEq <> mod
+R1162:1166 Coq.Structures.Orders HasLt <> mod
+R1171:1175 Coq.Structures.Orders HasLe <> mod
+modtype 1136:1141 <> EqLtLe
+R1242:1245 Coq.Structures.Orders EqLt <> mod
+modtype 1228:1237 <> LtNotation
+R1264:1267 Coq.Structures.Orders E lt defax
+not 1257:1257 LtNotation :::x_'<'_x
+R1294:1294 Coq.Structures.Orders LtNotation :::x_'<'_x not
+not 1281:1281 LtNotation :::x_'>'_x
+R1344:1347 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1342:1342 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1349:1349 Coq.Structures.Orders LtNotation :::x_'<'_x not
+not 1325:1325 LtNotation :::x_'<'_x_'<'_x
+R1358:1367 Coq.Structures.Orders LtNotation <> modtype
+R1397:1400 Coq.Structures.Orders EqLe <> mod
+modtype 1383:1392 <> LeNotation
+R1420:1423 Coq.Structures.Orders E le defax
+not 1412:1412 LeNotation :::x_'<='_x
+R1451:1452 Coq.Structures.Orders LeNotation :::x_'<='_x not
+not 1437:1437 LeNotation :::x_'>='_x
+R1505:1508 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1502:1503 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R1510:1511 Coq.Structures.Orders LeNotation :::x_'<='_x not
+not 1483:1483 LeNotation :::x_'<='_x_'<='_x
+R1520:1529 Coq.Structures.Orders LeNotation <> modtype
+R1561:1566 Coq.Structures.Orders EqLtLe <> mod
+modtype 1545:1556 <> LtLeNotation
+R1580:1589 Coq.Structures.Orders LtNotation <> mod
+R1591:1591 Coq.Structures.Orders E <> modtype
+R1596:1605 Coq.Structures.Orders LeNotation <> mod
+R1607:1607 Coq.Structures.Orders E <> modtype
+R1642:1645 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1639:1640 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R1647:1647 Coq.Structures.Orders LtNotation :::x_'<'_x not
+not 1621:1621 LtLeNotation :::x_'<='_x_'<'_x
+R1683:1686 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1681:1681 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R1688:1689 Coq.Structures.Orders LeNotation :::x_'<='_x not
+not 1663:1663 LtLeNotation :::x_'<'_x_'<='_x
+R1698:1709 Coq.Structures.Orders LtLeNotation <> modtype
+R1741:1744 Coq.Structures.Orders EqLt <> mod
+R1750:1759 Coq.Structures.Equalities EqNotation <> mod
+R1761:1761 Coq.Structures.Orders E <> modtype
+R1766:1775 Coq.Structures.Orders LtNotation <> mod
+R1777:1777 Coq.Structures.Orders E <> modtype
+modtype 1725:1736 <> EqLtNotation
+R1808:1811 Coq.Structures.Orders EqLe <> mod
+R1817:1826 Coq.Structures.Equalities EqNotation <> mod
+R1828:1828 Coq.Structures.Orders E <> modtype
+R1833:1842 Coq.Structures.Orders LeNotation <> mod
+R1844:1844 Coq.Structures.Orders E <> modtype
+modtype 1792:1803 <> EqLeNotation
+R1877:1882 Coq.Structures.Orders EqLtLe <> mod
+R1888:1897 Coq.Structures.Equalities EqNotation <> mod
+R1899:1899 Coq.Structures.Orders E <> modtype
+R1904:1915 Coq.Structures.Orders LtLeNotation <> mod
+R1917:1917 Coq.Structures.Orders E <> modtype
+modtype 1859:1872 <> EqLtLeNotation
+R1942:1945 Coq.Structures.Orders EqLt <> mod
+R1950:1961 Coq.Structures.Orders EqLtNotation <> mod
+modtype 1933:1937 <> EqLt'
+R1985:1988 Coq.Structures.Orders EqLe <> mod
+R1993:2004 Coq.Structures.Orders EqLeNotation <> mod
+modtype 1976:1980 <> EqLe'
+R2030:2035 Coq.Structures.Orders EqLtLe <> mod
+R2040:2053 Coq.Structures.Orders EqLtLeNotation <> mod
+modtype 2019:2025 <> EqLtLe'
+R2135:2138 Coq.Structures.Orders EqLt <> mod
+modtype 2114:2123 <> IsStrOrder
+inst 2161:2171 IsStrOrder lt_strorder
+R2175:2185 Coq.Classes.RelationClasses <> StrictOrder class
+R2187:2188 Coq.Structures.Orders E lt defax
+inst 2210:2218 IsStrOrder lt_compat
+R2222:2227 Coq.Classes.Morphisms <> Proper class
+R2245:2246 Coq.Structures.Orders E lt defax
+R2232:2234 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2230:2231 Coq.Structures.Orders E eq defax
+R2237:2239 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2235:2236 Coq.Structures.Orders E eq defax
+R2240:2242 Coq.Init.Logic <> iff def
+R2253:2262 Coq.Structures.Orders IsStrOrder <> modtype
+R2297:2303 Coq.Structures.Orders EqLtLe' <> mod
+modtype 2278:2285 <> LeIsLtEq
+ax 2315:2321 LeIsLtEq le_lteq
+R2341:2345 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2338:2339 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R2337:2337 Coq.Structures.Orders <> x var
+R2340:2340 Coq.Structures.Orders <> y var
+R2349:2352 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2347:2347 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2346:2346 Coq.Structures.Orders <> x var
+R2348:2348 Coq.Structures.Orders <> y var
+R2354:2355 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2353:2353 Coq.Structures.Orders <> x var
+R2356:2356 Coq.Structures.Orders <> y var
+R2363:2370 Coq.Structures.Orders LeIsLtEq <> modtype
+R2398:2409 Coq.Structures.Equalities EqualityType <> mod
+R2414:2418 Coq.Structures.Orders HasLt <> mod
+R2423:2432 Coq.Structures.Orders IsStrOrder <> mod
+modtype 2386:2393 <> StrOrder
+R2460:2467 Coq.Structures.Orders StrOrder <> mod
+R2472:2483 Coq.Structures.Orders EqLtNotation <> mod
+modtype 2447:2455 <> StrOrder'
+R2569:2571 Coq.Structures.Equalities Typ <> mod
+modtype 2552:2557 <> HasCmp
+ax 2594:2600 HasCmp compare
+R2605:2608 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2610:2613 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2614:2623 Coq.Init.Datatypes <> comparison ind
+R2609:2609 Coq.Structures.Orders T t defax
+R2604:2604 Coq.Structures.Orders T t defax
+R2630:2635 Coq.Structures.Orders HasCmp <> modtype
+R2666:2668 Coq.Structures.Equalities Typ <> mod
+R2673:2678 Coq.Structures.Orders HasCmp <> mod
+R2680:2680 Coq.Structures.Orders T <> modtype
+modtype 2651:2661 <> CmpNotation
+R2700:2708 Coq.Structures.Orders C compare defax
+not 2692:2692 CmpNotation :::x_'?='_x
+R2747:2757 Coq.Structures.Orders CmpNotation <> modtype
+R2791:2795 Coq.Structures.Orders EqLt' <> mod
+R2807:2812 Coq.Structures.Orders HasCmp <> mod
+R2814:2814 Coq.Structures.Orders E <> modtype
+modtype 2773:2779 <> CmpSpec
+ax 2826:2837 CmpSpec compare_spec
+R2853:2863 Coq.Init.Datatypes <> CompareSpec ind
+R2885:2891 Coq.Structures.Orders C compare defax
+R2895:2895 Coq.Structures.Orders <> y var
+R2893:2893 Coq.Structures.Orders <> x var
+R2880:2880 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2879:2879 Coq.Structures.Orders <> y var
+R2881:2881 Coq.Structures.Orders <> x var
+R2874:2874 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R2873:2873 Coq.Structures.Orders <> x var
+R2875:2875 Coq.Structures.Orders <> y var
+R2867:2868 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R2866:2866 Coq.Structures.Orders <> x var
+R2869:2869 Coq.Structures.Orders <> y var
+R2903:2909 Coq.Structures.Orders CmpSpec <> modtype
+R2939:2942 Coq.Structures.Orders EqLt <> mod
+R2948:2953 Coq.Structures.Orders HasCmp <> mod
+R2955:2955 Coq.Structures.Orders E <> modtype
+R2960:2966 Coq.Structures.Orders CmpSpec <> mod
+R2968:2968 Coq.Structures.Orders E <> modtype
+modtype 2925:2934 <> HasCompare
+R2999:3006 Coq.Structures.Orders StrOrder <> mod
+R3011:3020 Coq.Structures.Orders HasCompare <> mod
+modtype 2984:2994 <> DecStrOrder
+R3051:3061 Coq.Structures.Orders DecStrOrder <> mod
+R3066:3077 Coq.Structures.Orders EqLtNotation <> mod
+R3082:3092 Coq.Structures.Orders CmpNotation <> mod
+modtype 3035:3046 <> DecStrOrder'
+R3123:3135 Coq.Structures.Equalities DecidableType <> mod
+R3140:3150 Coq.Structures.Orders DecStrOrder <> mod
+R3155:3162 Coq.Structures.Equalities HasEqDec <> mod
+modtype 3108:3118 <> OrderedType
+R3193:3203 Coq.Structures.Orders OrderedType <> mod
+R3208:3219 Coq.Structures.Orders EqLtNotation <> mod
+R3224:3234 Coq.Structures.Orders CmpNotation <> mod
+modtype 3177:3188 <> OrderedType'
+R3269:3279 Coq.Structures.Orders OrderedType <> mod
+R3284:3288 Coq.Structures.Orders HasLe <> mod
+R3293:3300 Coq.Structures.Orders LeIsLtEq <> mod
+modtype 3250:3264 <> OrderedTypeFull
+R3336:3350 Coq.Structures.Orders OrderedTypeFull <> mod
+R3355:3368 Coq.Structures.Orders EqLtLeNotation <> mod
+R3373:3383 Coq.Structures.Orders CmpNotation <> mod
+modtype 3315:3330 <> OrderedTypeFull'
+R3649:3665 Coq.Structures.Equalities UsualEqualityType <> mod
+R3670:3674 Coq.Structures.Orders HasLt <> mod
+R3679:3688 Coq.Structures.Orders IsStrOrder <> mod
+modtype 3632:3644 <> UsualStrOrder
+R3723:3735 Coq.Structures.Orders UsualStrOrder <> mod
+R3740:3749 Coq.Structures.Orders HasCompare <> mod
+modtype 3703:3718 <> UsualDecStrOrder
+R3784:3801 Coq.Structures.Equalities UsualDecidableType <> mod
+R3806:3816 Coq.Structures.Orders OrderedType <> mod
+R3822:3837 Coq.Structures.Orders UsualDecStrOrder <> mod
+R3842:3849 Coq.Structures.Equalities HasEqDec <> mod
+modtype 3764:3779 <> UsualOrderedType
+R3888:3903 Coq.Structures.Orders UsualOrderedType <> mod
+R3908:3912 Coq.Structures.Orders HasLe <> mod
+R3917:3924 Coq.Structures.Orders LeIsLtEq <> mod
+modtype 3864:3883 <> UsualOrderedTypeFull
+R4097:4109 Coq.Structures.Orders UsualStrOrder <> mod
+R4114:4123 Coq.Structures.Orders LtNotation <> mod
+modtype 4079:4092 <> UsualStrOrder'
+R4159:4174 Coq.Structures.Orders UsualDecStrOrder <> mod
+R4179:4188 Coq.Structures.Orders LtNotation <> mod
+modtype 4138:4154 <> UsualDecStrOrder'
+R4224:4239 Coq.Structures.Orders UsualOrderedType <> mod
+R4244:4253 Coq.Structures.Orders LtNotation <> mod
+modtype 4203:4219 <> UsualOrderedType'
+R4293:4312 Coq.Structures.Orders UsualOrderedTypeFull <> mod
+R4317:4328 Coq.Structures.Orders LtLeNotation <> mod
+modtype 4268:4288 <> UsualOrderedTypeFull'
+R4398:4402 Coq.Structures.Orders EqLt' <> mod
+modtype 4378:4386 <> LtIsTotal
+ax 4414:4421 LtIsTotal lt_total
+R4440:4443 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4438:4438 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4437:4437 Coq.Structures.Orders <> x var
+R4439:4439 Coq.Structures.Orders <> y var
+R4448:4451 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4445:4446 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R4444:4444 Coq.Structures.Orders <> x var
+R4447:4447 Coq.Structures.Orders <> y var
+R4453:4453 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R4452:4452 Coq.Structures.Orders <> y var
+R4454:4454 Coq.Structures.Orders <> x var
+R4461:4469 Coq.Structures.Orders LtIsTotal <> modtype
+R4499:4506 Coq.Structures.Orders StrOrder <> mod
+R4511:4515 Coq.Structures.Orders HasLe <> mod
+R4520:4527 Coq.Structures.Orders LeIsLtEq <> mod
+R4532:4540 Coq.Structures.Orders LtIsTotal <> mod
+modtype 4485:4494 <> TotalOrder
+R4574:4583 Coq.Structures.Orders TotalOrder <> mod
+R4589:4601 Coq.Structures.Orders UsualStrOrder <> mod
+R4606:4610 Coq.Structures.Orders HasLe <> mod
+R4615:4622 Coq.Structures.Orders LeIsLtEq <> mod
+R4627:4635 Coq.Structures.Orders LtIsTotal <> mod
+modtype 4555:4569 <> UsualTotalOrder
+R4666:4675 Coq.Structures.Orders TotalOrder <> mod
+R4680:4693 Coq.Structures.Orders EqLtLeNotation <> mod
+modtype 4651:4661 <> TotalOrder'
+R4728:4742 Coq.Structures.Orders UsualTotalOrder <> mod
+R4747:4758 Coq.Structures.Orders LtLeNotation <> mod
+modtype 4708:4723 <> UsualTotalOrder'
+R4867:4878 Coq.Structures.Orders DecStrOrder' <> mod
+R4884:4892 Coq.Structures.Equalities HasEqBool <> mod
+R4894:4894 Coq.Structures.Orders O <> modtype
+mod 4842:4855 <> Compare2EqBool
+def 4910:4912 Compare2EqBool eqb
+R4930:4936 Coq.Structures.Orders O compare defax
+R4940:4940 Coq.Structures.Orders <> y var
+R4938:4938 Coq.Structures.Orders <> x var
+R4947:4948 Coq.Init.Datatypes <> Eq constr
+R4953:4956 Coq.Init.Datatypes <> true constr
+R4965:4969 Coq.Init.Datatypes <> false constr
+prf 4984:4989 Compare2EqBool eqb_eq
+R5019:5023 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5012:5014 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5005:5007 Coq.Structures.Orders Compare2EqBool eqb def
+R5011:5011 Coq.Structures.Orders <> y var
+R5009:5009 Coq.Structures.Orders <> x var
+R5015:5018 Coq.Init.Datatypes <> true constr
+R5025:5026 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R5024:5024 Coq.Structures.Orders <> x var
+R5027:5027 Coq.Structures.Orders <> y var
+R5046:5048 Coq.Structures.Orders Compare2EqBool eqb def
+R5074:5085 Coq.Structures.Orders O compare_spec prfax
+R5074:5085 Coq.Structures.Orders O compare_spec prfax
+R5172:5194 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R5172:5194 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R5239:5261 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R5239:5261 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R5280:5293 Coq.Structures.Orders Compare2EqBool <> mod
+R5317:5327 Coq.Structures.Orders DecStrOrder <> mod
+R5333:5343 Coq.Structures.Orders OrderedType <> mod
+R5350:5350 Coq.Structures.Orders O <> modtype
+R5355:5368 Coq.Structures.Orders Compare2EqBool <> modtype
+R5373:5385 Coq.Structures.Equalities HasEqBool2Dec <> modtype
+mod 5304:5312 <> DSO_to_OT
+R5472:5483 Coq.Structures.Orders OrderedType' <> mod
+R5489:5503 Coq.Structures.Orders OrderedTypeFull <> mod
+mod 5458:5467 <> OT_to_Full
+R5515:5515 Coq.Structures.Orders O <> modtype
+def 5530:5531 OT_to_Full le
+R5543:5546 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5541:5541 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5540:5540 Coq.Structures.Orders <> x var
+R5542:5542 Coq.Structures.Orders <> y var
+R5548:5549 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R5547:5547 Coq.Structures.Orders <> x var
+R5550:5550 Coq.Structures.Orders <> y var
+prf 5560:5566 OT_to_Full le_lteq
+R5588:5592 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5582:5583 Coq.Structures.Orders OT_to_Full le def
+R5587:5587 Coq.Structures.Orders <> y var
+R5585:5585 Coq.Structures.Orders <> x var
+R5596:5599 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5594:5594 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5593:5593 Coq.Structures.Orders <> x var
+R5595:5595 Coq.Structures.Orders <> y var
+R5601:5602 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R5600:5600 Coq.Structures.Orders <> x var
+R5603:5603 Coq.Structures.Orders <> y var
+R5621:5622 Coq.Structures.Orders OT_to_Full le def
+R5647:5656 Coq.Structures.Orders OT_to_Full <> mod
+R5738:5753 Coq.Structures.Orders OrderedTypeFull' <> mod
+R5759:5767 Coq.Structures.Orders LtIsTotal <> mod
+R5769:5769 Coq.Structures.Orders O <> modtype
+mod 5714:5726 <> OTF_LtIsTotal
+prf 5779:5786 OTF_LtIsTotal lt_total
+R5805:5808 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5803:5803 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5802:5802 Coq.Structures.Orders <> x var
+R5804:5804 Coq.Structures.Orders <> y var
+R5813:5816 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5810:5811 Coq.Structures.Equalities EqNotation :::x_'=='_x not
+R5809:5809 Coq.Structures.Orders <> x var
+R5812:5812 Coq.Structures.Orders <> y var
+R5818:5818 Coq.Structures.Orders LtNotation :::x_'<'_x not
+R5817:5817 Coq.Structures.Orders <> y var
+R5819:5819 Coq.Structures.Orders <> x var
+R5848:5859 Coq.Structures.Orders O compare_spec prfax
+R5848:5859 Coq.Structures.Orders O compare_spec prfax
+R5882:5894 Coq.Structures.Orders OTF_LtIsTotal <> mod
+R5926:5940 Coq.Structures.Orders OrderedTypeFull <> mod
+R5946:5955 Coq.Structures.Orders TotalOrder <> mod
+R5961:5961 Coq.Structures.Orders O <> modtype
+R5966:5978 Coq.Structures.Orders OTF_LtIsTotal <> modtype
+mod 5905:5921 <> OTF_to_TotalOrder
+R6166:6202 Coq.Init.Datatypes <> is_true def
+R6217:6223 Coq.Init.Datatypes <> is_true def
+R6263:6265 Coq.Structures.Equalities Typ <> mod
+modtype 6246:6251 <> HasLeb
+ax 6287:6289 HasLeb leb
+R6294:6297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6299:6302 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6303:6306 Coq.Init.Datatypes <> bool ind
+R6298:6298 Coq.Structures.Orders T t defax
+R6293:6293 Coq.Structures.Orders T t defax
+R6313:6318 Coq.Structures.Orders HasLeb <> modtype
+R6351:6353 Coq.Structures.Equalities Typ <> mod
+modtype 6334:6339 <> HasLtb
+ax 6375:6377 HasLtb ltb
+R6382:6385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6387:6390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6391:6394 Coq.Init.Datatypes <> bool ind
+R6386:6386 Coq.Structures.Orders T t defax
+R6381:6381 Coq.Structures.Orders T t defax
+R6401:6406 Coq.Structures.Orders HasLtb <> modtype
+R6437:6439 Coq.Structures.Equalities Typ <> mod
+R6444:6449 Coq.Structures.Orders HasLeb <> mod
+R6451:6451 Coq.Structures.Orders T <> modtype
+modtype 6422:6432 <> LebNotation
+R6471:6475 Coq.Structures.Orders E leb defax
+not 6462:6462 LebNotation :::x_'<=?'_x
+R6496:6506 Coq.Structures.Orders LebNotation <> modtype
+R6537:6539 Coq.Structures.Equalities Typ <> mod
+R6544:6549 Coq.Structures.Orders HasLtb <> mod
+R6551:6551 Coq.Structures.Orders T <> modtype
+modtype 6522:6532 <> LtbNotation
+R6570:6574 Coq.Structures.Orders E ltb defax
+not 6562:6562 LtbNotation :::x_'<?'_x
+R6595:6605 Coq.Structures.Orders LtbNotation <> modtype
+R6632:6634 Coq.Structures.Equalities Typ <> mod
+R6639:6643 Coq.Structures.Orders HasLe <> mod
+R6645:6645 Coq.Structures.Orders T <> modtype
+R6650:6655 Coq.Structures.Orders HasLeb <> mod
+R6657:6657 Coq.Structures.Orders T <> modtype
+modtype 6621:6627 <> LebSpec
+ax 6672:6677 LebSpec leb_le
+R6709:6713 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6702:6704 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6693:6697 Coq.Structures.Orders Y leb defax
+R6701:6701 Coq.Structures.Orders <> y var
+R6699:6699 Coq.Structures.Orders <> x var
+R6705:6708 Coq.Init.Datatypes <> true constr
+R6714:6717 Coq.Structures.Orders X le defax
+R6721:6721 Coq.Structures.Orders <> y var
+R6719:6719 Coq.Structures.Orders <> x var
+R6728:6734 Coq.Structures.Orders LebSpec <> modtype
+R6761:6763 Coq.Structures.Equalities Typ <> mod
+R6768:6772 Coq.Structures.Orders HasLt <> mod
+R6774:6774 Coq.Structures.Orders T <> modtype
+R6779:6784 Coq.Structures.Orders HasLtb <> mod
+R6786:6786 Coq.Structures.Orders T <> modtype
+modtype 6750:6756 <> LtbSpec
+ax 6801:6806 LtbSpec ltb_lt
+R6838:6842 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6831:6833 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6822:6826 Coq.Structures.Orders Y ltb defax
+R6830:6830 Coq.Structures.Orders <> y var
+R6828:6828 Coq.Structures.Orders <> x var
+R6834:6837 Coq.Init.Datatypes <> true constr
+R6843:6846 Coq.Structures.Orders X lt defax
+R6850:6850 Coq.Structures.Orders <> y var
+R6848:6848 Coq.Structures.Orders <> x var
+R6857:6863 Coq.Structures.Orders LtbSpec <> modtype
+R6889:6891 Coq.Structures.Equalities Typ <> mod
+R6896:6901 Coq.Structures.Orders HasLeb <> mod
+modtype 6879:6884 <> LeBool
+R6926:6928 Coq.Structures.Equalities Typ <> mod
+R6933:6938 Coq.Structures.Orders HasLtb <> mod
+modtype 6916:6921 <> LtBool
+R6964:6969 Coq.Structures.Orders LeBool <> mod
+R6974:6984 Coq.Structures.Orders LebNotation <> mod
+modtype 6953:6959 <> LeBool'
+R7010:7015 Coq.Structures.Orders LtBool <> mod
+R7020:7030 Coq.Structures.Orders LtbNotation <> mod
+modtype 6999:7005 <> LtBool'
+R7067:7073 Coq.Structures.Orders LeBool' <> mod
+modtype 7046:7055 <> LebIsTotal
+ax 7084:7092 LebIsTotal leb_total
+R7124:7127 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7108:7108 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7116:7119 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7110:7114 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R7109:7109 Coq.Structures.Orders <> x var
+R7115:7115 Coq.Structures.Orders <> y var
+R7120:7123 Coq.Init.Datatypes <> true constr
+R7128:7128 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7136:7139 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7130:7134 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R7129:7129 Coq.Structures.Orders <> y var
+R7135:7135 Coq.Structures.Orders <> x var
+R7140:7143 Coq.Init.Datatypes <> true constr
+R7150:7159 Coq.Structures.Orders LebIsTotal <> modtype
+R7190:7195 Coq.Structures.Orders LeBool <> mod
+R7200:7209 Coq.Structures.Orders LebIsTotal <> mod
+modtype 7175:7185 <> TotalLeBool
+R7240:7246 Coq.Structures.Orders LeBool' <> mod
+R7251:7260 Coq.Structures.Orders LebIsTotal <> mod
+modtype 7224:7235 <> TotalLeBool'
+R7302:7308 Coq.Structures.Orders LeBool' <> mod
+modtype 7276:7290 <> LebIsTransitive
+ax 7319:7327 LebIsTransitive leb_trans
+R7331:7340 Coq.Classes.RelationClasses <> Transitive class
+R7342:7346 Coq.Structures.Orders X leb defax
+R7353:7367 Coq.Structures.Orders LebIsTransitive <> modtype
+R7408:7418 Coq.Structures.Orders TotalLeBool <> mod
+R7423:7437 Coq.Structures.Orders LebIsTransitive <> mod
+modtype 7383:7403 <> TotalTransitiveLeBool
+R7478:7489 Coq.Structures.Orders TotalLeBool' <> mod
+R7494:7508 Coq.Structures.Orders LebIsTransitive <> mod
+modtype 7452:7473 <> TotalTransitiveLeBool'
+R7592:7594 Coq.Structures.Equalities Typ <> mod
+R7600:7605 Coq.Structures.Equalities HasEqb <> mod
+R7607:7607 Coq.Structures.Orders T <> modtype
+R7612:7617 Coq.Structures.Orders HasLtb <> mod
+R7619:7619 Coq.Structures.Orders T <> modtype
+R7624:7629 Coq.Structures.Orders HasLeb <> mod
+R7631:7631 Coq.Structures.Orders T <> modtype
+modtype 7574:7587 <> HasBoolOrdFuns
+R7666:7668 Coq.Structures.Equalities Typ <> mod
+R7675:7688 Coq.Structures.Orders HasBoolOrdFuns <> mod
+R7690:7690 Coq.Structures.Orders T <> modtype
+R7695:7705 Coq.Structures.Equalities EqbNotation <> mod
+R7707:7707 Coq.Structures.Orders T <> modtype
+R7712:7722 Coq.Structures.Orders LtbNotation <> mod
+R7724:7724 Coq.Structures.Orders T <> modtype
+R7729:7739 Coq.Structures.Orders LebNotation <> mod
+R7741:7741 Coq.Structures.Orders T <> modtype
+modtype 7647:7661 <> HasBoolOrdFuns'
+R7773:7778 Coq.Structures.Orders EqLtLe <> mod
+R7783:7796 Coq.Structures.Orders HasBoolOrdFuns <> mod
+R7798:7798 Coq.Structures.Orders O <> modtype
+R7805:7811 Coq.Structures.Equalities EqbSpec <> mod
+R7813:7813 Coq.Structures.Orders O <> modtype
+R7815:7815 Coq.Structures.Orders O <> modtype
+R7817:7817 Coq.Structures.Orders F <> modtype
+R7822:7828 Coq.Structures.Orders LtbSpec <> mod
+R7830:7830 Coq.Structures.Orders O <> modtype
+R7832:7832 Coq.Structures.Orders O <> modtype
+R7834:7834 Coq.Structures.Orders F <> modtype
+R7839:7845 Coq.Structures.Orders LebSpec <> mod
+R7847:7847 Coq.Structures.Orders O <> modtype
+R7849:7849 Coq.Structures.Orders O <> modtype
+R7851:7851 Coq.Structures.Orders F <> modtype
+modtype 7757:7768 <> BoolOrdSpecs
+R7885:7890 Coq.Structures.Orders EqLtLe <> mod
+R7898:7907 Coq.Structures.Orders HasCompare <> mod
+R7909:7909 Coq.Structures.Orders E <> modtype
+R7914:7927 Coq.Structures.Orders HasBoolOrdFuns <> mod
+R7929:7929 Coq.Structures.Orders E <> modtype
+R7934:7945 Coq.Structures.Orders BoolOrdSpecs <> mod
+R7947:7947 Coq.Structures.Orders E <> modtype
+modtype 7867:7880 <> OrderFunctions
+R7981:7986 Coq.Structures.Orders EqLtLe <> mod
+R7994:8003 Coq.Structures.Orders HasCompare <> mod
+R8005:8005 Coq.Structures.Orders E <> modtype
+R8010:8020 Coq.Structures.Orders CmpNotation <> mod
+R8022:8022 Coq.Structures.Orders E <> modtype
+R8027:8041 Coq.Structures.Orders HasBoolOrdFuns' <> mod
+R8043:8043 Coq.Structures.Orders E <> modtype
+R8048:8059 Coq.Structures.Orders BoolOrdSpecs <> mod
+R8061:8061 Coq.Structures.Orders E <> modtype
+modtype 7962:7976 <> OrderFunctions'
+R8156:8171 Coq.Structures.Orders OrderedTypeFull' <> mod
+R8177:8197 Coq.Structures.Orders TotalTransitiveLeBool <> mod
+mod 8132:8142 <> OTF_to_TTLB
+def 8213:8215 OTF_to_TTLB leb
+R8232:8238 Coq.Structures.Orders O compare defax
+R8242:8242 Coq.Structures.Orders <> y var
+R8240:8240 Coq.Structures.Orders <> x var
+R8249:8250 Coq.Init.Datatypes <> Gt constr
+R8255:8259 Coq.Init.Datatypes <> false constr
+R8268:8271 Coq.Init.Datatypes <> true constr
+prf 8286:8291 OTF_to_TTLB leb_le
+R8314:8318 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8307:8309 Coq.Structures.Orders OTF_to_TTLB leb def
+R8313:8313 Coq.Structures.Orders <> y var
+R8311:8311 Coq.Structures.Orders <> x var
+R8320:8323 Coq.Structures.Orders LeNotation :::x_'<='_x not
+R8319:8319 Coq.Structures.Orders <> x var
+R8324:8324 Coq.Structures.Orders <> y var
+R8351:8353 Coq.Structures.Orders OTF_to_TTLB leb def
+R8364:8370 Coq.Structures.Orders O le_lteq prfax
+R8364:8370 Coq.Structures.Orders O le_lteq prfax
+R8364:8370 Coq.Structures.Orders O le_lteq prfax
+R8384:8395 Coq.Structures.Orders O compare_spec prfax
+R8384:8395 Coq.Structures.Orders O compare_spec prfax
+R8467:8489 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R8467:8489 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+prf 8591:8599 OTF_to_TTLB leb_total
+R8622:8625 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8615:8617 Coq.Structures.Orders OTF_to_TTLB leb def
+R8621:8621 Coq.Structures.Orders <> y var
+R8619:8619 Coq.Structures.Orders <> x var
+R8626:8628 Coq.Structures.Orders OTF_to_TTLB leb def
+R8632:8632 Coq.Structures.Orders <> x var
+R8630:8630 Coq.Structures.Orders <> y var
+R8662:8667 Coq.Structures.Orders OTF_to_TTLB leb_le thm
+R8662:8667 Coq.Structures.Orders OTF_to_TTLB leb_le thm
+R8662:8667 Coq.Structures.Orders OTF_to_TTLB leb_le thm
+R8662:8667 Coq.Structures.Orders OTF_to_TTLB leb_le thm
+R8680:8686 Coq.Structures.Orders O le_lteq prfax
+R8680:8686 Coq.Structures.Orders O le_lteq prfax
+R8680:8686 Coq.Structures.Orders O le_lteq prfax
+R8680:8686 Coq.Structures.Orders O le_lteq prfax
+R8700:8711 Coq.Structures.Orders O compare_spec prfax
+R8700:8711 Coq.Structures.Orders O compare_spec prfax
+prf 8744:8752 OTF_to_TTLB leb_trans
+R8756:8765 Coq.Classes.RelationClasses <> Transitive class
+R8767:8769 Coq.Structures.Orders OTF_to_TTLB leb def
+R8804:8809 Coq.Structures.Orders OTF_to_TTLB leb_le thm
+R8813:8819 Coq.Structures.Orders O le_lteq prfax
+R8804:8809 Coq.Structures.Orders OTF_to_TTLB leb_le thm
+R8804:8809 Coq.Structures.Orders OTF_to_TTLB leb_le thm
+R8804:8809 Coq.Structures.Orders OTF_to_TTLB leb_le thm
+R8804:8809 Coq.Structures.Orders OTF_to_TTLB leb_le thm
+R8804:8809 Coq.Structures.Orders OTF_to_TTLB leb_le thm
+R8813:8819 Coq.Structures.Orders O le_lteq prfax
+R8813:8819 Coq.Structures.Orders O le_lteq prfax
+R8813:8819 Coq.Structures.Orders O le_lteq prfax
+R8813:8819 Coq.Structures.Orders O le_lteq prfax
+R8813:8819 Coq.Structures.Orders O le_lteq prfax
+def 8992:8992 OTF_to_TTLB t
+R8997:8997 Coq.Structures.Orders O t defax
+R9005:9015 Coq.Structures.Orders OTF_to_TTLB <> mod
+R9231:9252 Coq.Structures.Orders TotalTransitiveLeBool' <> mod
+R9258:9272 Coq.Structures.Orders OrderedTypeFull <> mod
+mod 9207:9217 <> TTLB_to_OTF
+def 9288:9288 TTLB_to_OTF t
+R9293:9293 Coq.Structures.Orders O t defax
+def 9309:9310 TTLB_to_OTF le
+R9327:9331 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R9326:9326 Coq.Structures.Orders <> x var
+R9332:9332 Coq.Structures.Orders <> y var
+def 9347:9348 TTLB_to_OTF eq
+R9370:9373 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9364:9365 Coq.Structures.Orders TTLB_to_OTF le def
+R9369:9369 Coq.Structures.Orders <> y var
+R9367:9367 Coq.Structures.Orders <> x var
+R9374:9375 Coq.Structures.Orders TTLB_to_OTF le def
+R9379:9379 Coq.Structures.Orders <> x var
+R9377:9377 Coq.Structures.Orders <> y var
+def 9394:9395 TTLB_to_OTF lt
+R9417:9420 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9411:9412 Coq.Structures.Orders TTLB_to_OTF le def
+R9416:9416 Coq.Structures.Orders <> y var
+R9414:9414 Coq.Structures.Orders <> x var
+R9421:9421 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9422:9423 Coq.Structures.Orders TTLB_to_OTF le def
+R9427:9427 Coq.Structures.Orders <> x var
+R9425:9425 Coq.Structures.Orders <> y var
+def 9443:9449 TTLB_to_OTF compare
+R9464:9468 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R9463:9463 Coq.Structures.Orders <> x var
+R9469:9469 Coq.Structures.Orders <> y var
+R9510:9511 Coq.Init.Datatypes <> Gt constr
+R9481:9485 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R9480:9480 Coq.Structures.Orders <> y var
+R9486:9486 Coq.Structures.Orders <> x var
+R9501:9502 Coq.Init.Datatypes <> Lt constr
+R9493:9494 Coq.Init.Datatypes <> Eq constr
+prf 9522:9533 TTLB_to_OTF compare_spec
+R9549:9556 Coq.Init.Datatypes <> CompSpec def
+R9569:9575 Coq.Structures.Orders TTLB_to_OTF compare def
+R9579:9579 Coq.Structures.Orders <> y var
+R9577:9577 Coq.Structures.Orders <> x var
+R9566:9566 Coq.Structures.Orders <> y var
+R9564:9564 Coq.Structures.Orders <> x var
+R9561:9562 Coq.Structures.Orders TTLB_to_OTF lt def
+R9558:9559 Coq.Structures.Orders TTLB_to_OTF eq def
+R9607:9613 Coq.Structures.Orders TTLB_to_OTF compare def
+R9627:9631 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R9627:9631 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R9649:9653 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R9649:9653 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R9752:9760 Coq.Structures.Orders O leb_total prfax
+R9752:9760 Coq.Structures.Orders O leb_total prfax
+def 9806:9808 TTLB_to_OTF eqb
+R9817:9817 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9825:9830 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9838:9838 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9819:9823 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R9818:9818 Coq.Structures.Orders <> x var
+R9824:9824 Coq.Structures.Orders <> y var
+R9832:9836 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R9831:9831 Coq.Structures.Orders <> y var
+R9837:9837 Coq.Structures.Orders <> x var
+prf 9849:9854 TTLB_to_OTF eqb_eq
+R9877:9881 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9870:9872 Coq.Structures.Orders TTLB_to_OTF eqb def
+R9876:9876 Coq.Structures.Orders <> y var
+R9874:9874 Coq.Structures.Orders <> x var
+R9882:9883 Coq.Structures.Orders TTLB_to_OTF eq def
+R9887:9887 Coq.Structures.Orders <> y var
+R9885:9885 Coq.Structures.Orders <> x var
+R9914:9915 Coq.Structures.Orders TTLB_to_OTF eq def
+R9918:9920 Coq.Structures.Orders TTLB_to_OTF eqb def
+R9923:9924 Coq.Structures.Orders TTLB_to_OTF le def
+R9933:9935 Coq.Structures.Orders O leb defax
+R9933:9935 Coq.Structures.Orders O leb defax
+R9986:9998 Coq.Structures.Equalities HasEqBool2Dec <> modtype
+inst 10012:10019 TTLB_to_OTF eq_equiv
+R10023:10033 Coq.Classes.RelationClasses <> Equivalence class
+R10035:10036 Coq.Structures.Orders TTLB_to_OTF eq def
+R10075:10076 Coq.Structures.Orders TTLB_to_OTF eq def
+R10079:10080 Coq.Structures.Orders TTLB_to_OTF le def
+R10093:10101 Coq.Structures.Orders O leb_total prfax
+R10093:10101 Coq.Structures.Orders O leb_total prfax
+R10137:10138 Coq.Structures.Orders TTLB_to_OTF eq def
+R10141:10142 Coq.Structures.Orders TTLB_to_OTF le def
+R10180:10181 Coq.Structures.Orders TTLB_to_OTF eq def
+R10184:10185 Coq.Structures.Orders TTLB_to_OTF le def
+R10205:10213 Coq.Structures.Orders O leb_trans prfax
+R10205:10213 Coq.Structures.Orders O leb_trans prfax
+R10205:10213 Coq.Structures.Orders O leb_trans prfax
+inst 10246:10256 TTLB_to_OTF lt_strorder
+R10260:10270 Coq.Classes.RelationClasses <> StrictOrder class
+R10272:10273 Coq.Structures.Orders TTLB_to_OTF lt def
+R10312:10313 Coq.Structures.Orders TTLB_to_OTF lt def
+R10356:10357 Coq.Structures.Orders TTLB_to_OTF lt def
+R10360:10361 Coq.Structures.Orders TTLB_to_OTF le def
+R10386:10394 Coq.Structures.Orders O leb_trans prfax
+R10386:10394 Coq.Structures.Orders O leb_trans prfax
+R10424:10428 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R10424:10428 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R10450:10458 Coq.Structures.Orders O leb_trans prfax
+R10450:10458 Coq.Structures.Orders O leb_trans prfax
+inst 10491:10499 TTLB_to_OTF lt_compat
+R10503:10508 Coq.Classes.Morphisms <> Proper class
+R10530:10531 Coq.Structures.Orders TTLB_to_OTF lt def
+R10513:10517 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R10511:10512 Coq.Structures.Orders TTLB_to_OTF eq def
+R10520:10524 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R10518:10519 Coq.Structures.Orders TTLB_to_OTF eq def
+R10525:10527 Coq.Init.Logic <> iff def
+R10549:10569 Coq.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+R10549:10569 Coq.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+R10620:10621 Coq.Structures.Orders TTLB_to_OTF eq def
+R10624:10625 Coq.Structures.Orders TTLB_to_OTF lt def
+R10628:10629 Coq.Structures.Orders TTLB_to_OTF le def
+R10658:10666 Coq.Structures.Orders O leb_trans prfax
+R10658:10666 Coq.Structures.Orders O leb_trans prfax
+R10691:10699 Coq.Structures.Orders O leb_trans prfax
+R10691:10699 Coq.Structures.Orders O leb_trans prfax
+R10727:10731 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R10727:10731 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R10751:10759 Coq.Structures.Orders O leb_trans prfax
+R10751:10759 Coq.Structures.Orders O leb_trans prfax
+R10785:10793 Coq.Structures.Orders O leb_trans prfax
+R10785:10793 Coq.Structures.Orders O leb_trans prfax
+def 10829:10835 TTLB_to_OTF le_lteq
+R10857:10861 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10851:10852 Coq.Structures.Orders TTLB_to_OTF le def
+R10856:10856 Coq.Structures.Orders <> y var
+R10854:10854 Coq.Structures.Orders <> x var
+R10868:10871 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10862:10863 Coq.Structures.Orders TTLB_to_OTF lt def
+R10867:10867 Coq.Structures.Orders <> y var
+R10865:10865 Coq.Structures.Orders <> x var
+R10872:10873 Coq.Structures.Orders TTLB_to_OTF eq def
+R10877:10877 Coq.Structures.Orders <> y var
+R10875:10875 Coq.Structures.Orders <> x var
+R10905:10906 Coq.Structures.Orders TTLB_to_OTF lt def
+R10909:10910 Coq.Structures.Orders TTLB_to_OTF eq def
+R10913:10914 Coq.Structures.Orders TTLB_to_OTF le def
+R10965:10969 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R10965:10969 Coq.Structures.Orders LebNotation :::x_'<=?'_x not
+R11028:11038 Coq.Structures.Orders TTLB_to_OTF <> mod

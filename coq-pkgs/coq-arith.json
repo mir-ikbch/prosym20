@@ -1,0 +1,213 @@
+{
+  "desc": "coq-arith",
+  "deps": [ "coq-base", "coq-collections" ],
+  "pkgs": [
+    {
+      "pkg_id": [ "Coq", "Numbers", "Natural", "Peano" ],
+      "vo_files": [ [ "NPeano.vo", null ] ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "Numbers", "Integer", "Abstract" ],
+      "vo_files": [
+        [ "ZAdd.vo", null ],
+        [ "ZAddOrder.vo", null ],
+        [ "ZAxioms.vo", null ],
+        [ "ZBase.vo", null ],
+        [ "ZBits.vo", null ],
+        [ "ZDivEucl.vo", null ],
+        [ "ZDivFloor.vo", null ],
+        [ "ZDivTrunc.vo", null ],
+        [ "ZGcd.vo", null ],
+        [ "ZLcm.vo", null ],
+        [ "ZLt.vo", null ],
+        [ "ZMaxMin.vo", null ],
+        [ "ZMul.vo", null ],
+        [ "ZMulOrder.vo", null ],
+        [ "ZParity.vo", null ],
+        [ "ZPow.vo", null ],
+        [ "ZProperties.vo", null ],
+        [ "ZSgnAbs.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "Numbers", "Cyclic", "Abstract" ],
+      "vo_files": [
+        [ "CyclicAxioms.vo", null ],
+        [ "DoubleType.vo", null ],
+        [ "NZCyclic.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "Numbers", "Cyclic", "Int31" ],
+      "vo_files": [
+        [ "Cyclic31.vo", null ],
+        [ "Int31.vo", null ],
+        [ "Ring31.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "Numbers", "Cyclic", "Int63" ],
+      "vo_files": [
+        [ "Cyclic63.vo", null ],
+        [ "Int63.vo", null ],
+        [ "Ring63.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "Numbers", "Cyclic", "ZModulo" ],
+      "vo_files": [ [ "ZModulo.vo", null ] ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "setoid_ring" ],
+      "vo_files": [
+        [ "Algebra_syntax.vo", null ],
+        [ "ArithRing.vo", null ],
+        [ "BinList.vo", null ],
+        [ "Cring.vo", null ],
+        [ "Field.vo", null ],
+        [ "Field_tac.vo", null ],
+        [ "Field_theory.vo", null ],
+        [ "InitialRing.vo", null ],
+        [ "Integral_domain.vo", null ],
+        [ "NArithRing.vo", null ],
+        [ "Ncring.vo", null ],
+        [ "Ncring_initial.vo", null ],
+        [ "Ncring_polynom.vo", null ],
+        [ "Ncring_tac.vo", null ],
+        [ "RealField.vo", null ],
+        [ "Ring.vo", null ],
+        [ "Ring_base.vo", null ],
+        [ "Ring_polynom.vo", null ],
+        [ "Ring_tac.vo", null ],
+        [ "Ring_theory.vo", null ],
+        [ "Rings_Q.vo", null ],
+        [ "Rings_R.vo", null ],
+        [ "Rings_Z.vo", null ],
+        [ "ZArithRing.vo", null ]
+      ],
+      "cma_files": [ [ "newring_plugin.cma", null ] ]
+    },
+    {
+      "pkg_id": [ "Coq", "Arith" ],
+      "vo_files": [
+        [ "Arith.vo", null ],
+        [ "Arith_base.vo", null ],
+        [ "Between.vo", null ],
+        [ "Bool_nat.vo", null ],
+        [ "Compare.vo", null ],
+        [ "Div2.vo", null ],
+        [ "EqNat.vo", null ],
+        [ "Euclid.vo", null ],
+        [ "Even.vo", null ],
+        [ "Factorial.vo", null ],
+        [ "Max.vo", null ],
+        [ "Min.vo", null ],
+        [ "Mult.vo", null ],
+        [ "Peano_dec.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "NArith" ],
+      "vo_files": [
+        [ "BinNat.vo", null ],
+        [ "BinNatDef.vo", null ],
+        [ "NArith.vo", null ],
+        [ "Ndec.vo", null ],
+        [ "Ndigits.vo", null ],
+        [ "Ndist.vo", null ],
+        [ "Ndiv_def.vo", null ],
+        [ "Ngcd_def.vo", null ],
+        [ "Nnat.vo", null ],
+        [ "Nsqrt_def.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "PArith" ],
+      "vo_files": [
+        [ "BinPos.vo", null ],
+        [ "BinPosDef.vo", null ],
+        [ "PArith.vo", null ],
+        [ "Pnat.vo", null ],
+        [ "POrderedType.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "ZArith" ],
+      "vo_files": [
+        [ "auxiliary.vo", null ],
+        [ "BinInt.vo", null ],
+        [ "BinIntDef.vo", null ],
+        [ "Int.vo", null ],
+        [ "Wf_Z.vo", null ],
+        [ "Zabs.vo", null ],
+        [ "ZArith.vo", null ],
+        [ "ZArith_base.vo", null ],
+        [ "ZArith_dec.vo", null ],
+        [ "Zbool.vo", null ],
+        [ "Zcompare.vo", null ],
+        [ "Zcomplements.vo", null ],
+        [ "Zdigits.vo", null ],
+        [ "Zdiv.vo", null ],
+        [ "Zeuclid.vo", null ],
+        [ "Zeven.vo", null ],
+        [ "Zgcd_alt.vo", null ],
+        [ "Zhints.vo", null ],
+        [ "Zlogarithm.vo", null ],
+        [ "Zmax.vo", null ],
+        [ "Zmin.vo", null ],
+        [ "Zminmax.vo", null ],
+        [ "Zmisc.vo", null ],
+        [ "Znat.vo", null ],
+        [ "Znumtheory.vo", null ],
+        [ "Zorder.vo", null ],
+        [ "Zpow_alt.vo", null ],
+        [ "Zpow_def.vo", null ],
+        [ "Zpow_facts.vo", null ],
+        [ "Zpower.vo", null ],
+        [ "Zquot.vo", null ],
+        [ "Zsqrt_compat.vo", null ],
+        [ "Zwf.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "QArith" ],
+      "vo_files": [
+        [ "Qabs.vo", null ],
+        [ "QArith.vo", null ],
+        [ "QArith_base.vo", null ],
+        [ "Qcabs.vo", null ],
+        [ "Qcanon.vo", null ],
+        [ "Qfield.vo", null ],
+        [ "Qminmax.vo", null ],
+        [ "QOrderedType.vo", null ],
+        [ "Qpower.vo", null ],
+        [ "Qreals.vo", null ],
+        [ "Qreduction.vo", null ],
+        [ "Qring.vo", null ],
+        [ "Qround.vo", null ]
+      ],
+      "cma_files": []
+    },
+    {
+      "pkg_id": [ "Coq", "omega" ],
+      "vo_files": [
+        [ "Omega.vo", null ],
+        [ "OmegaLemmas.vo", null ],
+        [ "OmegaPlugin.vo", null ],
+        [ "OmegaTactic.vo", null ],
+        [ "PreOmega.vo", null ]
+      ],
+      "cma_files": [ [ "omega_plugin.cma", null ] ]
+    }
+  ]
+}

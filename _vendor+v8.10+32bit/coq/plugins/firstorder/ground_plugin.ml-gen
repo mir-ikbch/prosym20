@@ -1,0 +1,20 @@
+(** @canonical Ground_plugin.Formula *)
+module Formula = Ground_plugin__Formula
+
+(** @canonical Ground_plugin.G_ground *)
+module G_ground = Ground_plugin__G_ground
+
+(** @canonical Ground_plugin.Ground *)
+module Ground = Ground_plugin__Ground
+
+(** @canonical Ground_plugin.Instances *)
+module Instances = Ground_plugin__Instances
+
+(** @canonical Ground_plugin.Rules *)
+module Rules = Ground_plugin__Rules
+
+(** @canonical Ground_plugin.Sequent *)
+module Sequent = Ground_plugin__Sequent
+
+(** @canonical Ground_plugin.Unify *)
+module Unify = Ground_plugin__Unify

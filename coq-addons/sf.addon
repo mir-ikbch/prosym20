@@ -1,0 +1,34 @@
+# -*- mode: makefile -*-
+# jscoq addon: lf
+
+include coq-addons/common.mk
+
+LF_URL=https://www.cis.upenn.edu/~bcpierce/sf/lf-current/lf.tgz
+LF_HOME=$(ADDONS_PATH)/lf
+LF_DEST=$(COQPKGS_ROOT)/LF
+
+PLF_URL=https://www.cis.upenn.edu/~bcpierce/sf/plf-current/plf.tgz
+PLF_HOME=$(ADDONS_PATH)/plf
+PLF_DEST=$(COQPKGS_ROOT)/PLF
+
+.PHONY: nothing get build jscoq-install
+
+nothing:
+
+get:
+	[ -d $(LF_HOME)  ] || wget -qO- $(LF_URL)  | tar xvz -C $(ADDONS_PATH)
+	[ -d $(PLF_HOME) ] || wget -qO- $(PLF_URL) | tar xvz -C $(ADDONS_PATH)
+
+build:
+	export PATH=$(COQDIR)/bin:$$PATH; cd $(LF_HOME)  && $(MAKE)
+	export PATH=$(COQDIR)/bin:$$PATH; cd $(PLF_HOME) && $(MAKE)
+
+jscoq-install:
+	$(SYNCVO) $(LF_HOME)/ $(LF_DEST)
+	$(SYNCVO) $(PLF_HOME)/ $(PLF_DEST)
+	$(PKGBUILD) --project $(LF_HOME)                 \
+	            --create-package $(LF_DEST).coq-pkg  \
+	            --create-manifest $(LF_DEST).json
+	$(PKGBUILD) --project $(PLF_HOME)                \
+	            --create-package $(PLF_DEST).coq-pkg \
+	            --create-manifest $(PLF_DEST).json

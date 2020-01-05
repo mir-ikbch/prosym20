@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/tactics/eqdecide.ml: Auto Constr Constr_matching Context Coqlib Declarations EConstr Equality Evarutil Global Hipattern Id List Namegen Names Pp Proofview Refine Retyping Simple Sorts Tacmach Tacticals Tactics Tactypes Termops Util

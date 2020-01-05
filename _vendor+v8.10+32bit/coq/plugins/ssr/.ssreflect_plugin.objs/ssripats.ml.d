@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/plugins/ssr/ssripats.ml: Array CList CWarnings Constr Context Coqlib EConstr Evarutil Evd Goal Id List Name Names Option Pp Printer Proofview Proofview_monad Reductionops Sorts Ssrast Ssrcommon Ssrelim Ssrequality Ssrmatching Ssrmatching_plugin Ssrprinters Ssrview String Summary Tacmach Tacticals Tactics Term Termops Typeclasses Typing Unsafe Util V82 Vars

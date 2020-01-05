@@ -1,0 +1,4 @@
+EXCLUDE_QUERY_DIR
+B ../../../../_build/jscoq+32bit/_vendor+v8.10+32bit/coq/kernel/byterun/.byterun.objs/byte
+S .
+FLG -open Byterun -w -40 -rectypes

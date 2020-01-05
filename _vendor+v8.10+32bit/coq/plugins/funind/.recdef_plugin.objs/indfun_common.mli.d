@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/plugins/funind/indfun_common.mli: Constant Constr Context Decl_kinds EConstr Entries Environ Evd GlobRef Glob_term Id Lazy Lemmas Libnames Name Names Pp Safe_typing Tacmach UState Util

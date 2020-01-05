@@ -1,0 +1,1 @@
+coq-serapi/serlib/ser_typeclasses.ml: Ppx_deriving_yojson_runtime Ppx_sexp_conv_lib Sexplib Typeclasses Yojson

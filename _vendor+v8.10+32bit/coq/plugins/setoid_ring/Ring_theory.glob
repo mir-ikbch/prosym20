@@ -1,0 +1,2212 @@
+DIGEST c990d7778d5ee68af42c75f94ba3b145
+FCoq.setoid_ring.Ring_theory
+R691:696 Coq.Setoids.Setoid <> <> lib
+R698:706 Coq.Classes.Morphisms <> <> lib
+R708:713 Coq.PArith.BinPos <> <> lib
+R715:720 Coq.NArith.BinNat <> <> lib
+mod 756:765 <> RingSyntax
+R1430:1439 Coq.setoid_ring.Ring_theory RingSyntax <> mod
+sec 1504:1508 <> Power
+var 1521:1521 Power R
+var 1539:1540 Power rI
+R1544:1544 Coq.setoid_ring.Ring_theory <> Power.R var
+var 1557:1560 Power rmul
+R1565:1568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1570:1573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1574:1574 Coq.setoid_ring.Ring_theory <> Power.R var
+R1569:1569 Coq.setoid_ring.Ring_theory <> Power.R var
+R1564:1564 Coq.setoid_ring.Ring_theory <> Power.R var
+var 1587:1589 Power req
+R1594:1597 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1599:1602 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1598:1598 Coq.setoid_ring.Ring_theory <> Power.R var
+R1593:1593 Coq.setoid_ring.Ring_theory <> Power.R var
+var 1619:1622 Power Rsth
+R1626:1636 Coq.Classes.RelationClasses <> Equivalence class
+R1638:1640 Coq.setoid_ring.Ring_theory <> Power.req var
+R1657:1660 Coq.setoid_ring.Ring_theory <> Power.rmul var
+not 1650:1650 Power :::x_'*'_x
+R1678:1680 Coq.setoid_ring.Ring_theory <> Power.req var
+not 1670:1670 Power :::x_'=='_x
+var 1696:1702 Power mul_ext
+R1706:1711 Coq.Classes.Morphisms <> Proper class
+R1735:1738 Coq.setoid_ring.Ring_theory <> Power.rmul var
+R1717:1721 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1714:1716 Coq.setoid_ring.Ring_theory <> Power.req var
+R1725:1729 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1722:1724 Coq.setoid_ring.Ring_theory <> Power.req var
+R1730:1732 Coq.setoid_ring.Ring_theory <> Power.req var
+var 1753:1761 Power mul_assoc
+R1791:1794 Coq.setoid_ring.Ring_theory Power :::x_'=='_x not
+R1781:1784 Coq.setoid_ring.Ring_theory Power :::x_'*'_x not
+R1790:1790 Coq.setoid_ring.Ring_theory Power :::x_'*'_x not
+R1780:1780 Coq.setoid_ring.Ring_theory <> x var
+R1786:1788 Coq.setoid_ring.Ring_theory Power :::x_'*'_x not
+R1785:1785 Coq.setoid_ring.Ring_theory <> y var
+R1789:1789 Coq.setoid_ring.Ring_theory <> z var
+R1795:1795 Coq.setoid_ring.Ring_theory Power :::x_'*'_x not
+R1801:1804 Coq.setoid_ring.Ring_theory Power :::x_'*'_x not
+R1797:1799 Coq.setoid_ring.Ring_theory Power :::x_'*'_x not
+R1796:1796 Coq.setoid_ring.Ring_theory <> x var
+R1800:1800 Coq.setoid_ring.Ring_theory <> y var
+R1805:1805 Coq.setoid_ring.Ring_theory <> z var
+def 1819:1825 <> pow_pos
+R1830:1830 Coq.setoid_ring.Ring_theory <> Power.R var
+R1836:1843 Coq.Numbers.BinNums <> positive ind
+R1848:1848 Coq.setoid_ring.Ring_theory <> Power.R var
+R1861:1861 Coq.setoid_ring.Ring_theory <> i var
+R1872:1873 Coq.Numbers.BinNums <> xH constr
+R1878:1878 Coq.setoid_ring.Ring_theory <> x var
+R1884:1885 Coq.Numbers.BinNums <> xO constr
+R1901:1907 Coq.setoid_ring.Ring_theory <> pow_pos def
+R1911:1911 Coq.setoid_ring.Ring_theory <> i var
+R1909:1909 Coq.setoid_ring.Ring_theory <> x var
+R1917:1919 Coq.setoid_ring.Ring_theory Power :::x_'*'_x not
+R1916:1916 Coq.setoid_ring.Ring_theory <> p var
+R1920:1920 Coq.setoid_ring.Ring_theory <> p var
+R1926:1927 Coq.Numbers.BinNums <> xI constr
+R1943:1949 Coq.setoid_ring.Ring_theory <> pow_pos def
+R1953:1953 Coq.setoid_ring.Ring_theory <> i var
+R1951:1951 Coq.setoid_ring.Ring_theory <> x var
+R1959:1962 Coq.setoid_ring.Ring_theory Power :::x_'*'_x not
+R1968:1968 Coq.setoid_ring.Ring_theory Power :::x_'*'_x not
+R1958:1958 Coq.setoid_ring.Ring_theory <> x var
+R1964:1966 Coq.setoid_ring.Ring_theory Power :::x_'*'_x not
+R1963:1963 Coq.setoid_ring.Ring_theory <> p var
+R1967:1967 Coq.setoid_ring.Ring_theory <> p var
+prf 1985:1996 <> pow_pos_swap
+R2019:2022 Coq.setoid_ring.Ring_theory Power :::x_'=='_x not
+R2015:2017 Coq.setoid_ring.Ring_theory Power :::x_'*'_x not
+R2004:2010 Coq.setoid_ring.Ring_theory <> pow_pos def
+R2014:2014 Coq.setoid_ring.Ring_theory <> j var
+R2012:2012 Coq.setoid_ring.Ring_theory <> x var
+R2018:2018 Coq.setoid_ring.Ring_theory <> x var
+R2024:2026 Coq.setoid_ring.Ring_theory Power :::x_'*'_x not
+R2023:2023 Coq.setoid_ring.Ring_theory <> x var
+R2027:2033 Coq.setoid_ring.Ring_theory <> pow_pos def
+R2037:2037 Coq.setoid_ring.Ring_theory <> j var
+R2035:2035 Coq.setoid_ring.Ring_theory <> x var
+R2082:2090 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2082:2090 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2082:2090 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2082:2090 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2082:2090 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2082:2090 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2082:2090 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2082:2090 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2082:2090 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2082:2090 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2129:2137 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2129:2137 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2129:2137 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2129:2137 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2129:2137 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2168:2176 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2168:2176 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2168:2176 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2168:2176 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2168:2176 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+prf 2211:2222 <> pow_pos_succ
+R2255:2258 Coq.setoid_ring.Ring_theory Power :::x_'=='_x not
+R2233:2239 Coq.setoid_ring.Ring_theory <> pow_pos def
+R2244:2251 Coq.PArith.BinPos Pos succ def
+R2253:2253 Coq.setoid_ring.Ring_theory <> j var
+R2241:2241 Coq.setoid_ring.Ring_theory <> x var
+R2260:2262 Coq.setoid_ring.Ring_theory Power :::x_'*'_x not
+R2259:2259 Coq.setoid_ring.Ring_theory <> x var
+R2263:2269 Coq.setoid_ring.Ring_theory <> pow_pos def
+R2273:2273 Coq.setoid_ring.Ring_theory <> j var
+R2271:2271 Coq.setoid_ring.Ring_theory <> x var
+R2341:2349 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2341:2349 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2341:2349 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2375:2383 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2386:2397 Coq.setoid_ring.Ring_theory <> pow_pos_swap thm
+R2400:2408 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2375:2383 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2375:2383 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2386:2397 Coq.setoid_ring.Ring_theory <> pow_pos_swap thm
+R2386:2397 Coq.setoid_ring.Ring_theory <> pow_pos_swap thm
+R2400:2408 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2400:2408 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+prf 2425:2435 <> pow_pos_add
+R2465:2468 Coq.setoid_ring.Ring_theory Power :::x_'=='_x not
+R2448:2454 Coq.setoid_ring.Ring_theory <> pow_pos def
+R2460:2462 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R2459:2459 Coq.setoid_ring.Ring_theory <> i var
+R2463:2463 Coq.setoid_ring.Ring_theory <> j var
+R2456:2456 Coq.setoid_ring.Ring_theory <> x var
+R2480:2482 Coq.setoid_ring.Ring_theory Power :::x_'*'_x not
+R2469:2475 Coq.setoid_ring.Ring_theory <> pow_pos def
+R2479:2479 Coq.setoid_ring.Ring_theory <> i var
+R2477:2477 Coq.setoid_ring.Ring_theory <> x var
+R2483:2489 Coq.setoid_ring.Ring_theory <> pow_pos def
+R2493:2493 Coq.setoid_ring.Ring_theory <> j var
+R2491:2491 Coq.setoid_ring.Ring_theory <> x var
+R2524:2536 Coq.PArith.BinPos Pos peano_ind def
+R2524:2536 Coq.PArith.BinPos Pos peano_ind def
+R2555:2565 Coq.PArith.BinPos Pos add_1_l thm
+R2568:2579 Coq.setoid_ring.Ring_theory <> pow_pos_succ thm
+R2555:2565 Coq.PArith.BinPos Pos add_1_l thm
+R2555:2565 Coq.PArith.BinPos Pos add_1_l thm
+R2568:2579 Coq.setoid_ring.Ring_theory <> pow_pos_succ thm
+R2568:2579 Coq.setoid_ring.Ring_theory <> pow_pos_succ thm
+R2598:2611 Coq.PArith.BinPos Pos add_succ_l thm
+R2615:2626 Coq.setoid_ring.Ring_theory <> pow_pos_succ thm
+R2634:2642 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2598:2611 Coq.PArith.BinPos Pos add_succ_l thm
+R2598:2611 Coq.PArith.BinPos Pos add_succ_l thm
+R2615:2626 Coq.setoid_ring.Ring_theory <> pow_pos_succ thm
+R2615:2626 Coq.setoid_ring.Ring_theory <> pow_pos_succ thm
+R2615:2626 Coq.setoid_ring.Ring_theory <> pow_pos_succ thm
+R2615:2626 Coq.setoid_ring.Ring_theory <> pow_pos_succ thm
+R2634:2642 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+R2634:2642 Coq.setoid_ring.Ring_theory <> Power.mul_assoc var
+def 2664:2668 <> pow_N
+R2673:2673 Coq.setoid_ring.Ring_theory <> Power.R var
+R2679:2679 Coq.Numbers.BinNums <> N ind
+R2693:2693 Coq.setoid_ring.Ring_theory <> p var
+R2704:2705 Coq.Numbers.BinNums <> N0 constr
+R2710:2711 Coq.setoid_ring.Ring_theory <> Power.rI var
+R2717:2720 Coq.Numbers.BinNums <> Npos constr
+R2727:2733 Coq.setoid_ring.Ring_theory <> pow_pos def
+R2737:2737 Coq.setoid_ring.Ring_theory <> p var
+R2735:2735 Coq.setoid_ring.Ring_theory <> x var
+def 2759:2766 <> id_phi_N
+R2771:2771 Coq.Numbers.BinNums <> N ind
+R2776:2776 Coq.Numbers.BinNums <> N ind
+R2781:2781 Coq.setoid_ring.Ring_theory <> x var
+prf 2792:2802 <> pow_N_pow_N
+R2830:2833 Coq.setoid_ring.Ring_theory Power :::x_'=='_x not
+R2810:2814 Coq.setoid_ring.Ring_theory <> pow_N def
+R2819:2826 Coq.setoid_ring.Ring_theory <> id_phi_N def
+R2828:2828 Coq.setoid_ring.Ring_theory <> n var
+R2816:2816 Coq.setoid_ring.Ring_theory <> x var
+R2834:2838 Coq.setoid_ring.Ring_theory <> pow_N def
+R2842:2842 Coq.setoid_ring.Ring_theory <> n var
+R2840:2840 Coq.setoid_ring.Ring_theory <> x var
+R2879:2883 Coq.setoid_ring.Ring_theory Power <> sec
+sec 2895:2905 <> DEFINITIONS
+var 2918:2918 DEFINITIONS R
+var 2939:2940 DEFINITIONS rO
+var 2942:2943 DEFINITIONS rI
+var 2951:2954 DEFINITIONS radd
+var 2956:2959 DEFINITIONS rmul
+var 2961:2964 DEFINITIONS rsub
+var 2977:2980 DEFINITIONS ropp
+R2947:2947 Coq.setoid_ring.Ring_theory <> DEFINITIONS.R var
+R2968:2969 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2971:2972 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2973:2973 Coq.setoid_ring.Ring_theory <> DEFINITIONS.R var
+R2970:2970 Coq.setoid_ring.Ring_theory <> DEFINITIONS.R var
+R2967:2967 Coq.setoid_ring.Ring_theory <> DEFINITIONS.R var
+R2985:2988 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2989:2989 Coq.setoid_ring.Ring_theory <> DEFINITIONS.R var
+R2984:2984 Coq.setoid_ring.Ring_theory <> DEFINITIONS.R var
+var 3003:3005 DEFINITIONS req
+R3010:3013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3015:3018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3014:3014 Coq.setoid_ring.Ring_theory <> DEFINITIONS.R var
+R3009:3009 Coq.setoid_ring.Ring_theory <> DEFINITIONS.R var
+R3042:3043 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rO var
+not 3035:3035 DEFINITIONS :::'0'
+R3063:3064 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rI var
+not 3056:3056 DEFINITIONS :::'1'
+R3082:3084 Coq.setoid_ring.Ring_theory <> DEFINITIONS.req var
+not 3074:3074 DEFINITIONS :::x_'=='_x
+R3100:3103 Coq.setoid_ring.Ring_theory <> DEFINITIONS.radd var
+not 3093:3093 DEFINITIONS :::x_'+'_x
+R3119:3122 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rmul var
+not 3112:3112 DEFINITIONS :::x_'*'_x
+R3139:3142 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rsub var
+not 3132:3132 DEFINITIONS :::x_'-'_x
+R3164:3167 Coq.setoid_ring.Ring_theory <> DEFINITIONS.ropp var
+not 3154:3154 DEFINITIONS :::'-'_x
+constr 3227:3232 <> mk_srt
+rec 3200:3215 <> semi_ring_theory
+proj 3240:3248 <> SRadd_0_l
+proj 3280:3289 <> SRadd_comm
+proj 3327:3337 <> SRadd_assoc
+proj 3387:3395 <> SRmul_1_l
+proj 3425:3433 <> SRmul_0_l
+proj 3463:3472 <> SRmul_comm
+proj 3505:3515 <> SRmul_assoc
+proj 3557:3565 <> SRdistr_l
+R3269:3272 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R3265:3267 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3268:3268 Coq.setoid_ring.Ring_theory <> n var
+R3273:3273 Coq.setoid_ring.Ring_theory <> n var
+R3311:3314 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R3307:3309 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3306:3306 Coq.setoid_ring.Ring_theory <> n var
+R3310:3310 Coq.setoid_ring.Ring_theory <> m var
+R3316:3318 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3315:3315 Coq.setoid_ring.Ring_theory <> m var
+R3319:3319 Coq.setoid_ring.Ring_theory <> n var
+R3366:3369 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R3356:3359 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3365:3365 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3355:3355 Coq.setoid_ring.Ring_theory <> n var
+R3361:3363 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3360:3360 Coq.setoid_ring.Ring_theory <> m var
+R3364:3364 Coq.setoid_ring.Ring_theory <> p var
+R3370:3370 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3376:3379 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3372:3374 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3371:3371 Coq.setoid_ring.Ring_theory <> n var
+R3375:3375 Coq.setoid_ring.Ring_theory <> m var
+R3380:3380 Coq.setoid_ring.Ring_theory <> p var
+R3414:3417 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R3412:3412 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3413:3413 Coq.setoid_ring.Ring_theory <> n var
+R3418:3418 Coq.setoid_ring.Ring_theory <> n var
+R3452:3455 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R3450:3450 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3451:3451 Coq.setoid_ring.Ring_theory <> n var
+R3492:3495 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R3490:3490 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3489:3489 Coq.setoid_ring.Ring_theory <> n var
+R3491:3491 Coq.setoid_ring.Ring_theory <> m var
+R3497:3497 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3496:3496 Coq.setoid_ring.Ring_theory <> m var
+R3498:3498 Coq.setoid_ring.Ring_theory <> n var
+R3540:3543 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R3534:3535 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3539:3539 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3533:3533 Coq.setoid_ring.Ring_theory <> n var
+R3537:3537 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3536:3536 Coq.setoid_ring.Ring_theory <> m var
+R3538:3538 Coq.setoid_ring.Ring_theory <> p var
+R3544:3544 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3548:3549 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3546:3546 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3545:3545 Coq.setoid_ring.Ring_theory <> n var
+R3547:3547 Coq.setoid_ring.Ring_theory <> m var
+R3550:3550 Coq.setoid_ring.Ring_theory <> p var
+R3594:3597 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R3585:3585 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3591:3592 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3587:3589 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3586:3586 Coq.setoid_ring.Ring_theory <> n var
+R3590:3590 Coq.setoid_ring.Ring_theory <> m var
+R3593:3593 Coq.setoid_ring.Ring_theory <> p var
+R3601:3603 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3599:3599 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3598:3598 Coq.setoid_ring.Ring_theory <> n var
+R3600:3600 Coq.setoid_ring.Ring_theory <> p var
+R3605:3605 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3604:3604 Coq.setoid_ring.Ring_theory <> m var
+R3606:3606 Coq.setoid_ring.Ring_theory <> p var
+constr 3723:3728 <> mk_art
+rec 3694:3711 <> almost_ring_theory
+proj 3736:3744 <> ARadd_0_l
+proj 3776:3785 <> ARadd_comm
+proj 3822:3832 <> ARadd_assoc
+proj 3882:3890 <> ARmul_1_l
+proj 3922:3930 <> ARmul_0_l
+proj 3962:3971 <> ARmul_comm
+proj 4008:4018 <> ARmul_assoc
+proj 4068:4076 <> ARdistr_l
+proj 4134:4144 <> ARopp_mul_l
+proj 4184:4192 <> ARopp_add
+proj 4235:4243 <> ARsub_def
+R3765:3768 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R3761:3763 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3764:3764 Coq.setoid_ring.Ring_theory <> x var
+R3769:3769 Coq.setoid_ring.Ring_theory <> x var
+R3807:3810 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R3803:3805 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3802:3802 Coq.setoid_ring.Ring_theory <> x var
+R3806:3806 Coq.setoid_ring.Ring_theory <> y var
+R3812:3814 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3811:3811 Coq.setoid_ring.Ring_theory <> y var
+R3815:3815 Coq.setoid_ring.Ring_theory <> x var
+R3861:3864 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R3851:3854 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3860:3860 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3850:3850 Coq.setoid_ring.Ring_theory <> x var
+R3856:3858 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3855:3855 Coq.setoid_ring.Ring_theory <> y var
+R3859:3859 Coq.setoid_ring.Ring_theory <> z var
+R3865:3865 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3871:3874 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3867:3869 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R3866:3866 Coq.setoid_ring.Ring_theory <> x var
+R3870:3870 Coq.setoid_ring.Ring_theory <> y var
+R3875:3875 Coq.setoid_ring.Ring_theory <> z var
+R3911:3914 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R3907:3909 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3910:3910 Coq.setoid_ring.Ring_theory <> x var
+R3915:3915 Coq.setoid_ring.Ring_theory <> x var
+R3951:3954 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R3947:3949 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3950:3950 Coq.setoid_ring.Ring_theory <> x var
+R3993:3996 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R3989:3991 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3988:3988 Coq.setoid_ring.Ring_theory <> x var
+R3992:3992 Coq.setoid_ring.Ring_theory <> y var
+R3998:4000 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R3997:3997 Coq.setoid_ring.Ring_theory <> y var
+R4001:4001 Coq.setoid_ring.Ring_theory <> x var
+R4047:4050 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R4037:4040 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4046:4046 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4036:4036 Coq.setoid_ring.Ring_theory <> x var
+R4042:4044 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4041:4041 Coq.setoid_ring.Ring_theory <> y var
+R4045:4045 Coq.setoid_ring.Ring_theory <> z var
+R4051:4051 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4057:4060 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4053:4055 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4052:4052 Coq.setoid_ring.Ring_theory <> x var
+R4056:4056 Coq.setoid_ring.Ring_theory <> y var
+R4061:4061 Coq.setoid_ring.Ring_theory <> z var
+R4107:4110 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R4096:4096 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4102:4105 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4098:4100 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4097:4097 Coq.setoid_ring.Ring_theory <> x var
+R4101:4101 Coq.setoid_ring.Ring_theory <> y var
+R4106:4106 Coq.setoid_ring.Ring_theory <> z var
+R4111:4111 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4117:4121 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4127:4127 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4113:4115 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4112:4112 Coq.setoid_ring.Ring_theory <> x var
+R4116:4116 Coq.setoid_ring.Ring_theory <> z var
+R4123:4125 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4122:4122 Coq.setoid_ring.Ring_theory <> y var
+R4126:4126 Coq.setoid_ring.Ring_theory <> z var
+R4168:4171 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R4160:4161 Coq.setoid_ring.Ring_theory DEFINITIONS :::'-'_x not
+R4167:4167 Coq.setoid_ring.Ring_theory DEFINITIONS :::'-'_x not
+R4163:4165 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4162:4162 Coq.setoid_ring.Ring_theory <> x var
+R4166:4166 Coq.setoid_ring.Ring_theory <> y var
+R4174:4176 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4172:4172 Coq.setoid_ring.Ring_theory DEFINITIONS :::'-'_x not
+R4173:4173 Coq.setoid_ring.Ring_theory <> x var
+R4177:4177 Coq.setoid_ring.Ring_theory <> y var
+R4218:4221 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R4210:4211 Coq.setoid_ring.Ring_theory DEFINITIONS :::'-'_x not
+R4217:4217 Coq.setoid_ring.Ring_theory DEFINITIONS :::'-'_x not
+R4213:4215 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4212:4212 Coq.setoid_ring.Ring_theory <> x var
+R4216:4216 Coq.setoid_ring.Ring_theory <> y var
+R4224:4226 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4222:4222 Coq.setoid_ring.Ring_theory DEFINITIONS :::'-'_x not
+R4223:4223 Coq.setoid_ring.Ring_theory <> x var
+R4227:4227 Coq.setoid_ring.Ring_theory DEFINITIONS :::'-'_x not
+R4228:4228 Coq.setoid_ring.Ring_theory <> y var
+R4266:4269 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R4262:4264 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'-'_x not
+R4261:4261 Coq.setoid_ring.Ring_theory <> x var
+R4265:4265 Coq.setoid_ring.Ring_theory <> y var
+R4271:4273 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4270:4270 Coq.setoid_ring.Ring_theory <> x var
+R4274:4274 Coq.setoid_ring.Ring_theory DEFINITIONS :::'-'_x not
+R4275:4275 Coq.setoid_ring.Ring_theory <> y var
+constr 4326:4330 <> mk_rt
+rec 4304:4314 <> ring_theory
+proj 4338:4345 <> Radd_0_l
+proj 4378:4386 <> Radd_comm
+proj 4424:4433 <> Radd_assoc
+proj 4484:4491 <> Rmul_1_l
+proj 4524:4532 <> Rmul_comm
+proj 4570:4579 <> Rmul_assoc
+proj 4630:4637 <> Rdistr_l
+proj 4696:4703 <> Rsub_def
+proj 4743:4750 <> Ropp_def
+R4367:4370 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R4363:4365 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4366:4366 Coq.setoid_ring.Ring_theory <> x var
+R4371:4371 Coq.setoid_ring.Ring_theory <> x var
+R4409:4412 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R4405:4407 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4404:4404 Coq.setoid_ring.Ring_theory <> x var
+R4408:4408 Coq.setoid_ring.Ring_theory <> y var
+R4414:4416 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4413:4413 Coq.setoid_ring.Ring_theory <> y var
+R4417:4417 Coq.setoid_ring.Ring_theory <> x var
+R4463:4466 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R4453:4456 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4462:4462 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4452:4452 Coq.setoid_ring.Ring_theory <> x var
+R4458:4460 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4457:4457 Coq.setoid_ring.Ring_theory <> y var
+R4461:4461 Coq.setoid_ring.Ring_theory <> z var
+R4467:4467 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4473:4476 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4469:4471 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4468:4468 Coq.setoid_ring.Ring_theory <> x var
+R4472:4472 Coq.setoid_ring.Ring_theory <> y var
+R4477:4477 Coq.setoid_ring.Ring_theory <> z var
+R4513:4516 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R4509:4511 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4512:4512 Coq.setoid_ring.Ring_theory <> x var
+R4517:4517 Coq.setoid_ring.Ring_theory <> x var
+R4555:4558 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R4551:4553 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4550:4550 Coq.setoid_ring.Ring_theory <> x var
+R4554:4554 Coq.setoid_ring.Ring_theory <> y var
+R4560:4562 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4559:4559 Coq.setoid_ring.Ring_theory <> y var
+R4563:4563 Coq.setoid_ring.Ring_theory <> x var
+R4609:4612 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R4599:4602 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4608:4608 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4598:4598 Coq.setoid_ring.Ring_theory <> x var
+R4604:4606 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4603:4603 Coq.setoid_ring.Ring_theory <> y var
+R4607:4607 Coq.setoid_ring.Ring_theory <> z var
+R4613:4613 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4619:4622 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4615:4617 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4614:4614 Coq.setoid_ring.Ring_theory <> x var
+R4618:4618 Coq.setoid_ring.Ring_theory <> y var
+R4623:4623 Coq.setoid_ring.Ring_theory <> z var
+R4669:4672 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R4658:4658 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4664:4667 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4660:4662 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4659:4659 Coq.setoid_ring.Ring_theory <> x var
+R4663:4663 Coq.setoid_ring.Ring_theory <> y var
+R4668:4668 Coq.setoid_ring.Ring_theory <> z var
+R4673:4673 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4679:4683 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4689:4689 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4675:4677 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4674:4674 Coq.setoid_ring.Ring_theory <> x var
+R4678:4678 Coq.setoid_ring.Ring_theory <> z var
+R4685:4687 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R4684:4684 Coq.setoid_ring.Ring_theory <> y var
+R4688:4688 Coq.setoid_ring.Ring_theory <> z var
+R4727:4730 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R4723:4725 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'-'_x not
+R4722:4722 Coq.setoid_ring.Ring_theory <> x var
+R4726:4726 Coq.setoid_ring.Ring_theory <> y var
+R4732:4734 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4731:4731 Coq.setoid_ring.Ring_theory <> x var
+R4735:4735 Coq.setoid_ring.Ring_theory DEFINITIONS :::'-'_x not
+R4736:4736 Coq.setoid_ring.Ring_theory <> y var
+R4776:4779 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R4768:4771 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4775:4775 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R4767:4767 Coq.setoid_ring.Ring_theory <> x var
+R4772:4773 Coq.setoid_ring.Ring_theory DEFINITIONS :::'-'_x not
+R4774:4774 Coq.setoid_ring.Ring_theory <> x var
+constr 4851:4857 <> mk_seqe
+rec 4828:4839 <> sring_eq_ext
+proj 4920:4928 <> SRadd_ext
+proj 4971:4979 <> SRmul_ext
+R4932:4937 Coq.Classes.Morphisms <> Proper class
+R4961:4964 Coq.setoid_ring.Ring_theory <> DEFINITIONS.radd var
+R4943:4947 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4940:4942 Coq.setoid_ring.Ring_theory <> DEFINITIONS.req var
+R4951:4955 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4948:4950 Coq.setoid_ring.Ring_theory <> DEFINITIONS.req var
+R4956:4958 Coq.setoid_ring.Ring_theory <> DEFINITIONS.req var
+R4983:4988 Coq.Classes.Morphisms <> Proper class
+R5012:5015 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rmul var
+R4994:4998 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4991:4993 Coq.setoid_ring.Ring_theory <> DEFINITIONS.req var
+R5002:5006 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4999:5001 Coq.setoid_ring.Ring_theory <> DEFINITIONS.req var
+R5007:5009 Coq.setoid_ring.Ring_theory <> DEFINITIONS.req var
+constr 5053:5059 <> mk_reqe
+rec 5031:5041 <> ring_eq_ext
+proj 5121:5128 <> Radd_ext
+proj 5171:5178 <> Rmul_ext
+proj 5221:5228 <> Ropp_ext
+R5132:5137 Coq.Classes.Morphisms <> Proper class
+R5161:5164 Coq.setoid_ring.Ring_theory <> DEFINITIONS.radd var
+R5143:5147 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5140:5142 Coq.setoid_ring.Ring_theory <> DEFINITIONS.req var
+R5151:5155 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5148:5150 Coq.setoid_ring.Ring_theory <> DEFINITIONS.req var
+R5156:5158 Coq.setoid_ring.Ring_theory <> DEFINITIONS.req var
+R5182:5187 Coq.Classes.Morphisms <> Proper class
+R5211:5214 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rmul var
+R5193:5197 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5190:5192 Coq.setoid_ring.Ring_theory <> DEFINITIONS.req var
+R5201:5205 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5198:5200 Coq.setoid_ring.Ring_theory <> DEFINITIONS.req var
+R5206:5208 Coq.setoid_ring.Ring_theory <> DEFINITIONS.req var
+R5232:5237 Coq.Classes.Morphisms <> Proper class
+R5253:5256 Coq.setoid_ring.Ring_theory <> DEFINITIONS.ropp var
+R5243:5247 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5240:5242 Coq.setoid_ring.Ring_theory <> DEFINITIONS.req var
+R5248:5250 Coq.setoid_ring.Ring_theory <> DEFINITIONS.req var
+sec 5316:5323 DEFINITIONS MORPHISM
+var 5336:5336 DEFINITIONS.MORPHISM C
+var 5355:5356 DEFINITIONS.MORPHISM cO
+var 5358:5359 DEFINITIONS.MORPHISM cI
+var 5367:5370 DEFINITIONS.MORPHISM cadd
+var 5372:5375 DEFINITIONS.MORPHISM cmul
+var 5377:5380 DEFINITIONS.MORPHISM csub
+var 5394:5397 DEFINITIONS.MORPHISM copp
+R5363:5363 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.C var
+R5385:5386 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5388:5389 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5390:5390 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.C var
+R5387:5387 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.C var
+R5384:5384 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.C var
+R5402:5403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5404:5404 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.C var
+R5401:5401 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.C var
+var 5418:5421 DEFINITIONS.MORPHISM ceqb
+R5426:5427 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5429:5430 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5431:5434 Coq.Init.Datatypes <> bool ind
+R5428:5428 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.C var
+R5425:5425 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.C var
+var 5493:5495 DEFINITIONS.MORPHISM phi
+R5500:5503 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5504:5504 Coq.setoid_ring.Ring_theory <> DEFINITIONS.R var
+R5499:5499 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.C var
+R5522:5525 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.cadd var
+not 5514:5514 DEFINITIONS.MORPHISM :::x_'+!'_x
+R5542:5545 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.csub var
+not 5534:5534 DEFINITIONS.MORPHISM :::x_'-!'_x
+R5563:5566 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.cmul var
+not 5555:5555 DEFINITIONS.MORPHISM :::x_'*!'_x
+R5589:5592 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.copp var
+not 5578:5578 DEFINITIONS.MORPHISM :::'-!'_x
+R5614:5617 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.ceqb var
+not 5605:5605 DEFINITIONS.MORPHISM :::x_'?=!'_x
+R5641:5643 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.phi var
+not 5629:5629 DEFINITIONS.MORPHISM :::'['_x_']'
+constr 5698:5705 <> mkRmorph
+rec 5677:5686 <> semi_morph
+proj 5713:5719 <> Smorph0
+proj 5738:5744 <> Smorph1
+proj 5763:5772 <> Smorph_add
+proj 5813:5822 <> Smorph_mul
+proj 5863:5871 <> Smorph_eq
+R5727:5730 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R5723:5723 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5726:5726 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5724:5725 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.cO var
+R5752:5755 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R5748:5748 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5751:5751 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5749:5750 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.cI var
+R5796:5799 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R5788:5788 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5795:5795 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5790:5793 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::x_'+!'_x not
+R5789:5789 Coq.setoid_ring.Ring_theory <> x var
+R5794:5794 Coq.setoid_ring.Ring_theory <> y var
+R5803:5803 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R5800:5800 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5802:5802 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5801:5801 Coq.setoid_ring.Ring_theory <> x var
+R5804:5804 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5806:5806 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5805:5805 Coq.setoid_ring.Ring_theory <> y var
+R5846:5849 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R5838:5838 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5845:5845 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5840:5843 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::x_'*!'_x not
+R5839:5839 Coq.setoid_ring.Ring_theory <> x var
+R5844:5844 Coq.setoid_ring.Ring_theory <> y var
+R5853:5853 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R5850:5850 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5852:5852 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5851:5851 Coq.setoid_ring.Ring_theory <> x var
+R5854:5854 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5856:5856 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5855:5855 Coq.setoid_ring.Ring_theory <> y var
+R5900:5903 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5907:5910 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R5904:5904 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5906:5906 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5905:5905 Coq.setoid_ring.Ring_theory <> x var
+R5911:5911 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5913:5913 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5912:5912 Coq.setoid_ring.Ring_theory <> y var
+R5893:5895 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5889:5891 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::x_'?=!'_x not
+R5888:5888 Coq.setoid_ring.Ring_theory <> x var
+R5892:5892 Coq.setoid_ring.Ring_theory <> y var
+R5896:5899 Coq.Init.Datatypes <> true constr
+constr 5965:5971 <> mkmorph
+rec 5944:5953 <> ring_morph
+proj 5979:5984 <> morph0
+proj 6006:6011 <> morph1
+proj 6033:6041 <> morph_add
+proj 6082:6090 <> morph_sub
+proj 6131:6139 <> morph_mul
+proj 6180:6188 <> morph_opp
+proj 6221:6228 <> morph_eq
+R5995:5998 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R5991:5991 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5994:5994 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R5992:5993 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.cO var
+R6022:6025 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R6018:6018 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6021:6021 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6019:6020 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.cI var
+R6065:6068 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R6057:6057 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6064:6064 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6059:6062 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::x_'+!'_x not
+R6058:6058 Coq.setoid_ring.Ring_theory <> x var
+R6063:6063 Coq.setoid_ring.Ring_theory <> y var
+R6072:6072 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'+'_x not
+R6069:6069 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6071:6071 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6070:6070 Coq.setoid_ring.Ring_theory <> x var
+R6073:6073 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6075:6075 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6074:6074 Coq.setoid_ring.Ring_theory <> y var
+R6114:6117 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R6106:6106 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6113:6113 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6108:6111 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::x_'-!'_x not
+R6107:6107 Coq.setoid_ring.Ring_theory <> x var
+R6112:6112 Coq.setoid_ring.Ring_theory <> y var
+R6121:6121 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'-'_x not
+R6118:6118 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6120:6120 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6119:6119 Coq.setoid_ring.Ring_theory <> x var
+R6122:6122 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6124:6124 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6123:6123 Coq.setoid_ring.Ring_theory <> y var
+R6163:6166 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R6155:6155 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6162:6162 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6157:6160 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::x_'*!'_x not
+R6156:6156 Coq.setoid_ring.Ring_theory <> x var
+R6161:6161 Coq.setoid_ring.Ring_theory <> y var
+R6170:6170 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'*'_x not
+R6167:6167 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6169:6169 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6168:6168 Coq.setoid_ring.Ring_theory <> x var
+R6171:6171 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6173:6173 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6172:6172 Coq.setoid_ring.Ring_theory <> y var
+R6207:6210 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R6202:6202 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6206:6206 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6203:6204 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'-!'_x not
+R6205:6205 Coq.setoid_ring.Ring_theory <> x var
+R6211:6211 Coq.setoid_ring.Ring_theory DEFINITIONS :::'-'_x not
+R6212:6212 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6214:6214 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6213:6213 Coq.setoid_ring.Ring_theory <> x var
+R6257:6260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6264:6267 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R6261:6261 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6263:6263 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6262:6262 Coq.setoid_ring.Ring_theory <> x var
+R6268:6268 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6270:6270 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6269:6269 Coq.setoid_ring.Ring_theory <> y var
+R6250:6252 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6246:6248 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::x_'?=!'_x not
+R6245:6245 Coq.setoid_ring.Ring_theory <> x var
+R6249:6249 Coq.setoid_ring.Ring_theory <> y var
+R6253:6256 Coq.Init.Datatypes <> true constr
+sec 6287:6290 DEFINITIONS.MORPHISM SIGN
+var 6304:6311 DEFINITIONS.MORPHISM.SIGN get_sign
+R6316:6319 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6320:6325 Coq.Init.Datatypes <> option ind
+R6327:6327 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.C var
+R6315:6315 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.C var
+constr 6361:6369 <> mksign_th
+rec 6339:6349 <> sign_theory
+proj 6377:6385 <> sign_spec
+R6422:6425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6437:6439 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6427:6431 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::x_'?=!'_x not
+R6426:6426 Coq.setoid_ring.Ring_theory <> c var
+R6432:6434 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'-!'_x not
+R6435:6436 Coq.setoid_ring.Ring_theory <> c' var
+R6440:6443 Coq.Init.Datatypes <> true constr
+R6412:6414 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6402:6409 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.SIGN.get_sign var
+R6411:6411 Coq.setoid_ring.Ring_theory <> c var
+R6415:6418 Coq.Init.Datatypes <> Some constr
+R6420:6421 Coq.setoid_ring.Ring_theory <> c' var
+R6455:6458 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM.SIGN <> sec
+def 6474:6486 <> get_sign_None
+R6491:6491 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.C var
+R6498:6501 Coq.Init.Datatypes <> None constr
+R6503:6503 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.C var
+prf 6514:6529 <> get_sign_None_th
+R6533:6543 Coq.setoid_ring.Ring_theory <> sign_theory rec
+R6545:6557 Coq.setoid_ring.Ring_theory <> get_sign_None def
+sec 6616:6618 DEFINITIONS.MORPHISM DIV
+var 6632:6635 DEFINITIONS.MORPHISM.DIV cdiv
+R6639:6642 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6644:6647 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6649:6649 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6648:6648 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.C var
+R6650:6650 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.C var
+R6643:6643 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.C var
+R6638:6638 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.C var
+constr 6683:6690 <> mkdiv_th
+rec 6662:6671 <> div_theory
+proj 6698:6708 <> div_eucl_th
+R6737:6740 Coq.setoid_ring.Ring_theory <> DEFINITIONS.MORPHISM.DIV.cdiv var
+R6744:6744 Coq.setoid_ring.Ring_theory <> b var
+R6742:6742 Coq.setoid_ring.Ring_theory <> a var
+R6752:6755 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R6749:6749 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6751:6751 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6750:6750 Coq.setoid_ring.Ring_theory <> a var
+R6756:6756 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6768:6768 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::'['_x_']' not
+R6763:6766 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::x_'+!'_x not
+R6758:6761 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM :::x_'*!'_x not
+R6757:6757 Coq.setoid_ring.Ring_theory <> b var
+R6762:6762 Coq.setoid_ring.Ring_theory <> q var
+R6767:6767 Coq.setoid_ring.Ring_theory <> r var
+R6780:6782 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM.DIV <> sec
+R6791:6798 Coq.setoid_ring.Ring_theory DEFINITIONS.MORPHISM <> sec
+var 6843:6846 DEFINITIONS Rsth
+R6850:6860 Coq.Classes.RelationClasses <> Equivalence class
+R6862:6864 Coq.setoid_ring.Ring_theory <> DEFINITIONS.req var
+var 6877:6880 DEFINITIONS reqb
+R6885:6886 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6888:6889 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6890:6893 Coq.Init.Datatypes <> bool ind
+R6887:6887 Coq.setoid_ring.Ring_theory <> DEFINITIONS.R var
+R6884:6884 Coq.setoid_ring.Ring_theory <> DEFINITIONS.R var
+var 6908:6916 DEFINITIONS morph_req
+R6949:6952 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6954:6957 Coq.setoid_ring.Ring_theory DEFINITIONS :::x_'=='_x not
+R6953:6953 Coq.setoid_ring.Ring_theory <> x var
+R6958:6958 Coq.setoid_ring.Ring_theory <> y var
+R6932:6932 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6941:6944 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6933:6936 Coq.setoid_ring.Ring_theory <> DEFINITIONS.reqb var
+R6940:6940 Coq.setoid_ring.Ring_theory <> y var
+R6938:6938 Coq.setoid_ring.Ring_theory <> x var
+R6945:6948 Coq.Init.Datatypes <> true constr
+def 6973:6977 <> IDphi
+R6982:6982 Coq.setoid_ring.Ring_theory <> DEFINITIONS.R var
+R6988:6988 Coq.setoid_ring.Ring_theory <> x var
+prf 6998:7004 <> IDmorph
+R7008:7017 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R7050:7054 Coq.setoid_ring.Ring_theory <> IDphi def
+R7045:7048 Coq.setoid_ring.Ring_theory <> DEFINITIONS.reqb var
+R7040:7043 Coq.setoid_ring.Ring_theory <> DEFINITIONS.ropp var
+R7035:7038 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rsub var
+R7030:7033 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rmul var
+R7025:7028 Coq.setoid_ring.Ring_theory <> DEFINITIONS.radd var
+R7022:7023 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rI var
+R7019:7020 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rO var
+R7078:7084 Coq.setoid_ring.Ring_theory <> mkmorph constr
+R7117:7121 Coq.setoid_ring.Ring_theory <> IDphi def
+R7112:7115 Coq.setoid_ring.Ring_theory <> DEFINITIONS.reqb var
+R7107:7110 Coq.setoid_ring.Ring_theory <> DEFINITIONS.ropp var
+R7102:7105 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rsub var
+R7097:7100 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rmul var
+R7092:7095 Coq.setoid_ring.Ring_theory <> DEFINITIONS.radd var
+R7089:7090 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rI var
+R7086:7087 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rO var
+R7078:7084 Coq.setoid_ring.Ring_theory <> mkmorph constr
+R7117:7121 Coq.setoid_ring.Ring_theory <> IDphi def
+R7112:7115 Coq.setoid_ring.Ring_theory <> DEFINITIONS.reqb var
+R7107:7110 Coq.setoid_ring.Ring_theory <> DEFINITIONS.ropp var
+R7102:7105 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rsub var
+R7097:7100 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rmul var
+R7092:7095 Coq.setoid_ring.Ring_theory <> DEFINITIONS.radd var
+R7089:7090 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rI var
+R7086:7087 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rO var
+sec 7185:7189 DEFINITIONS POWER
+var 7203:7206 DEFINITIONS.POWER Cpow
+var 7227:7232 DEFINITIONS.POWER Cp_phi
+R7237:7240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7241:7244 Coq.setoid_ring.Ring_theory <> DEFINITIONS.POWER.Cpow var
+R7236:7236 Coq.Numbers.BinNums <> N ind
+var 7258:7261 DEFINITIONS.POWER rpow
+R7266:7269 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7274:7277 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7278:7278 Coq.setoid_ring.Ring_theory <> DEFINITIONS.R var
+R7270:7273 Coq.setoid_ring.Ring_theory <> DEFINITIONS.POWER.Cpow var
+R7265:7265 Coq.setoid_ring.Ring_theory <> DEFINITIONS.R var
+constr 7314:7321 <> mkpow_th
+rec 7291:7302 <> power_theory
+proj 7329:7338 <> rpow_pow_N
+R7354:7356 Coq.setoid_ring.Ring_theory <> DEFINITIONS.req var
+R7379:7383 Coq.setoid_ring.Ring_theory <> pow_N def
+R7395:7395 Coq.setoid_ring.Ring_theory <> n var
+R7393:7393 Coq.setoid_ring.Ring_theory <> r var
+R7388:7391 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rmul var
+R7385:7386 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rI var
+R7359:7362 Coq.setoid_ring.Ring_theory <> DEFINITIONS.POWER.rpow var
+R7367:7372 Coq.setoid_ring.Ring_theory <> DEFINITIONS.POWER.Cp_phi var
+R7374:7374 Coq.setoid_ring.Ring_theory <> n var
+R7364:7364 Coq.setoid_ring.Ring_theory <> r var
+R7409:7413 Coq.setoid_ring.Ring_theory DEFINITIONS.POWER <> sec
+def 7429:7436 <> pow_N_th
+R7444:7451 Coq.setoid_ring.Ring_theory <> mkpow_th constr
+R7479:7489 Coq.setoid_ring.Ring_theory <> pow_N_pow_N thm
+R7499:7502 Coq.setoid_ring.Ring_theory <> DEFINITIONS.Rsth var
+R7494:7497 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rmul var
+R7491:7492 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rI var
+R7463:7467 Coq.setoid_ring.Ring_theory <> pow_N def
+R7472:7475 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rmul var
+R7469:7470 Coq.setoid_ring.Ring_theory <> DEFINITIONS.rI var
+R7453:7460 Coq.setoid_ring.Ring_theory <> id_phi_N def
+R7512:7522 Coq.setoid_ring.Ring_theory DEFINITIONS <> sec
+sec 7534:7544 <> ALMOST_RING
+var 7557:7557 ALMOST_RING R
+var 7578:7579 ALMOST_RING rO
+var 7581:7582 ALMOST_RING rI
+var 7590:7593 ALMOST_RING radd
+var 7595:7598 ALMOST_RING rmul
+var 7600:7603 ALMOST_RING rsub
+var 7616:7619 ALMOST_RING ropp
+R7586:7586 Coq.setoid_ring.Ring_theory <> ALMOST_RING.R var
+R7607:7608 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7610:7611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7612:7612 Coq.setoid_ring.Ring_theory <> ALMOST_RING.R var
+R7609:7609 Coq.setoid_ring.Ring_theory <> ALMOST_RING.R var
+R7606:7606 Coq.setoid_ring.Ring_theory <> ALMOST_RING.R var
+R7624:7627 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7628:7628 Coq.setoid_ring.Ring_theory <> ALMOST_RING.R var
+R7623:7623 Coq.setoid_ring.Ring_theory <> ALMOST_RING.R var
+var 7642:7644 ALMOST_RING req
+R7649:7652 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7654:7657 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7653:7653 Coq.setoid_ring.Ring_theory <> ALMOST_RING.R var
+R7648:7648 Coq.setoid_ring.Ring_theory <> ALMOST_RING.R var
+R7681:7682 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rO var
+not 7674:7674 ALMOST_RING :::'0'
+R7702:7703 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rI var
+not 7695:7695 ALMOST_RING :::'1'
+R7721:7723 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+not 7713:7713 ALMOST_RING :::x_'=='_x
+R7739:7742 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+not 7732:7732 ALMOST_RING :::x_'+'_x
+R7760:7763 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+not 7752:7752 ALMOST_RING :::x_'*'_x
+prf 7842:7846 <> Eqsth
+R7850:7860 Coq.Classes.RelationClasses <> Equivalence class
+R7864:7865 Coq.Init.Logic <> eq ind
+R7867:7867 Coq.setoid_ring.Ring_theory <> ALMOST_RING.R var
+R7885:7898 Coq.Classes.RelationClasses <> eq_equivalence inst
+R7885:7898 Coq.Classes.RelationClasses <> eq_equivalence inst
+prf 7914:7921 <> Eq_s_ext
+R7925:7936 Coq.setoid_ring.Ring_theory <> sring_eq_ext rec
+R7950:7951 Coq.Init.Logic <> eq ind
+R7953:7953 Coq.setoid_ring.Ring_theory <> ALMOST_RING.R var
+R7943:7946 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R7938:7941 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+prf 8004:8009 <> Eq_ext
+R8013:8023 Coq.setoid_ring.Ring_theory <> ring_eq_ext rec
+R8042:8043 Coq.Init.Logic <> eq ind
+R8045:8045 Coq.setoid_ring.Ring_theory <> ALMOST_RING.R var
+R8035:8038 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ropp var
+R8030:8033 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R8025:8028 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+var 8099:8102 ALMOST_RING Rsth
+R8106:8116 Coq.Classes.RelationClasses <> Equivalence class
+R8118:8120 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+sec 8133:8141 ALMOST_RING SEMI_RING
+var 8154:8158 ALMOST_RING.SEMI_RING SReqe
+R8162:8173 Coq.setoid_ring.Ring_theory <> sring_eq_ext rec
+R8185:8187 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R8180:8183 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R8175:8178 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+R8207:8210 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+R8231:8235 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R8228:8230 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R8239:8243 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R8236:8238 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R8244:8246 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R8280:8288 Coq.setoid_ring.Ring_theory <> SRadd_ext proj
+R8290:8294 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.SReqe var
+R8280:8288 Coq.setoid_ring.Ring_theory <> SRadd_ext proj
+R8290:8294 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.SReqe var
+R8320:8323 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R8344:8348 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R8341:8343 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R8352:8356 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R8349:8351 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R8357:8359 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R8393:8401 Coq.setoid_ring.Ring_theory <> SRmul_ext proj
+R8403:8407 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.SReqe var
+R8393:8401 Coq.setoid_ring.Ring_theory <> SRmul_ext proj
+R8403:8407 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.SReqe var
+var 8427:8430 ALMOST_RING.SEMI_RING SRth
+R8434:8449 Coq.setoid_ring.Ring_theory <> semi_ring_theory rec
+R8465:8467 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R8460:8463 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R8455:8458 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+def 8587:8591 <> SRopp
+R8596:8596 Coq.setoid_ring.Ring_theory <> ALMOST_RING.R var
+R8602:8602 Coq.setoid_ring.Ring_theory <> x var
+R8624:8628 Coq.setoid_ring.Ring_theory <> SRopp def
+not 8614:8614 ALMOST_RING.SEMI_RING :::'-'_x
+def 8647:8651 <> SRsub
+R8661:8663 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R8660:8660 Coq.setoid_ring.Ring_theory <> x var
+R8664:8664 Coq.setoid_ring.Ring_theory ALMOST_RING.SEMI_RING :::'-'_x not
+R8665:8665 Coq.setoid_ring.Ring_theory <> y var
+R8681:8685 Coq.setoid_ring.Ring_theory <> SRsub def
+not 8674:8674 ALMOST_RING.SEMI_RING :::x_'-'_x
+prf 8696:8704 <> SRopp_ext
+R8726:8729 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8732:8735 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R8730:8730 Coq.setoid_ring.Ring_theory ALMOST_RING.SEMI_RING :::'-'_x not
+R8731:8731 Coq.setoid_ring.Ring_theory <> x var
+R8736:8736 Coq.setoid_ring.Ring_theory ALMOST_RING.SEMI_RING :::'-'_x not
+R8737:8737 Coq.setoid_ring.Ring_theory <> y var
+R8721:8724 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R8720:8720 Coq.setoid_ring.Ring_theory <> x var
+R8725:8725 Coq.setoid_ring.Ring_theory <> y var
+prf 8784:8793 <> SReqe_Reqe
+R8797:8807 Coq.setoid_ring.Ring_theory <> ring_eq_ext rec
+R8825:8827 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R8819:8823 Coq.setoid_ring.Ring_theory <> SRopp def
+R8814:8817 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R8809:8812 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+R8864:8872 Coq.setoid_ring.Ring_theory <> SRadd_ext proj
+R8874:8878 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.SReqe var
+R8864:8872 Coq.setoid_ring.Ring_theory <> SRadd_ext proj
+R8874:8878 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.SReqe var
+R8893:8901 Coq.setoid_ring.Ring_theory <> SRmul_ext proj
+R8903:8907 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.SReqe var
+R8893:8901 Coq.setoid_ring.Ring_theory <> SRmul_ext proj
+R8903:8907 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.SReqe var
+R8921:8929 Coq.setoid_ring.Ring_theory <> SRopp_ext thm
+R8921:8929 Coq.setoid_ring.Ring_theory <> SRopp_ext thm
+prf 8946:8956 <> SRopp_mul_l
+R8980:8983 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R8972:8973 Coq.setoid_ring.Ring_theory ALMOST_RING.SEMI_RING :::'-'_x not
+R8979:8979 Coq.setoid_ring.Ring_theory ALMOST_RING.SEMI_RING :::'-'_x not
+R8975:8977 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R8974:8974 Coq.setoid_ring.Ring_theory <> x var
+R8978:8978 Coq.setoid_ring.Ring_theory <> y var
+R8986:8988 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R8984:8984 Coq.setoid_ring.Ring_theory ALMOST_RING.SEMI_RING :::'-'_x not
+R8985:8985 Coq.setoid_ring.Ring_theory <> x var
+R8989:8989 Coq.setoid_ring.Ring_theory <> y var
+prf 9026:9034 <> SRopp_add
+R9058:9061 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R9050:9051 Coq.setoid_ring.Ring_theory ALMOST_RING.SEMI_RING :::'-'_x not
+R9057:9057 Coq.setoid_ring.Ring_theory ALMOST_RING.SEMI_RING :::'-'_x not
+R9053:9055 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R9052:9052 Coq.setoid_ring.Ring_theory <> x var
+R9056:9056 Coq.setoid_ring.Ring_theory <> y var
+R9064:9066 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R9062:9062 Coq.setoid_ring.Ring_theory ALMOST_RING.SEMI_RING :::'-'_x not
+R9063:9063 Coq.setoid_ring.Ring_theory <> x var
+R9067:9067 Coq.setoid_ring.Ring_theory ALMOST_RING.SEMI_RING :::'-'_x not
+R9068:9068 Coq.setoid_ring.Ring_theory <> y var
+prf 9105:9113 <> SRsub_def
+R9136:9139 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R9132:9134 Coq.setoid_ring.Ring_theory ALMOST_RING.SEMI_RING :::x_'-'_x not
+R9131:9131 Coq.setoid_ring.Ring_theory <> x var
+R9135:9135 Coq.setoid_ring.Ring_theory <> y var
+R9141:9143 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R9140:9140 Coq.setoid_ring.Ring_theory <> x var
+R9144:9144 Coq.setoid_ring.Ring_theory ALMOST_RING.SEMI_RING :::'-'_x not
+R9145:9145 Coq.setoid_ring.Ring_theory <> y var
+prf 9182:9190 <> SRth_ARth
+R9194:9211 Coq.setoid_ring.Ring_theory <> almost_ring_theory rec
+R9239:9241 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R9233:9237 Coq.setoid_ring.Ring_theory <> SRopp def
+R9227:9231 Coq.setoid_ring.Ring_theory <> SRsub def
+R9222:9225 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R9217:9220 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+R9252:9257 Coq.setoid_ring.Ring_theory <> mk_art constr
+R9469:9477 Coq.setoid_ring.Ring_theory <> SRsub_def thm
+R9459:9467 Coq.setoid_ring.Ring_theory <> SRopp_add thm
+R9447:9457 Coq.setoid_ring.Ring_theory <> SRopp_mul_l thm
+R9427:9435 Coq.setoid_ring.Ring_theory <> SRdistr_l proj
+R9437:9440 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.SRth var
+R9408:9418 Coq.setoid_ring.Ring_theory <> SRmul_assoc proj
+R9420:9423 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.SRth var
+R9390:9399 Coq.setoid_ring.Ring_theory <> SRmul_comm proj
+R9401:9404 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.SRth var
+R9369:9377 Coq.setoid_ring.Ring_theory <> SRmul_0_l proj
+R9379:9382 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.SRth var
+R9352:9360 Coq.setoid_ring.Ring_theory <> SRmul_1_l proj
+R9362:9365 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.SRth var
+R9329:9339 Coq.setoid_ring.Ring_theory <> SRadd_assoc proj
+R9341:9344 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.SRth var
+R9311:9320 Coq.setoid_ring.Ring_theory <> SRadd_comm proj
+R9322:9325 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.SRth var
+R9294:9302 Coq.setoid_ring.Ring_theory <> SRadd_0_l proj
+R9304:9307 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.SRth var
+R9285:9287 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R9279:9283 Coq.setoid_ring.Ring_theory <> SRopp def
+R9273:9277 Coq.setoid_ring.Ring_theory <> SRsub def
+R9268:9271 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R9263:9266 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+var 9573:9576 ALMOST_RING.SEMI_RING reqb
+R9581:9582 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9584:9585 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9586:9589 Coq.Init.Datatypes <> bool ind
+R9583:9583 Coq.setoid_ring.Ring_theory <> ALMOST_RING.R var
+R9580:9580 Coq.setoid_ring.Ring_theory <> ALMOST_RING.R var
+var 9605:9613 ALMOST_RING.SEMI_RING morph_req
+R9646:9649 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9651:9654 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R9650:9650 Coq.setoid_ring.Ring_theory <> x var
+R9655:9655 Coq.setoid_ring.Ring_theory <> y var
+R9629:9629 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9638:9641 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9630:9633 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.reqb var
+R9637:9637 Coq.setoid_ring.Ring_theory <> y var
+R9635:9635 Coq.setoid_ring.Ring_theory <> x var
+R9642:9645 Coq.Init.Datatypes <> true constr
+def 9671:9679 <> SRIDmorph
+R9683:9692 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R9785:9789 Coq.setoid_ring.Ring_theory <> IDphi def
+R9791:9791 Coq.setoid_ring.Ring_theory <> ALMOST_RING.R var
+R9778:9781 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.reqb var
+R9772:9776 Coq.setoid_ring.Ring_theory <> SRopp def
+R9766:9770 Coq.setoid_ring.Ring_theory <> SRsub def
+R9761:9764 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R9756:9759 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+R9720:9722 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R9714:9718 Coq.setoid_ring.Ring_theory <> SRopp def
+R9708:9712 Coq.setoid_ring.Ring_theory <> SRsub def
+R9703:9706 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R9698:9701 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+R9815:9821 Coq.setoid_ring.Ring_theory <> mkmorph constr
+R9815:9821 Coq.setoid_ring.Ring_theory <> mkmorph constr
+var 10004:10004 ALMOST_RING.SEMI_RING C
+var 10025:10026 ALMOST_RING.SEMI_RING cO
+var 10028:10029 ALMOST_RING.SEMI_RING cI
+var 10037:10040 ALMOST_RING.SEMI_RING cadd
+var 10042:10045 ALMOST_RING.SEMI_RING cmul
+R10033:10033 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.C var
+R10049:10050 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10052:10053 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10054:10054 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.C var
+R10051:10051 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.C var
+R10048:10048 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.C var
+var 10069:10072 ALMOST_RING.SEMI_RING ceqb
+R10077:10080 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10082:10085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10086:10089 Coq.Init.Datatypes <> bool ind
+R10081:10081 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.C var
+R10076:10076 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.C var
+var 10103:10105 ALMOST_RING.SEMI_RING phi
+R10110:10113 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10114:10114 Coq.setoid_ring.Ring_theory <> ALMOST_RING.R var
+R10109:10109 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.C var
+var 10127:10132 ALMOST_RING.SEMI_RING Smorph
+R10136:10145 Coq.setoid_ring.Ring_theory <> semi_morph rec
+R10188:10190 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.phi var
+R10183:10186 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.ceqb var
+R10178:10181 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.cmul var
+R10173:10176 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.cadd var
+R10170:10171 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.cI var
+R10167:10168 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.cO var
+R10163:10165 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R10158:10161 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R10153:10156 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+R10150:10151 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rI var
+R10147:10148 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rO var
+prf 10201:10214 <> SRmorph_Rmorph
+R10221:10230 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R10317:10319 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.phi var
+R10312:10315 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.ceqb var
+R10309:10309 Coq.setoid_ring.Ring_theory <> x var
+R10294:10297 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.cadd var
+R10289:10292 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.cmul var
+R10284:10287 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.cadd var
+R10281:10282 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.cI var
+R10278:10279 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.cO var
+R10260:10262 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R10254:10258 Coq.setoid_ring.Ring_theory <> SRopp def
+R10248:10252 Coq.setoid_ring.Ring_theory <> SRsub def
+R10243:10246 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R10238:10241 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+R10235:10236 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rI var
+R10232:10233 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rO var
+R10336:10341 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.Smorph var
+R10336:10341 Coq.setoid_ring.Ring_theory <> ALMOST_RING.SEMI_RING.Smorph var
+R10374:10382 Coq.setoid_ring.Ring_theory ALMOST_RING.SEMI_RING <> sec
+R10399:10402 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rsub var
+not 10392:10392 ALMOST_RING :::x_'-'_x
+R10425:10428 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ropp var
+not 10415:10415 ALMOST_RING :::'-'_x
+var 10445:10448 ALMOST_RING Reqe
+R10452:10462 Coq.setoid_ring.Ring_theory <> ring_eq_ext rec
+R10479:10481 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R10474:10477 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ropp var
+R10469:10472 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R10464:10467 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+R10501:10504 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+R10525:10529 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R10522:10524 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R10533:10537 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R10530:10532 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R10538:10540 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R10574:10581 Coq.setoid_ring.Ring_theory <> Radd_ext proj
+R10583:10586 Coq.setoid_ring.Ring_theory <> ALMOST_RING.Reqe var
+R10574:10581 Coq.setoid_ring.Ring_theory <> Radd_ext proj
+R10583:10586 Coq.setoid_ring.Ring_theory <> ALMOST_RING.Reqe var
+R10612:10615 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R10636:10640 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R10633:10635 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R10644:10648 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R10641:10643 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R10649:10651 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R10685:10692 Coq.setoid_ring.Ring_theory <> Rmul_ext proj
+R10694:10697 Coq.setoid_ring.Ring_theory <> ALMOST_RING.Reqe var
+R10685:10692 Coq.setoid_ring.Ring_theory <> Rmul_ext proj
+R10694:10697 Coq.setoid_ring.Ring_theory <> ALMOST_RING.Reqe var
+R10723:10726 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ropp var
+R10747:10751 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R10744:10746 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R10752:10754 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R10788:10795 Coq.setoid_ring.Ring_theory <> Ropp_ext proj
+R10797:10800 Coq.setoid_ring.Ring_theory <> ALMOST_RING.Reqe var
+R10788:10795 Coq.setoid_ring.Ring_theory <> Ropp_ext proj
+R10797:10800 Coq.setoid_ring.Ring_theory <> ALMOST_RING.Reqe var
+sec 10819:10822 ALMOST_RING RING
+var 10835:10837 ALMOST_RING.RING Rth
+R10841:10851 Coq.setoid_ring.Ring_theory <> ring_theory rec
+R10877:10879 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R10872:10875 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ropp var
+R10867:10870 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rsub var
+R10862:10865 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R10857:10860 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+prf 10920:10927 <> Rmul_0_l
+R10938:10941 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R10934:10936 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R10937:10937 Coq.setoid_ring.Ring_theory <> x var
+R10972:10972 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R10989:10991 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R10982:10982 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R10986:10987 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R10984:10984 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R10992:10992 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R10972:10972 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R10989:10991 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R10982:10982 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R10986:10987 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R10984:10984 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R10992:10992 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11012:11019 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11021:11023 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11028:11035 Coq.setoid_ring.Ring_theory <> Rmul_1_l proj
+R11037:11039 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11044:11051 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11053:11055 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11012:11019 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11021:11023 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11012:11019 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11021:11023 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11028:11035 Coq.setoid_ring.Ring_theory <> Rmul_1_l proj
+R11037:11039 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11028:11035 Coq.setoid_ring.Ring_theory <> Rmul_1_l proj
+R11037:11039 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11044:11051 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11053:11055 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11044:11051 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11053:11055 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11071:11078 Coq.setoid_ring.Ring_theory <> Rdistr_l proj
+R11080:11082 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11087:11094 Coq.setoid_ring.Ring_theory <> Rmul_1_l proj
+R11096:11098 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11071:11078 Coq.setoid_ring.Ring_theory <> Rdistr_l proj
+R11080:11082 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11071:11078 Coq.setoid_ring.Ring_theory <> Rdistr_l proj
+R11080:11082 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11087:11094 Coq.setoid_ring.Ring_theory <> Rmul_1_l proj
+R11096:11098 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11087:11094 Coq.setoid_ring.Ring_theory <> Rmul_1_l proj
+R11096:11098 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11116:11125 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11127:11129 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11134:11141 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11143:11145 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11116:11125 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11127:11129 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11116:11125 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11127:11129 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11134:11141 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11143:11145 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11134:11141 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11143:11145 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11164:11172 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11174:11176 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11181:11188 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11190:11192 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11164:11172 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11174:11176 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11164:11172 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11174:11176 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11181:11188 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11190:11192 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11181:11188 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11190:11192 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+prf 11210:11219 <> Ropp_mul_l
+R11235:11238 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R11227:11228 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11234:11234 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11230:11232 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R11229:11229 Coq.setoid_ring.Ring_theory <> x var
+R11233:11233 Coq.setoid_ring.Ring_theory <> y var
+R11241:11243 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R11239:11239 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11240:11240 Coq.setoid_ring.Ring_theory <> x var
+R11244:11244 Coq.setoid_ring.Ring_theory <> y var
+R11268:11275 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11285:11287 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R11282:11283 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11277:11279 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11268:11275 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11285:11287 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R11282:11283 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11277:11279 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11268:11275 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11285:11287 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R11282:11283 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11277:11279 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11304:11312 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11314:11316 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11323:11330 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11338:11338 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R11332:11334 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11304:11312 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11314:11316 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11304:11312 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11314:11316 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11323:11330 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11338:11338 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R11332:11334 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11323:11330 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11338:11338 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R11332:11334 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11355:11364 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11366:11368 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11376:11383 Coq.setoid_ring.Ring_theory <> Rdistr_l proj
+R11385:11387 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11355:11364 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11366:11368 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11355:11364 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11366:11368 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11376:11383 Coq.setoid_ring.Ring_theory <> Rdistr_l proj
+R11385:11387 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11376:11383 Coq.setoid_ring.Ring_theory <> Rdistr_l proj
+R11385:11387 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11402:11410 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11417:11417 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11412:11414 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11424:11431 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11433:11435 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11402:11410 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11417:11417 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11412:11414 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11402:11410 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11417:11417 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11412:11414 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11424:11431 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11433:11435 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11424:11431 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11433:11435 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11453:11460 Coq.setoid_ring.Ring_theory <> Rmul_0_l thm
+R11464:11471 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11473:11475 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11453:11460 Coq.setoid_ring.Ring_theory <> Rmul_0_l thm
+R11453:11460 Coq.setoid_ring.Ring_theory <> Rmul_0_l thm
+R11464:11471 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11473:11475 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11464:11471 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11473:11475 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+prf 11493:11500 <> Ropp_add
+R11516:11519 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R11508:11509 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11515:11515 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11511:11513 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R11510:11510 Coq.setoid_ring.Ring_theory <> x var
+R11514:11514 Coq.setoid_ring.Ring_theory <> y var
+R11522:11524 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R11520:11520 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11521:11521 Coq.setoid_ring.Ring_theory <> x var
+R11525:11525 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11526:11526 Coq.setoid_ring.Ring_theory <> y var
+R11552:11559 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11561:11563 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11567:11568 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11572:11572 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11570:11570 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R11552:11559 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11561:11563 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11567:11568 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11572:11572 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11570:11570 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R11552:11559 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11561:11563 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11567:11568 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11572:11572 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11570:11570 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R11592:11599 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11601:11603 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11592:11599 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11601:11603 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11592:11599 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11601:11603 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11625:11632 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11634:11636 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11647:11649 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R11641:11643 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R11644:11645 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11650:11652 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11658:11658 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11654:11656 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R11625:11632 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11634:11636 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11647:11649 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R11641:11643 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R11644:11645 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11650:11652 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11658:11658 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11654:11656 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R11625:11632 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R11634:11636 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11647:11649 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R11641:11643 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R11644:11645 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11650:11652 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11658:11658 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11654:11656 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R11678:11685 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11687:11689 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11678:11685 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11687:11689 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11678:11685 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R11687:11689 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11708:11716 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11718:11720 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11708:11716 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11718:11720 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11708:11716 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11718:11720 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11739:11747 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11749:11751 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11739:11747 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11749:11751 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11739:11747 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11749:11751 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11773:11782 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11784:11786 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11790:11790 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11773:11782 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11784:11786 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11790:11790 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11773:11782 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11784:11786 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11790:11790 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11811:11820 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11822:11824 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11828:11829 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11811:11820 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11822:11824 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11828:11829 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11811:11820 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11822:11824 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11828:11829 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11847:11856 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11858:11860 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11847:11856 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11858:11860 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11847:11856 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11858:11860 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11880:11888 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11890:11892 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11880:11888 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11890:11892 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11880:11888 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11890:11892 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11914:11923 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11925:11927 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11932:11933 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11914:11923 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11925:11927 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11932:11933 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11914:11923 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11925:11927 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11932:11933 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R11951:11960 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11962:11964 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11951:11960 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11962:11964 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11951:11960 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R11962:11964 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11983:11991 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11993:11995 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12003:12010 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R12012:12014 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11983:11991 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11993:11995 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R11983:11991 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R11993:11995 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12003:12010 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R12012:12014 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12003:12010 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R12012:12014 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12030:12038 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R12040:12042 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12046:12046 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R12055:12062 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R12064:12066 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12030:12038 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R12040:12042 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12046:12046 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R12030:12038 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R12040:12042 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12046:12046 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R12055:12062 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R12064:12066 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12055:12062 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R12064:12066 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12083:12091 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R12093:12095 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12083:12091 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R12093:12095 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+prf 12113:12120 <> Ropp_opp
+R12130:12133 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R12126:12127 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R12128:12128 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R12129:12129 Coq.setoid_ring.Ring_theory <> x var
+R12134:12134 Coq.setoid_ring.Ring_theory <> x var
+R12159:12166 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R12173:12174 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R12175:12175 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R12168:12170 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12159:12166 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R12173:12174 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R12175:12175 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R12168:12170 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12159:12166 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R12173:12174 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R12175:12175 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R12168:12170 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12195:12202 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R12204:12206 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12195:12202 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R12204:12206 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12195:12202 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R12204:12206 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12226:12235 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R12237:12239 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12244:12251 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R12253:12255 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12226:12235 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R12237:12239 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12226:12235 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R12237:12239 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12244:12251 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R12253:12255 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12244:12251 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R12253:12255 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12271:12279 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R12281:12283 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12301:12308 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R12310:12312 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12271:12279 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R12281:12283 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12271:12279 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R12281:12283 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12301:12308 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R12310:12312 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+prf 12331:12338 <> Rth_ARth
+R12342:12359 Coq.setoid_ring.Ring_theory <> almost_ring_theory rec
+R12385:12387 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R12380:12383 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ropp var
+R12375:12378 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rsub var
+R12370:12373 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R12365:12368 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+R12400:12405 Coq.setoid_ring.Ring_theory <> mk_art constr
+R12584:12591 Coq.setoid_ring.Ring_theory <> Rsub_def proj
+R12593:12595 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12574:12581 Coq.setoid_ring.Ring_theory <> Ropp_add thm
+R12563:12572 Coq.setoid_ring.Ring_theory <> Ropp_mul_l thm
+R12545:12552 Coq.setoid_ring.Ring_theory <> Rdistr_l proj
+R12554:12556 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12528:12537 Coq.setoid_ring.Ring_theory <> Rmul_assoc proj
+R12539:12541 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12512:12520 Coq.setoid_ring.Ring_theory <> Rmul_comm proj
+R12522:12524 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12502:12509 Coq.setoid_ring.Ring_theory <> Rmul_0_l thm
+R12488:12495 Coq.setoid_ring.Ring_theory <> Rmul_1_l proj
+R12497:12499 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12467:12476 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R12478:12480 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12451:12459 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R12461:12463 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12436:12443 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R12445:12447 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R12431:12433 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R12426:12429 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ropp var
+R12421:12424 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rsub var
+R12416:12419 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R12411:12414 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+var 12670:12670 ALMOST_RING.RING C
+var 12691:12692 ALMOST_RING.RING cO
+var 12694:12695 ALMOST_RING.RING cI
+var 12703:12706 ALMOST_RING.RING cadd
+var 12708:12711 ALMOST_RING.RING cmul
+var 12713:12716 ALMOST_RING.RING csub
+var 12729:12732 ALMOST_RING.RING copp
+R12699:12699 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.C var
+R12720:12721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12723:12724 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12725:12725 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.C var
+R12722:12722 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.C var
+R12719:12719 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.C var
+R12737:12740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12741:12741 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.C var
+R12736:12736 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.C var
+var 12756:12758 ALMOST_RING.RING ceq
+var 12779:12782 ALMOST_RING.RING ceqb
+R12763:12766 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12768:12771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12767:12767 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.C var
+R12762:12762 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.C var
+R12787:12790 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12792:12795 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12796:12799 Coq.Init.Datatypes <> bool ind
+R12791:12791 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.C var
+R12786:12786 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.C var
+var 12813:12815 ALMOST_RING.RING phi
+R12820:12823 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12824:12824 Coq.setoid_ring.Ring_theory <> ALMOST_RING.R var
+R12819:12819 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.C var
+R12843:12846 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cadd var
+not 12835:12835 ALMOST_RING.RING :::x_'+!'_x
+R12863:12866 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cmul var
+not 12855:12855 ALMOST_RING.RING :::x_'*!'_x
+R12885:12888 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.csub var
+not 12877:12877 ALMOST_RING.RING :::x_'-!'_x
+R12911:12914 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.copp var
+not 12900:12900 ALMOST_RING.RING :::'-!'_x
+R12940:12943 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceqb var
+not 12931:12931 ALMOST_RING.RING :::'?=!'
+R12967:12969 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.phi var
+not 12955:12955 ALMOST_RING.RING :::'['_x_']'
+var 12985:12988 ALMOST_RING.RING Csth
+R12992:13002 Coq.Classes.RelationClasses <> Equivalence class
+R13004:13006 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+var 13019:13022 ALMOST_RING.RING Ceqe
+R13026:13036 Coq.setoid_ring.Ring_theory <> ring_eq_ext rec
+R13053:13055 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+R13048:13051 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.copp var
+R13043:13046 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cmul var
+R13038:13041 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cadd var
+R13090:13092 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+R13088:13088 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.C var
+R13090:13092 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+R13088:13088 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.C var
+R13124:13144 Coq.Classes.RelationClasses <> Equivalence_Reflexive meth
+R13150:13153 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Csth var
+R13090:13092 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+R13088:13088 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.C var
+R13186:13206 Coq.Classes.RelationClasses <> Equivalence_Symmetric meth
+R13212:13215 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Csth var
+R13090:13092 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+R13088:13088 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.C var
+R13248:13269 Coq.Classes.RelationClasses <> Equivalence_Transitive meth
+R13275:13278 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Csth var
+R13090:13092 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+R13088:13088 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.C var
+R13124:13144 Coq.Classes.RelationClasses <> Equivalence_Reflexive meth
+R13150:13153 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Csth var
+R13186:13206 Coq.Classes.RelationClasses <> Equivalence_Symmetric meth
+R13212:13215 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Csth var
+R13248:13269 Coq.Classes.RelationClasses <> Equivalence_Transitive meth
+R13275:13278 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Csth var
+R13315:13318 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cadd var
+R13339:13343 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13336:13338 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+R13347:13351 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13344:13346 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+R13352:13354 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+R13387:13394 Coq.setoid_ring.Ring_theory <> Radd_ext proj
+R13396:13399 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Ceqe var
+R13387:13394 Coq.setoid_ring.Ring_theory <> Radd_ext proj
+R13396:13399 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Ceqe var
+R13425:13428 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cmul var
+R13449:13453 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13446:13448 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+R13457:13461 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13454:13456 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+R13462:13464 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+R13497:13504 Coq.setoid_ring.Ring_theory <> Rmul_ext proj
+R13506:13509 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Ceqe var
+R13497:13504 Coq.setoid_ring.Ring_theory <> Rmul_ext proj
+R13506:13509 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Ceqe var
+R13535:13538 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.copp var
+R13559:13563 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13556:13558 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+R13564:13566 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+R13599:13606 Coq.setoid_ring.Ring_theory <> Ropp_ext proj
+R13608:13611 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Ceqe var
+R13599:13606 Coq.setoid_ring.Ring_theory <> Ropp_ext proj
+R13608:13611 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Ceqe var
+var 13631:13633 ALMOST_RING.RING Cth
+R13637:13647 Coq.setoid_ring.Ring_theory <> ring_theory rec
+R13675:13677 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+R13670:13673 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.copp var
+R13665:13668 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.csub var
+R13660:13663 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cmul var
+R13655:13658 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cadd var
+R13652:13653 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cI var
+R13649:13650 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cO var
+var 13690:13695 ALMOST_RING.RING Smorph
+R13699:13708 Coq.setoid_ring.Ring_theory <> semi_morph rec
+R13749:13751 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.phi var
+R13744:13747 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceqb var
+R13739:13742 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cmul var
+R13734:13737 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cadd var
+R13731:13732 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cI var
+R13728:13729 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cO var
+R13724:13726 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R13719:13722 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R13714:13717 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+var 13764:13770 ALMOST_RING.RING phi_ext
+R13793:13796 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13800:13803 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R13797:13797 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R13799:13799 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R13798:13798 Coq.setoid_ring.Ring_theory <> x var
+R13804:13804 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R13806:13806 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R13805:13805 Coq.setoid_ring.Ring_theory <> y var
+R13786:13788 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+R13792:13792 Coq.setoid_ring.Ring_theory <> y var
+R13790:13790 Coq.setoid_ring.Ring_theory <> x var
+R13826:13828 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.phi var
+R13849:13853 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R13846:13848 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceq var
+R13854:13856 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R13888:13894 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.phi_ext var
+R13888:13894 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.phi_ext var
+prf 13910:13919 <> Smorph_opp
+R13930:13933 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R13925:13925 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R13929:13929 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R13926:13927 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'-!'_x not
+R13928:13928 Coq.setoid_ring.Ring_theory <> x var
+R13934:13934 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R13935:13935 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R13937:13937 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R13936:13936 Coq.setoid_ring.Ring_theory <> x var
+R13963:13970 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R13976:13976 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R13980:13980 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R13977:13978 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'-!'_x not
+R13972:13974 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R13963:13970 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R13976:13976 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R13980:13980 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R13977:13978 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'-!'_x not
+R13972:13974 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R13963:13970 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R13976:13976 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R13980:13980 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R13977:13978 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'-!'_x not
+R13972:13974 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R13999:14006 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R14008:14010 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R14013:14013 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14015:14015 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R13999:14006 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R14008:14010 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R14013:14013 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14015:14015 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R13999:14006 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R14008:14010 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R14013:14013 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14015:14015 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14031:14039 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R14041:14043 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R14046:14046 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14048:14048 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14031:14039 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R14041:14043 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R14046:14046 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14048:14048 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14031:14039 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R14041:14043 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R14046:14046 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14048:14048 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14066:14075 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R14077:14079 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R14066:14075 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R14077:14079 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R14066:14075 Coq.setoid_ring.Ring_theory <> Radd_assoc proj
+R14077:14079 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R14097:14106 Coq.setoid_ring.Ring_theory <> Smorph_add proj
+R14108:14113 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Smorph var
+R14097:14106 Coq.setoid_ring.Ring_theory <> Smorph_add proj
+R14108:14113 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Smorph var
+R14097:14106 Coq.setoid_ring.Ring_theory <> Smorph_add proj
+R14108:14113 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Smorph var
+R14128:14135 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R14137:14139 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Cth var
+R14128:14135 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R14137:14139 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Cth var
+R14128:14135 Coq.setoid_ring.Ring_theory <> Ropp_def proj
+R14137:14139 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Cth var
+R14154:14160 Coq.setoid_ring.Ring_theory <> Smorph0 proj
+R14162:14167 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Smorph var
+R14154:14160 Coq.setoid_ring.Ring_theory <> Smorph0 proj
+R14162:14167 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Smorph var
+R14154:14160 Coq.setoid_ring.Ring_theory <> Smorph0 proj
+R14162:14167 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Smorph var
+R14182:14190 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R14197:14197 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R14198:14198 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14200:14200 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14192:14194 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R14182:14190 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R14197:14197 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R14198:14198 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14200:14200 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14192:14194 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R14182:14190 Coq.setoid_ring.Ring_theory <> Radd_comm proj
+R14197:14197 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R14198:14198 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14200:14200 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14192:14194 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R14218:14225 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R14227:14229 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R14218:14225 Coq.setoid_ring.Ring_theory <> Radd_0_l proj
+R14227:14229 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+prf 14247:14256 <> Smorph_sub
+R14272:14275 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R14264:14264 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14271:14271 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14266:14269 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::x_'-!'_x not
+R14265:14265 Coq.setoid_ring.Ring_theory <> x var
+R14270:14270 Coq.setoid_ring.Ring_theory <> y var
+R14279:14281 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'-'_x not
+R14276:14276 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14278:14278 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14277:14277 Coq.setoid_ring.Ring_theory <> x var
+R14282:14282 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14284:14284 Coq.setoid_ring.Ring_theory ALMOST_RING.RING :::'['_x_']' not
+R14283:14283 Coq.setoid_ring.Ring_theory <> y var
+R14306:14313 Coq.setoid_ring.Ring_theory <> Rsub_def proj
+R14315:14317 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Cth var
+R14322:14329 Coq.setoid_ring.Ring_theory <> Rsub_def proj
+R14331:14333 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R14306:14313 Coq.setoid_ring.Ring_theory <> Rsub_def proj
+R14315:14317 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Cth var
+R14306:14313 Coq.setoid_ring.Ring_theory <> Rsub_def proj
+R14315:14317 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Cth var
+R14322:14329 Coq.setoid_ring.Ring_theory <> Rsub_def proj
+R14331:14333 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R14322:14329 Coq.setoid_ring.Ring_theory <> Rsub_def proj
+R14331:14333 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Rth var
+R14352:14361 Coq.setoid_ring.Ring_theory <> Smorph_add proj
+R14363:14368 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Smorph var
+R14372:14381 Coq.setoid_ring.Ring_theory <> Smorph_opp thm
+R14352:14361 Coq.setoid_ring.Ring_theory <> Smorph_add proj
+R14363:14368 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Smorph var
+R14352:14361 Coq.setoid_ring.Ring_theory <> Smorph_add proj
+R14363:14368 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Smorph var
+R14372:14381 Coq.setoid_ring.Ring_theory <> Smorph_opp thm
+R14372:14381 Coq.setoid_ring.Ring_theory <> Smorph_opp thm
+prf 14398:14409 <> Smorph_morph
+R14416:14425 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R14491:14493 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.phi var
+R14486:14489 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceqb var
+R14481:14484 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.copp var
+R14476:14479 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.csub var
+R14471:14474 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cmul var
+R14466:14469 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cadd var
+R14463:14464 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cI var
+R14460:14461 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cO var
+R14451:14453 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R14446:14449 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ropp var
+R14441:14444 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rsub var
+R14436:14439 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R14431:14434 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+R14506:14512 Coq.setoid_ring.Ring_theory <> mkmorph constr
+R14700:14708 Coq.setoid_ring.Ring_theory <> Smorph_eq proj
+R14710:14715 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Smorph var
+R14679:14688 Coq.setoid_ring.Ring_theory <> Smorph_opp thm
+R14660:14669 Coq.setoid_ring.Ring_theory <> Smorph_mul proj
+R14671:14676 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Smorph var
+R14648:14657 Coq.setoid_ring.Ring_theory <> Smorph_sub thm
+R14629:14638 Coq.setoid_ring.Ring_theory <> Smorph_add proj
+R14640:14645 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Smorph var
+R14603:14609 Coq.setoid_ring.Ring_theory <> Smorph1 proj
+R14611:14616 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Smorph var
+R14586:14592 Coq.setoid_ring.Ring_theory <> Smorph0 proj
+R14594:14599 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.Smorph var
+R14573:14575 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.phi var
+R14568:14571 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.ceqb var
+R14563:14566 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.copp var
+R14558:14561 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.csub var
+R14553:14556 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cmul var
+R14548:14551 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cadd var
+R14545:14546 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cI var
+R14542:14543 Coq.setoid_ring.Ring_theory <> ALMOST_RING.RING.cO var
+R14538:14540 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R14533:14536 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ropp var
+R14528:14531 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rsub var
+R14523:14526 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R14518:14521 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+R14726:14729 Coq.setoid_ring.Ring_theory ALMOST_RING.RING <> sec
+var 14780:14783 ALMOST_RING ARth
+R14787:14804 Coq.setoid_ring.Ring_theory <> almost_ring_theory rec
+R14830:14832 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R14825:14828 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ropp var
+R14820:14823 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rsub var
+R14815:14818 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R14810:14813 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+prf 14843:14851 <> ARth_SRth
+R14855:14870 Coq.setoid_ring.Ring_theory <> semi_ring_theory rec
+R14886:14888 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R14881:14884 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rmul var
+R14876:14879 Coq.setoid_ring.Ring_theory <> ALMOST_RING.radd var
+R14903:14906 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R14903:14906 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+inst 14955:14963 <> ARsub_ext
+R14967:14972 Coq.Classes.Morphisms <> Proper class
+R14996:14999 Coq.setoid_ring.Ring_theory <> ALMOST_RING.rsub var
+R14978:14982 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R14975:14977 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R14986:14990 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R14983:14985 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R14991:14993 Coq.setoid_ring.Ring_theory <> ALMOST_RING.req var
+R15054:15062 Coq.setoid_ring.Ring_theory <> ARsub_def proj
+R15064:15067 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15054:15062 Coq.setoid_ring.Ring_theory <> ARsub_def proj
+R15064:15067 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15054:15062 Coq.setoid_ring.Ring_theory <> ARsub_def proj
+R15064:15067 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15054:15062 Coq.setoid_ring.Ring_theory <> ARsub_def proj
+R15064:15067 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15054:15062 Coq.setoid_ring.Ring_theory <> ARsub_def proj
+R15064:15067 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15136:15144 Coq.setoid_ring.Ring_theory <> ARadd_0_l proj
+R15146:15149 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15172:15181 Coq.setoid_ring.Ring_theory <> ARadd_comm proj
+R15183:15186 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15208:15216 Coq.setoid_ring.Ring_theory <> ARmul_1_l proj
+R15218:15221 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15244:15253 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R15255:15258 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15280:15288 Coq.setoid_ring.Ring_theory <> ARmul_0_l proj
+R15290:15293 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15316:15325 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R15327:15330 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15352:15360 Coq.setoid_ring.Ring_theory <> ARdistr_l proj
+R15362:15365 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15433:15436 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R15444:15444 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R15439:15441 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R15433:15436 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R15444:15444 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R15439:15441 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R15460:15469 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R15471:15474 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15481:15481 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+prf 15507:15515 <> ARadd_0_r
+R15526:15529 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R15522:15524 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R15521:15521 Coq.setoid_ring.Ring_theory <> x var
+R15530:15530 Coq.setoid_ring.Ring_theory <> x var
+prf 15564:15572 <> ARmul_1_r
+R15583:15586 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R15579:15581 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R15578:15578 Coq.setoid_ring.Ring_theory <> x var
+R15587:15587 Coq.setoid_ring.Ring_theory <> x var
+prf 15621:15629 <> ARmul_0_r
+R15640:15643 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R15636:15638 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R15635:15635 Coq.setoid_ring.Ring_theory <> x var
+prf 15678:15686 <> ARdistr_r
+R15707:15710 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R15697:15700 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R15706:15706 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R15696:15696 Coq.setoid_ring.Ring_theory <> z var
+R15702:15704 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R15701:15701 Coq.setoid_ring.Ring_theory <> x var
+R15705:15705 Coq.setoid_ring.Ring_theory <> y var
+R15714:15716 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R15712:15712 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R15711:15711 Coq.setoid_ring.Ring_theory <> z var
+R15713:15713 Coq.setoid_ring.Ring_theory <> x var
+R15718:15718 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R15717:15717 Coq.setoid_ring.Ring_theory <> z var
+R15719:15719 Coq.setoid_ring.Ring_theory <> y var
+R15756:15765 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R15767:15770 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15756:15765 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R15767:15770 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15756:15765 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R15767:15770 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15756:15765 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R15767:15770 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15756:15765 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R15767:15770 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+prf 15790:15801 <> ARadd_assoc1
+R15822:15825 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R15811:15811 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R15817:15820 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R15813:15815 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R15812:15812 Coq.setoid_ring.Ring_theory <> x var
+R15816:15816 Coq.setoid_ring.Ring_theory <> y var
+R15821:15821 Coq.setoid_ring.Ring_theory <> z var
+R15826:15826 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R15832:15835 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R15828:15830 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R15827:15827 Coq.setoid_ring.Ring_theory <> y var
+R15831:15831 Coq.setoid_ring.Ring_theory <> z var
+R15836:15836 Coq.setoid_ring.Ring_theory <> x var
+R15864:15874 Coq.setoid_ring.Ring_theory <> ARadd_assoc proj
+R15876:15879 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15886:15895 Coq.setoid_ring.Ring_theory <> ARadd_comm proj
+R15897:15900 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15864:15874 Coq.setoid_ring.Ring_theory <> ARadd_assoc proj
+R15876:15879 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15864:15874 Coq.setoid_ring.Ring_theory <> ARadd_assoc proj
+R15876:15879 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15886:15895 Coq.setoid_ring.Ring_theory <> ARadd_comm proj
+R15897:15900 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15886:15895 Coq.setoid_ring.Ring_theory <> ARadd_comm proj
+R15897:15900 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+prf 15920:15931 <> ARadd_assoc2
+R15952:15955 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R15941:15941 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R15947:15950 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R15943:15945 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R15942:15942 Coq.setoid_ring.Ring_theory <> y var
+R15946:15946 Coq.setoid_ring.Ring_theory <> x var
+R15951:15951 Coq.setoid_ring.Ring_theory <> z var
+R15956:15956 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R15962:15965 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R15958:15960 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'+'_x not
+R15957:15957 Coq.setoid_ring.Ring_theory <> y var
+R15961:15961 Coq.setoid_ring.Ring_theory <> z var
+R15966:15966 Coq.setoid_ring.Ring_theory <> x var
+R15996:16006 Coq.setoid_ring.Ring_theory <> ARadd_assoc proj
+R16008:16011 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16017:16026 Coq.setoid_ring.Ring_theory <> ARadd_comm proj
+R16028:16031 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15996:16006 Coq.setoid_ring.Ring_theory <> ARadd_assoc proj
+R16008:16011 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15996:16006 Coq.setoid_ring.Ring_theory <> ARadd_assoc proj
+R16008:16011 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15996:16006 Coq.setoid_ring.Ring_theory <> ARadd_assoc proj
+R16008:16011 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R15996:16006 Coq.setoid_ring.Ring_theory <> ARadd_assoc proj
+R16008:16011 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16017:16026 Coq.setoid_ring.Ring_theory <> ARadd_comm proj
+R16028:16031 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16017:16026 Coq.setoid_ring.Ring_theory <> ARadd_comm proj
+R16028:16031 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+prf 16052:16063 <> ARmul_assoc1
+R16084:16087 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R16073:16073 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R16079:16082 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R16075:16077 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R16074:16074 Coq.setoid_ring.Ring_theory <> x var
+R16078:16078 Coq.setoid_ring.Ring_theory <> y var
+R16083:16083 Coq.setoid_ring.Ring_theory <> z var
+R16088:16088 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R16094:16097 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R16090:16092 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R16089:16089 Coq.setoid_ring.Ring_theory <> y var
+R16093:16093 Coq.setoid_ring.Ring_theory <> z var
+R16098:16098 Coq.setoid_ring.Ring_theory <> x var
+R16128:16138 Coq.setoid_ring.Ring_theory <> ARmul_assoc proj
+R16140:16143 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16152:16161 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R16163:16166 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16128:16138 Coq.setoid_ring.Ring_theory <> ARmul_assoc proj
+R16140:16143 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16128:16138 Coq.setoid_ring.Ring_theory <> ARmul_assoc proj
+R16140:16143 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16152:16161 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R16163:16166 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16152:16161 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R16163:16166 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+prf 16187:16198 <> ARmul_assoc2
+R16219:16222 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R16208:16208 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R16214:16217 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R16210:16212 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R16209:16209 Coq.setoid_ring.Ring_theory <> y var
+R16213:16213 Coq.setoid_ring.Ring_theory <> x var
+R16218:16218 Coq.setoid_ring.Ring_theory <> z var
+R16223:16223 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R16229:16232 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R16225:16227 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R16224:16224 Coq.setoid_ring.Ring_theory <> y var
+R16228:16228 Coq.setoid_ring.Ring_theory <> z var
+R16233:16233 Coq.setoid_ring.Ring_theory <> x var
+R16263:16273 Coq.setoid_ring.Ring_theory <> ARmul_assoc proj
+R16275:16278 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16284:16293 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R16295:16298 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16263:16273 Coq.setoid_ring.Ring_theory <> ARmul_assoc proj
+R16275:16278 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16263:16273 Coq.setoid_ring.Ring_theory <> ARmul_assoc proj
+R16275:16278 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16263:16273 Coq.setoid_ring.Ring_theory <> ARmul_assoc proj
+R16275:16278 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16263:16273 Coq.setoid_ring.Ring_theory <> ARmul_assoc proj
+R16275:16278 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16284:16293 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R16295:16298 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16284:16293 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R16295:16298 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+prf 16319:16329 <> ARopp_mul_r
+R16346:16349 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R16337:16339 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R16345:16345 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R16341:16343 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R16340:16340 Coq.setoid_ring.Ring_theory <> x var
+R16344:16344 Coq.setoid_ring.Ring_theory <> y var
+R16351:16353 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'*'_x not
+R16350:16350 Coq.setoid_ring.Ring_theory <> x var
+R16354:16354 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R16355:16355 Coq.setoid_ring.Ring_theory <> y var
+R16378:16387 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R16389:16392 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16402:16412 Coq.setoid_ring.Ring_theory <> ARopp_mul_l proj
+R16414:16417 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16378:16387 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R16389:16392 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16378:16387 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R16389:16392 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16402:16412 Coq.setoid_ring.Ring_theory <> ARopp_mul_l proj
+R16414:16417 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16402:16412 Coq.setoid_ring.Ring_theory <> ARopp_mul_l proj
+R16414:16417 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16434:16443 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R16445:16448 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16434:16443 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R16445:16448 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+prf 16466:16475 <> ARopp_zero
+R16481:16484 Coq.setoid_ring.Ring_theory ALMOST_RING :::x_'=='_x not
+R16479:16479 Coq.setoid_ring.Ring_theory ALMOST_RING :::'-'_x not
+R16514:16522 Coq.setoid_ring.Ring_theory <> ARmul_0_r thm
+R16529:16539 Coq.setoid_ring.Ring_theory <> ARopp_mul_l proj
+R16541:16544 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16549:16557 Coq.setoid_ring.Ring_theory <> ARmul_0_r thm
+R16514:16522 Coq.setoid_ring.Ring_theory <> ARmul_0_r thm
+R16514:16522 Coq.setoid_ring.Ring_theory <> ARmul_0_r thm
+R16529:16539 Coq.setoid_ring.Ring_theory <> ARopp_mul_l proj
+R16541:16544 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16529:16539 Coq.setoid_ring.Ring_theory <> ARopp_mul_l proj
+R16541:16544 Coq.setoid_ring.Ring_theory <> ALMOST_RING.ARth var
+R16549:16557 Coq.setoid_ring.Ring_theory <> ARmul_0_r thm
+R16549:16557 Coq.setoid_ring.Ring_theory <> ARmul_0_r thm
+R16549:16557 Coq.setoid_ring.Ring_theory <> ARmul_0_r thm
+R16549:16557 Coq.setoid_ring.Ring_theory <> ARmul_0_r thm
+R16571:16581 Coq.setoid_ring.Ring_theory ALMOST_RING <> sec
+sec 16593:16599 <> AddRing
+ind 16736:16744 <> ring_kind
+constr 16758:16765 <> Abstract
+constr 16769:16781 <> Computational
+constr 16904:16911 <> Morphism
+R16766:16766 Coq.setoid_ring.Ring_theory <> ring_kind ind
+R16808:16811 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16813:16816 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16812:16812 Coq.setoid_ring.Ring_theory <> R var
+R16807:16807 Coq.setoid_ring.Ring_theory <> R var
+R16836:16839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16841:16844 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16845:16848 Coq.Init.Datatypes <> bool ind
+R16840:16840 Coq.setoid_ring.Ring_theory <> R var
+R16835:16835 Coq.setoid_ring.Ring_theory <> R var
+R16889:16892 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16893:16895 Coq.setoid_ring.Ring_theory <> req var
+R16899:16899 Coq.setoid_ring.Ring_theory <> y var
+R16897:16897 Coq.setoid_ring.Ring_theory <> x var
+R16872:16872 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16881:16884 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16873:16876 Coq.setoid_ring.Ring_theory <> reqb var
+R16880:16880 Coq.setoid_ring.Ring_theory <> y var
+R16878:16878 Coq.setoid_ring.Ring_theory <> x var
+R16885:16888 Coq.Init.Datatypes <> true constr
+R16901:16901 Coq.setoid_ring.Ring_theory <> ring_kind ind
+R16941:16941 Coq.setoid_ring.Ring_theory <> R var
+R16962:16963 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16965:16966 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16967:16967 Coq.setoid_ring.Ring_theory <> R var
+R16964:16964 Coq.setoid_ring.Ring_theory <> R var
+R16961:16961 Coq.setoid_ring.Ring_theory <> R var
+R16979:16982 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16983:16983 Coq.setoid_ring.Ring_theory <> R var
+R16978:16978 Coq.setoid_ring.Ring_theory <> R var
+R16998:17001 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17003:17006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17002:17002 Coq.setoid_ring.Ring_theory <> R var
+R16997:16997 Coq.setoid_ring.Ring_theory <> R var
+R17041:17041 Coq.setoid_ring.Ring_theory <> C var
+R17063:17064 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17066:17067 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17068:17068 Coq.setoid_ring.Ring_theory <> C var
+R17065:17065 Coq.setoid_ring.Ring_theory <> C var
+R17062:17062 Coq.setoid_ring.Ring_theory <> C var
+R17080:17081 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17082:17082 Coq.setoid_ring.Ring_theory <> C var
+R17079:17079 Coq.setoid_ring.Ring_theory <> C var
+R17098:17099 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17101:17102 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17103:17106 Coq.Init.Datatypes <> bool ind
+R17100:17100 Coq.setoid_ring.Ring_theory <> C var
+R17097:17097 Coq.setoid_ring.Ring_theory <> C var
+R17126:17135 Coq.setoid_ring.Ring_theory <> ring_morph rec
+R17218:17220 Coq.setoid_ring.Ring_theory <> phi var
+R17213:17216 Coq.setoid_ring.Ring_theory <> ceqb var
+R17208:17211 Coq.setoid_ring.Ring_theory <> copp var
+R17203:17206 Coq.setoid_ring.Ring_theory <> csub var
+R17198:17201 Coq.setoid_ring.Ring_theory <> cmul var
+R17193:17196 Coq.setoid_ring.Ring_theory <> cadd var
+R17190:17191 Coq.setoid_ring.Ring_theory <> cI var
+R17187:17188 Coq.setoid_ring.Ring_theory <> cO var
+R17163:17165 Coq.setoid_ring.Ring_theory <> req var
+R17158:17161 Coq.setoid_ring.Ring_theory <> ropp var
+R17153:17156 Coq.setoid_ring.Ring_theory <> rsub var
+R17148:17151 Coq.setoid_ring.Ring_theory <> rmul var
+R17143:17146 Coq.setoid_ring.Ring_theory <> radd var
+R17140:17141 Coq.setoid_ring.Ring_theory <> rI var
+R17137:17138 Coq.setoid_ring.Ring_theory <> rO var
+R17222:17222 Coq.setoid_ring.Ring_theory <> ring_kind ind
+R17229:17235 Coq.setoid_ring.Ring_theory AddRing <> sec
+R17310:17317 Coq.Setoids.Setoid <> Seq_refl def
+R17435:17444 Coq.setoid_ring.Ring_theory <> ARopp_zero thm
+R17478:17486 Coq.setoid_ring.Ring_theory <> ARadd_0_l proj
+R17510:17518 Coq.setoid_ring.Ring_theory <> ARadd_0_r thm
+R17547:17555 Coq.setoid_ring.Ring_theory <> ARmul_1_l proj
+R17579:17587 Coq.setoid_ring.Ring_theory <> ARmul_1_r thm
+R17616:17624 Coq.setoid_ring.Ring_theory <> ARmul_0_l proj
+R17648:17656 Coq.setoid_ring.Ring_theory <> ARmul_0_r thm
+R17685:17693 Coq.setoid_ring.Ring_theory <> ARdistr_l proj
+R17717:17725 Coq.setoid_ring.Ring_theory <> ARdistr_r thm
+R17759:17769 Coq.setoid_ring.Ring_theory <> ARadd_assoc proj
+R17793:17803 Coq.setoid_ring.Ring_theory <> ARmul_assoc proj
+R17836:17844 Coq.setoid_ring.Ring_theory <> ARopp_add proj
+R17877:17885 Coq.setoid_ring.Ring_theory <> ARsub_def proj
+R17921:17931 Coq.setoid_ring.Ring_theory <> ARopp_mul_l proj
+R17967:17977 Coq.setoid_ring.Ring_theory <> ARopp_mul_r thm
+R18106:18115 Coq.setoid_ring.Ring_theory <> ARopp_zero thm
+R18149:18157 Coq.setoid_ring.Ring_theory <> ARadd_0_l proj
+R18181:18189 Coq.setoid_ring.Ring_theory <> ARadd_0_r thm
+R18218:18226 Coq.setoid_ring.Ring_theory <> ARmul_1_l proj
+R18250:18258 Coq.setoid_ring.Ring_theory <> ARmul_1_r thm
+R18287:18295 Coq.setoid_ring.Ring_theory <> ARmul_0_l proj
+R18319:18327 Coq.setoid_ring.Ring_theory <> ARmul_0_r thm
+R18356:18364 Coq.setoid_ring.Ring_theory <> ARdistr_l proj
+R18388:18396 Coq.setoid_ring.Ring_theory <> ARdistr_r thm
+R18430:18440 Coq.setoid_ring.Ring_theory <> ARadd_assoc proj
+R18464:18474 Coq.setoid_ring.Ring_theory <> ARmul_assoc proj
+R18795:18804 Coq.setoid_ring.Ring_theory <> ARadd_comm proj
+R18711:18722 Coq.setoid_ring.Ring_theory <> ARadd_assoc1 thm
+R18615:18626 Coq.setoid_ring.Ring_theory <> ARadd_assoc2 thm
+R19134:19143 Coq.setoid_ring.Ring_theory <> ARmul_comm proj
+R19050:19061 Coq.setoid_ring.Ring_theory <> ARmul_assoc1 thm
+R18954:18965 Coq.setoid_ring.Ring_theory <> ARmul_assoc2 thm

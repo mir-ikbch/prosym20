@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/library/global.mli: CPrimitives Constant Constr Conv_oracle Declarations DirPath Entries Environ Future GlobRef Id KerName Label MBId ModPath Mod_subst MutInd Names Opaqueproof Safe_typing Summary UGraph Univ

@@ -1,0 +1,5 @@
+(** @canonical Ssrmatching_plugin.G_ssrmatching *)
+module G_ssrmatching = Ssrmatching_plugin__G_ssrmatching
+
+(** @canonical Ssrmatching_plugin.Ssrmatching *)
+module Ssrmatching = Ssrmatching_plugin__Ssrmatching

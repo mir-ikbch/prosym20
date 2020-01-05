@@ -1,0 +1,2 @@
+(** @canonical R_syntax_plugin.R_syntax *)
+module R_syntax = R_syntax_plugin__R_syntax

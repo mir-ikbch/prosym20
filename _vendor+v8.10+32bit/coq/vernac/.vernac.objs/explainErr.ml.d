@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/vernac/explainErr.ml: CErrors CLexer CList Cases Constrextern Dynlink EConstr Evd Himsg Implicit_quantifiers Indrec Int Lazy Libnames Loc Logic Logic_monad Modintern Modops Nametab Notation Option Pp Pretype_errors Printexc Refiner Stream Sys Tacred Type_errors Typeclasses_errors Univ UnivNames Util

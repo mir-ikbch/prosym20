@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/vernac/class.ml: CErrors CWarnings Classops Constant Constr Context Decl_kinds Declare EConstr Entries Environ Evd Feedback Flags GlobRef Global Globnames Id Int Label Lemmas List MutInd Namegen Names Nametab Option Pp Printer Projection Recordops Reductionops Sorts Term Termops Typeops Typing Util Vars

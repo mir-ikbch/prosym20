@@ -1,0 +1,652 @@
+DIGEST ad22becdb329bcd07a45b813775e6663
+FCoq.Classes.RelationClasses
+R945:960 Coq.Classes.Init <> <> lib
+R978:995 Coq.Program.Basics <> <> lib
+R1013:1031 Coq.Program.Tactics <> <> lib
+R1049:1082 Coq.Relations.Relation_Definitions <> <> lib
+sec 1236:1239 <> Defs
+ind 1370:1378 <> Reflexive
+constr 1404:1414 <> reflexivity
+rec 1370:1378 <> Reflexive
+proj 1404:1414 <> reflexivity
+R1385:1392 Coq.Relations.Relation_Definitions <> relation def
+R1394:1394 Coq.Classes.RelationClasses <> Defs.A var
+R1429:1429 Coq.Classes.RelationClasses <> Defs.A var
+R1432:1432 Coq.Classes.RelationClasses <> R var
+R1436:1436 Coq.Classes.RelationClasses <> x var
+R1434:1434 Coq.Classes.RelationClasses <> x var
+def 1453:1462 <> complement
+R1469:1476 Coq.Relations.Relation_Definitions <> relation def
+R1478:1478 Coq.Classes.RelationClasses <> Defs.A var
+R1483:1490 Coq.Relations.Relation_Definitions <> relation def
+R1492:1492 Coq.Classes.RelationClasses <> Defs.A var
+R1513:1516 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1517:1521 Coq.Init.Logic <> False ind
+R1508:1508 Coq.Classes.RelationClasses <> R var
+R1512:1512 Coq.Classes.RelationClasses <> y var
+R1510:1510 Coq.Classes.RelationClasses <> x var
+prf 1635:1652 <> complement_inverse
+R1677:1679 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1658:1667 Coq.Classes.RelationClasses <> complement def
+R1670:1673 Coq.Program.Basics <> flip def
+R1675:1675 Coq.Classes.RelationClasses <> R var
+R1680:1683 Coq.Program.Basics <> flip def
+R1686:1695 Coq.Classes.RelationClasses <> complement def
+R1697:1697 Coq.Classes.RelationClasses <> R var
+ind 1737:1747 <> Irreflexive
+constr 1773:1785 <> irreflexivity
+rec 1737:1747 <> Irreflexive
+proj 1773:1785 <> irreflexivity
+R1754:1761 Coq.Relations.Relation_Definitions <> relation def
+R1763:1763 Coq.Classes.RelationClasses <> Defs.A var
+R1789:1797 Coq.Classes.RelationClasses <> Reflexive class
+R1800:1809 Coq.Classes.RelationClasses <> complement def
+R1811:1811 Coq.Classes.RelationClasses <> R var
+ind 1824:1832 <> Symmetric
+constr 1858:1865 <> symmetry
+rec 1824:1832 <> Symmetric
+proj 1858:1865 <> symmetry
+R1839:1846 Coq.Relations.Relation_Definitions <> relation def
+R1848:1848 Coq.Classes.RelationClasses <> Defs.A var
+R1888:1891 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1892:1892 Coq.Classes.RelationClasses <> R var
+R1896:1896 Coq.Classes.RelationClasses <> x var
+R1894:1894 Coq.Classes.RelationClasses <> y var
+R1883:1883 Coq.Classes.RelationClasses <> R var
+R1887:1887 Coq.Classes.RelationClasses <> y var
+R1885:1885 Coq.Classes.RelationClasses <> x var
+ind 1910:1919 <> Asymmetric
+constr 1945:1953 <> asymmetry
+rec 1910:1919 <> Asymmetric
+proj 1945:1953 <> asymmetry
+R1926:1933 Coq.Relations.Relation_Definitions <> relation def
+R1935:1935 Coq.Classes.RelationClasses <> Defs.A var
+R1976:1979 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1985:1988 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1989:1993 Coq.Init.Logic <> False ind
+R1980:1980 Coq.Classes.RelationClasses <> R var
+R1984:1984 Coq.Classes.RelationClasses <> x var
+R1982:1982 Coq.Classes.RelationClasses <> y var
+R1971:1971 Coq.Classes.RelationClasses <> R var
+R1975:1975 Coq.Classes.RelationClasses <> y var
+R1973:1973 Coq.Classes.RelationClasses <> x var
+ind 2007:2016 <> Transitive
+constr 2042:2053 <> transitivity
+rec 2007:2016 <> Transitive
+proj 2042:2053 <> transitivity
+R2023:2030 Coq.Relations.Relation_Definitions <> relation def
+R2032:2032 Coq.Classes.RelationClasses <> Defs.A var
+R2078:2081 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2087:2090 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2091:2091 Coq.Classes.RelationClasses <> R var
+R2095:2095 Coq.Classes.RelationClasses <> z var
+R2093:2093 Coq.Classes.RelationClasses <> x var
+R2082:2082 Coq.Classes.RelationClasses <> R var
+R2086:2086 Coq.Classes.RelationClasses <> z var
+R2084:2084 Coq.Classes.RelationClasses <> y var
+R2073:2073 Coq.Classes.RelationClasses <> R var
+R2077:2077 Coq.Classes.RelationClasses <> y var
+R2075:2075 Coq.Classes.RelationClasses <> x var
+rec 2242:2249 <> PreOrder
+proj 2284:2301 <> PreOrder_Reflexive
+proj 2328:2346 <> PreOrder_Transitive
+R2256:2263 Coq.Relations.Relation_Definitions <> relation def
+R2265:2265 Coq.Classes.RelationClasses <> Defs.A var
+R2306:2314 Coq.Classes.RelationClasses <> Reflexive class
+R2316:2316 Coq.Classes.RelationClasses <> R var
+R2351:2360 Coq.Classes.RelationClasses <> Transitive class
+R2362:2362 Coq.Classes.RelationClasses <> R var
+rec 2442:2452 <> StrictOrder
+proj 2487:2509 <> StrictOrder_Irreflexive
+proj 2534:2555 <> StrictOrder_Transitive
+R2459:2466 Coq.Relations.Relation_Definitions <> relation def
+R2468:2468 Coq.Classes.RelationClasses <> Defs.A var
+R2514:2524 Coq.Classes.RelationClasses <> Irreflexive class
+R2526:2526 Coq.Classes.RelationClasses <> R var
+R2560:2569 Coq.Classes.RelationClasses <> Transitive class
+R2571:2571 Coq.Classes.RelationClasses <> R var
+inst 2653:2674 <> StrictOrder_Asymmetric
+R2678:2688 Coq.Classes.RelationClasses <> StrictOrder class
+R2695:2704 Coq.Classes.RelationClasses <> Asymmetric class
+R2706:2706 Coq.Classes.RelationClasses <> R var
+rec 2816:2818 <> PER
+proj 2853:2865 <> PER_Symmetric
+proj 2892:2905 <> PER_Transitive
+R2825:2832 Coq.Relations.Relation_Definitions <> relation def
+R2834:2834 Coq.Classes.RelationClasses <> Defs.A var
+R2870:2878 Coq.Classes.RelationClasses <> Symmetric class
+R2880:2880 Coq.Classes.RelationClasses <> R var
+R2910:2919 Coq.Classes.RelationClasses <> Transitive class
+R2921:2921 Coq.Classes.RelationClasses <> R var
+rec 2972:2982 <> Equivalence
+proj 3017:3037 <> Equivalence_Reflexive
+proj 3060:3080 <> Equivalence_Symmetric
+proj 3103:3124 <> Equivalence_Transitive
+R2989:2996 Coq.Relations.Relation_Definitions <> relation def
+R2998:2998 Coq.Classes.RelationClasses <> Defs.A var
+R3042:3050 Coq.Classes.RelationClasses <> Reflexive class
+R3052:3052 Coq.Classes.RelationClasses <> R var
+R3085:3093 Coq.Classes.RelationClasses <> Symmetric class
+R3095:3095 Coq.Classes.RelationClasses <> R var
+R3129:3138 Coq.Classes.RelationClasses <> Transitive class
+R3140:3140 Coq.Classes.RelationClasses <> R var
+inst 3218:3232 <> Equivalence_PER
+R3242:3252 Coq.Classes.RelationClasses <> Equivalence class
+R3254:3254 Coq.Classes.RelationClasses <> R var
+R3259:3261 Coq.Classes.RelationClasses <> PER class
+R3263:3263 Coq.Classes.RelationClasses <> R var
+inst 3356:3375 <> Equivalence_PreOrder
+R3385:3395 Coq.Classes.RelationClasses <> Equivalence class
+R3397:3397 Coq.Classes.RelationClasses <> R var
+R3402:3409 Coq.Classes.RelationClasses <> PreOrder class
+R3411:3411 Coq.Classes.RelationClasses <> R var
+ind 3529:3541 <> Antisymmetric
+constr 3596:3607 <> antisymmetry
+rec 3529:3541 <> Antisymmetric
+proj 3596:3607 <> antisymmetry
+R3555:3565 Coq.Classes.RelationClasses <> Equivalence class
+R3567:3569 Coq.Classes.RelationClasses <> eqA var
+R3577:3584 Coq.Relations.Relation_Definitions <> relation def
+R3586:3586 Coq.Classes.RelationClasses <> Defs.A var
+R3630:3633 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3639:3642 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3643:3645 Coq.Classes.RelationClasses <> eqA var
+R3649:3649 Coq.Classes.RelationClasses <> y var
+R3647:3647 Coq.Classes.RelationClasses <> x var
+R3634:3634 Coq.Classes.RelationClasses <> R var
+R3638:3638 Coq.Classes.RelationClasses <> x var
+R3636:3636 Coq.Classes.RelationClasses <> y var
+R3625:3625 Coq.Classes.RelationClasses <> R var
+R3629:3629 Coq.Classes.RelationClasses <> y var
+R3627:3627 Coq.Classes.RelationClasses <> x var
+ind 3661:3671 <> subrelation
+constr 3707:3720 <> is_subrelation
+rec 3661:3671 <> subrelation
+proj 3707:3720 <> is_subrelation
+R3681:3688 Coq.Relations.Relation_Definitions <> relation def
+R3690:3690 Coq.Classes.RelationClasses <> Defs.A var
+R3743:3746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3747:3748 Coq.Classes.RelationClasses <> R' var
+R3752:3752 Coq.Classes.RelationClasses <> y var
+R3750:3750 Coq.Classes.RelationClasses <> x var
+R3738:3738 Coq.Classes.RelationClasses <> R var
+R3742:3742 Coq.Classes.RelationClasses <> y var
+R3740:3740 Coq.Classes.RelationClasses <> x var
+prf 3826:3846 <> subrelation_symmetric
+R3852:3860 Coq.Classes.RelationClasses <> Symmetric class
+R3862:3862 Coq.Classes.RelationClasses <> R var
+R3867:3877 Coq.Classes.RelationClasses <> subrelation class
+R3888:3888 Coq.Classes.RelationClasses <> R var
+R3880:3883 Coq.Program.Basics <> flip def
+R3885:3885 Coq.Classes.RelationClasses <> R var
+R3930:3937 Coq.Classes.RelationClasses <> symmetry def
+R3930:3937 Coq.Classes.RelationClasses <> symmetry def
+sec 3968:3971 Defs flip
+prf 3987:4000 <> flip_Reflexive
+R4004:4012 Coq.Classes.RelationClasses <> Reflexive class
+R4019:4027 Coq.Classes.RelationClasses <> Reflexive class
+R4030:4033 Coq.Program.Basics <> flip def
+R4035:4035 Coq.Classes.RelationClasses <> R var
+def 4090:4105 <> flip_Irreflexive
+R4109:4119 Coq.Classes.RelationClasses <> Irreflexive class
+R4126:4136 Coq.Classes.RelationClasses <> Irreflexive class
+R4139:4142 Coq.Program.Basics <> flip def
+R4144:4144 Coq.Classes.RelationClasses <> R var
+R4156:4168 Coq.Classes.RelationClasses <> irreflexivity def
+R4174:4174 Coq.Classes.RelationClasses <> R var
+def 4206:4219 <> flip_Symmetric
+R4223:4231 Coq.Classes.RelationClasses <> Symmetric class
+R4238:4246 Coq.Classes.RelationClasses <> Symmetric class
+R4249:4252 Coq.Program.Basics <> flip def
+R4254:4254 Coq.Classes.RelationClasses <> R var
+R4279:4286 Coq.Classes.RelationClasses <> symmetry def
+R4295:4295 Coq.Classes.RelationClasses <> H var
+R4292:4292 Coq.Classes.RelationClasses <> R var
+def 4326:4340 <> flip_Asymmetric
+R4344:4353 Coq.Classes.RelationClasses <> Asymmetric class
+R4360:4369 Coq.Classes.RelationClasses <> Asymmetric class
+R4372:4375 Coq.Program.Basics <> flip def
+R4377:4377 Coq.Classes.RelationClasses <> R var
+R4405:4413 Coq.Classes.RelationClasses <> asymmetry def
+R4424:4425 Coq.Classes.RelationClasses <> H' var
+R4422:4422 Coq.Classes.RelationClasses <> H var
+R4419:4419 Coq.Classes.RelationClasses <> R var
+def 4456:4470 <> flip_Transitive
+R4474:4483 Coq.Classes.RelationClasses <> Transitive class
+R4490:4499 Coq.Classes.RelationClasses <> Transitive class
+R4502:4505 Coq.Program.Basics <> flip def
+R4507:4507 Coq.Classes.RelationClasses <> R var
+R4537:4548 Coq.Classes.RelationClasses <> transitivity def
+R4560:4560 Coq.Classes.RelationClasses <> H var
+R4557:4558 Coq.Classes.RelationClasses <> H' var
+R4554:4554 Coq.Classes.RelationClasses <> R var
+def 4587:4604 <> flip_Antisymmetric
+R4608:4620 Coq.Classes.RelationClasses <> Antisymmetric class
+R4637:4649 Coq.Classes.RelationClasses <> Antisymmetric class
+R4656:4659 Coq.Program.Basics <> flip def
+R4661:4661 Coq.Classes.RelationClasses <> R var
+R4651:4653 Coq.Classes.RelationClasses <> eqA var
+prf 4748:4760 <> flip_PreOrder
+R4764:4771 Coq.Classes.RelationClasses <> PreOrder class
+R4778:4785 Coq.Classes.RelationClasses <> PreOrder class
+R4788:4791 Coq.Program.Basics <> flip def
+R4793:4793 Coq.Classes.RelationClasses <> R var
+prf 4836:4851 <> flip_StrictOrder
+R4855:4865 Coq.Classes.RelationClasses <> StrictOrder class
+R4872:4882 Coq.Classes.RelationClasses <> StrictOrder class
+R4885:4888 Coq.Program.Basics <> flip def
+R4890:4890 Coq.Classes.RelationClasses <> R var
+prf 4933:4940 <> flip_PER
+R4944:4946 Coq.Classes.RelationClasses <> PER class
+R4953:4955 Coq.Classes.RelationClasses <> PER class
+R4958:4961 Coq.Program.Basics <> flip def
+R4963:4963 Coq.Classes.RelationClasses <> R var
+prf 5006:5021 <> flip_Equivalence
+R5025:5035 Coq.Classes.RelationClasses <> Equivalence class
+R5042:5052 Coq.Classes.RelationClasses <> Equivalence class
+R5055:5058 Coq.Program.Basics <> flip def
+R5060:5060 Coq.Classes.RelationClasses <> R var
+R5099:5102 Coq.Classes.RelationClasses Defs.flip <> sec
+sec 5116:5125 Defs complement
+def 5144:5165 <> complement_Irreflexive
+R5169:5177 Coq.Classes.RelationClasses <> Reflexive class
+R5190:5200 Coq.Classes.RelationClasses <> Irreflexive class
+R5203:5212 Coq.Classes.RelationClasses <> complement def
+R5214:5214 Coq.Classes.RelationClasses <> R var
+def 5262:5281 <> complement_Symmetric
+R5285:5293 Coq.Classes.RelationClasses <> Symmetric class
+R5300:5308 Coq.Classes.RelationClasses <> Symmetric class
+R5311:5320 Coq.Classes.RelationClasses <> complement def
+R5322:5322 Coq.Classes.RelationClasses <> R var
+R5360:5369 Coq.Classes.RelationClasses Defs.complement <> sec
+rec 5814:5828 <> RewriteRelation
+R5836:5843 Coq.Relations.Relation_Definitions <> relation def
+R5845:5845 Coq.Classes.RelationClasses <> Defs.A var
+inst 5975:6002 <> equivalence_rewrite_relation
+R6006:6016 Coq.Classes.RelationClasses <> Equivalence class
+R6025:6039 Coq.Classes.RelationClasses <> RewriteRelation class
+R6041:6043 Coq.Classes.RelationClasses <> eqA var
+sec 6095:6101 Defs Leibniz
+inst 6124:6135 <> eq_Reflexive
+R6139:6147 Coq.Classes.RelationClasses <> Reflexive class
+R6151:6152 Coq.Init.Logic <> eq ind
+R6154:6154 Coq.Classes.RelationClasses <> Defs.A var
+R6161:6167 Coq.Init.Logic <> eq_refl constr
+R6169:6169 Coq.Classes.RelationClasses <> Defs.A var
+inst 6192:6203 <> eq_Symmetric
+R6207:6215 Coq.Classes.RelationClasses <> Symmetric class
+R6219:6220 Coq.Init.Logic <> eq ind
+R6222:6222 Coq.Classes.RelationClasses <> Defs.A var
+R6229:6234 Coq.Init.Logic <> eq_sym thm
+R6236:6236 Coq.Classes.RelationClasses <> Defs.A var
+inst 6259:6271 <> eq_Transitive
+R6275:6284 Coq.Classes.RelationClasses <> Transitive class
+R6288:6289 Coq.Init.Logic <> eq ind
+R6291:6291 Coq.Classes.RelationClasses <> Defs.A var
+R6298:6305 Coq.Init.Logic <> eq_trans thm
+R6307:6307 Coq.Classes.RelationClasses <> Defs.A var
+inst 6515:6528 <> eq_equivalence
+R6532:6542 Coq.Classes.RelationClasses <> Equivalence class
+R6546:6547 Coq.Init.Logic <> eq ind
+R6549:6549 Coq.Classes.RelationClasses <> Defs.A var
+R6564:6570 Coq.Classes.RelationClasses Defs.Leibniz <> sec
+R6580:6583 Coq.Classes.RelationClasses Defs <> sec
+R6659:6673 Coq.Classes.RelationClasses <> RewriteRelation class
+R6675:6678 Coq.Program.Basics <> impl def
+R6700:6714 Coq.Classes.RelationClasses <> RewriteRelation class
+R6716:6718 Coq.Init.Logic <> iff def
+R6845:6853 Coq.Classes.RelationClasses <> Reflexive class
+R6856:6865 Coq.Classes.RelationClasses <> complement def
+R6887:6899 Coq.Classes.RelationClasses <> irreflexivity def
+R6939:6947 Coq.Classes.RelationClasses <> Symmetric class
+R6950:6959 Coq.Classes.RelationClasses <> complement def
+R7039:7049 Coq.Classes.RelationClasses <> Irreflexive class
+R7052:7061 Coq.Classes.RelationClasses <> complement def
+R7144:7152 Coq.Classes.RelationClasses <> Reflexive class
+R7155:7158 Coq.Program.Basics <> flip def
+R7173:7186 Coq.Classes.RelationClasses <> flip_Reflexive thm
+R7226:7236 Coq.Classes.RelationClasses <> Irreflexive class
+R7239:7242 Coq.Program.Basics <> flip def
+R7318:7326 Coq.Classes.RelationClasses <> Symmetric class
+R7329:7332 Coq.Program.Basics <> flip def
+R7406:7415 Coq.Classes.RelationClasses <> Asymmetric class
+R7418:7421 Coq.Program.Basics <> flip def
+R7496:7508 Coq.Classes.RelationClasses <> Antisymmetric class
+R7511:7514 Coq.Program.Basics <> flip def
+R7592:7601 Coq.Classes.RelationClasses <> Transitive class
+R7604:7607 Coq.Program.Basics <> flip def
+R7682:7692 Coq.Classes.RelationClasses <> StrictOrder class
+R7695:7698 Coq.Program.Basics <> flip def
+R7774:7781 Coq.Classes.RelationClasses <> PreOrder class
+R7784:7787 Coq.Program.Basics <> flip def
+R7861:7871 Coq.Classes.RelationClasses <> subrelation class
+R7874:7877 Coq.Program.Basics <> flip def
+R7904:7924 Coq.Classes.RelationClasses <> subrelation_symmetric thm
+R7960:7972 Coq.Classes.RelationClasses <> irreflexivity def
+R7960:7972 Coq.Classes.RelationClasses <> irreflexivity def
+R8009:8016 Coq.Classes.RelationClasses <> symmetry def
+R8009:8016 Coq.Classes.RelationClasses <> symmetry def
+R8051:8059 Coq.Classes.RelationClasses <> asymmetry def
+R8051:8059 Coq.Classes.RelationClasses <> asymmetry def
+R8096:8107 Coq.Classes.RelationClasses <> transitivity def
+R8096:8107 Coq.Classes.RelationClasses <> transitivity def
+R8148:8160 Coq.Classes.RelationClasses <> Antisymmetric class
+R8148:8160 Coq.Classes.RelationClasses <> Antisymmetric class
+R8599:8603 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8599:8603 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8715:8719 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8715:8719 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9119:9122 Coq.Program.Basics <> flip def
+R9125:9128 Coq.Program.Basics <> impl def
+R9131:9135 Coq.Program.Basics <> arrow def
+inst 9292:9305 <> impl_Reflexive
+R9309:9317 Coq.Classes.RelationClasses <> Reflexive class
+R9319:9322 Coq.Program.Basics <> impl def
+inst 9342:9356 <> impl_Transitive
+R9360:9369 Coq.Classes.RelationClasses <> Transitive class
+R9371:9374 Coq.Program.Basics <> impl def
+inst 9416:9428 <> iff_Reflexive
+R9432:9440 Coq.Classes.RelationClasses <> Reflexive class
+R9442:9444 Coq.Init.Logic <> iff def
+R9449:9456 Coq.Init.Logic <> iff_refl thm
+inst 9468:9480 <> iff_Symmetric
+R9484:9492 Coq.Classes.RelationClasses <> Symmetric class
+R9494:9496 Coq.Init.Logic <> iff def
+R9501:9507 Coq.Init.Logic <> iff_sym thm
+inst 9519:9532 <> iff_Transitive
+R9536:9545 Coq.Classes.RelationClasses <> Transitive class
+R9547:9549 Coq.Init.Logic <> iff def
+R9554:9562 Coq.Init.Logic <> iff_trans thm
+inst 9645:9659 <> iff_equivalence
+R9663:9673 Coq.Classes.RelationClasses <> Equivalence class
+R9675:9677 Coq.Init.Logic <> iff def
+ind 10105:10109 <> Tlist
+constr 10121:10124 <> Tnil
+constr 10136:10140 <> Tcons
+R10128:10132 Coq.Classes.RelationClasses <> Tlist ind
+R10148:10151 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10157:10160 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10161:10165 Coq.Classes.RelationClasses <> Tlist ind
+R10152:10156 Coq.Classes.RelationClasses <> Tlist ind
+R10188:10192 Coq.Classes.RelationClasses <> Tcons constr
+not 10180:10180 <> :::x_'::'_x
+def 10205:10210 <> arrows
+R10217:10221 Coq.Classes.RelationClasses <> Tlist ind
+R10253:10253 Coq.Classes.RelationClasses <> l var
+R10266:10269 Coq.Classes.RelationClasses <> Tnil constr
+R10274:10274 Coq.Classes.RelationClasses <> r var
+R10283:10286 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R10294:10297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10298:10303 Coq.Classes.RelationClasses <> arrows def
+R10308:10308 Coq.Classes.RelationClasses <> r var
+def 10417:10431 <> unary_operation
+R10438:10443 Coq.Classes.RelationClasses <> arrows def
+R10455:10455 Coq.Classes.RelationClasses <> A var
+R10447:10448 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R10446:10446 Coq.Classes.RelationClasses <> A var
+R10449:10452 Coq.Classes.RelationClasses <> Tnil constr
+def 10469:10484 <> binary_operation
+R10491:10496 Coq.Classes.RelationClasses <> arrows def
+R10511:10511 Coq.Classes.RelationClasses <> A var
+R10500:10501 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R10499:10499 Coq.Classes.RelationClasses <> A var
+R10503:10504 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R10502:10502 Coq.Classes.RelationClasses <> A var
+R10505:10508 Coq.Classes.RelationClasses <> Tnil constr
+def 10525:10541 <> ternary_operation
+R10548:10553 Coq.Classes.RelationClasses <> arrows def
+R10571:10571 Coq.Classes.RelationClasses <> A var
+R10557:10558 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R10556:10556 Coq.Classes.RelationClasses <> A var
+R10560:10561 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R10559:10559 Coq.Classes.RelationClasses <> A var
+R10563:10564 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R10562:10562 Coq.Classes.RelationClasses <> A var
+R10565:10568 Coq.Classes.RelationClasses <> Tnil constr
+syndef 10647:10655 <> predicate
+R10663:10668 Coq.Classes.RelationClasses <> arrows def
+def 10726:10740 <> unary_predicate
+R10747:10755 Coq.Classes.RelationClasses <> predicate syndef
+R10759:10760 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R10758:10758 Coq.Classes.RelationClasses <> A var
+R10761:10764 Coq.Classes.RelationClasses <> Tnil constr
+def 10846:10860 <> binary_relation
+R10867:10875 Coq.Classes.RelationClasses <> predicate syndef
+R10879:10880 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R10878:10878 Coq.Classes.RelationClasses <> A var
+R10882:10883 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R10881:10881 Coq.Classes.RelationClasses <> A var
+R10884:10887 Coq.Classes.RelationClasses <> Tnil constr
+def 10978:10990 <> predicate_all
+R10997:11001 Coq.Classes.RelationClasses <> Tlist ind
+R11017:11020 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11006:11014 Coq.Classes.RelationClasses <> predicate syndef
+R11016:11016 Coq.Classes.RelationClasses <> l var
+R11037:11037 Coq.Classes.RelationClasses <> l var
+R11050:11053 Coq.Classes.RelationClasses <> Tnil constr
+R11067:11067 Coq.Classes.RelationClasses <> f var
+R11076:11079 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R11109:11121 Coq.Classes.RelationClasses <> predicate_all def
+R11127:11127 Coq.Classes.RelationClasses <> f var
+R11129:11129 Coq.Classes.RelationClasses <> x var
+def 11149:11164 <> predicate_exists
+R11171:11175 Coq.Classes.RelationClasses <> Tlist ind
+R11191:11194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11180:11188 Coq.Classes.RelationClasses <> predicate syndef
+R11190:11190 Coq.Classes.RelationClasses <> l var
+R11211:11211 Coq.Classes.RelationClasses <> l var
+R11224:11227 Coq.Classes.RelationClasses <> Tnil constr
+R11241:11241 Coq.Classes.RelationClasses <> f var
+R11250:11253 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R11269:11275 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11281:11282 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11283:11298 Coq.Classes.RelationClasses <> predicate_exists def
+R11304:11304 Coq.Classes.RelationClasses <> f var
+R11306:11306 Coq.Classes.RelationClasses <> x var
+def 11520:11538 <> pointwise_extension
+R11557:11572 Coq.Classes.RelationClasses <> binary_operation def
+R11574:11574 Coq.Classes.RelationClasses <> T var
+R11584:11588 Coq.Classes.RelationClasses <> Tlist ind
+R11593:11608 Coq.Classes.RelationClasses <> binary_operation def
+R11611:11616 Coq.Classes.RelationClasses <> arrows def
+R11620:11620 Coq.Classes.RelationClasses <> T var
+R11618:11618 Coq.Classes.RelationClasses <> l var
+R11634:11634 Coq.Classes.RelationClasses <> l var
+R11647:11650 Coq.Classes.RelationClasses <> Tnil constr
+R11667:11668 Coq.Classes.RelationClasses <> op var
+R11672:11673 Coq.Classes.RelationClasses <> R' var
+R11670:11670 Coq.Classes.RelationClasses <> R var
+R11682:11685 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R11719:11737 Coq.Classes.RelationClasses <> pointwise_extension def
+R11752:11753 Coq.Classes.RelationClasses <> R' var
+R11755:11755 Coq.Classes.RelationClasses <> x var
+R11746:11746 Coq.Classes.RelationClasses <> R var
+R11748:11748 Coq.Classes.RelationClasses <> x var
+R11739:11740 Coq.Classes.RelationClasses <> op var
+def 11879:11895 <> pointwise_lifting
+R11903:11917 Coq.Classes.RelationClasses <> binary_relation def
+R11931:11935 Coq.Classes.RelationClasses <> Tlist ind
+R11940:11954 Coq.Classes.RelationClasses <> binary_relation def
+R11957:11965 Coq.Classes.RelationClasses <> predicate syndef
+R11967:11967 Coq.Classes.RelationClasses <> l var
+R11981:11981 Coq.Classes.RelationClasses <> l var
+R11994:11997 Coq.Classes.RelationClasses <> Tnil constr
+R12014:12015 Coq.Classes.RelationClasses <> op var
+R12019:12020 Coq.Classes.RelationClasses <> R' var
+R12017:12017 Coq.Classes.RelationClasses <> R var
+R12029:12032 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R12067:12083 Coq.Classes.RelationClasses <> pointwise_lifting def
+R12098:12099 Coq.Classes.RelationClasses <> R' var
+R12101:12101 Coq.Classes.RelationClasses <> x var
+R12092:12092 Coq.Classes.RelationClasses <> R var
+R12094:12094 Coq.Classes.RelationClasses <> x var
+R12085:12086 Coq.Classes.RelationClasses <> op var
+def 12208:12228 <> predicate_equivalence
+R12235:12239 Coq.Classes.RelationClasses <> Tlist ind
+R12244:12258 Coq.Classes.RelationClasses <> binary_relation def
+R12261:12269 Coq.Classes.RelationClasses <> predicate syndef
+R12271:12271 Coq.Classes.RelationClasses <> l var
+R12279:12295 Coq.Classes.RelationClasses <> pointwise_lifting def
+R12301:12301 Coq.Classes.RelationClasses <> l var
+R12297:12299 Coq.Init.Logic <> iff def
+def 12402:12422 <> predicate_implication
+R12429:12433 Coq.Classes.RelationClasses <> Tlist ind
+R12441:12457 Coq.Classes.RelationClasses <> pointwise_lifting def
+R12464:12464 Coq.Classes.RelationClasses <> l var
+R12459:12462 Coq.Program.Basics <> impl def
+R12592:12612 Coq.Classes.RelationClasses <> predicate_equivalence def
+not 12581:12581 <> ::predicate_scope:x_'<∙>'_x
+R12682:12702 Coq.Classes.RelationClasses <> predicate_implication def
+not 12671:12671 <> ::predicate_scope:x_'-∙>'_x
+def 12953:12974 <> predicate_intersection
+R12979:12997 Coq.Classes.RelationClasses <> pointwise_extension def
+R12999:13001 Coq.Init.Logic <> and ind
+def 13015:13029 <> predicate_union
+R13034:13052 Coq.Classes.RelationClasses <> pointwise_extension def
+R13054:13055 Coq.Init.Logic <> or ind
+R13076:13097 Coq.Classes.RelationClasses <> predicate_intersection def
+not 13065:13065 <> ::predicate_scope:x_'/∙\'_x
+R13170:13184 Coq.Classes.RelationClasses <> predicate_union def
+not 13159:13159 <> ::predicate_scope:x_'\∙/'_x
+def 13307:13320 <> true_predicate
+R13327:13331 Coq.Classes.RelationClasses <> Tlist ind
+R13336:13344 Coq.Classes.RelationClasses <> predicate syndef
+R13346:13346 Coq.Classes.RelationClasses <> l var
+R13359:13359 Coq.Classes.RelationClasses <> l var
+R13372:13375 Coq.Classes.RelationClasses <> Tnil constr
+R13380:13383 Coq.Init.Logic <> True ind
+R13392:13395 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R13412:13425 Coq.Classes.RelationClasses <> true_predicate def
+def 13447:13461 <> false_predicate
+R13468:13472 Coq.Classes.RelationClasses <> Tlist ind
+R13477:13485 Coq.Classes.RelationClasses <> predicate syndef
+R13487:13487 Coq.Classes.RelationClasses <> l var
+R13500:13500 Coq.Classes.RelationClasses <> l var
+R13513:13516 Coq.Classes.RelationClasses <> Tnil constr
+R13521:13525 Coq.Init.Logic <> False ind
+R13534:13537 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R13554:13568 Coq.Classes.RelationClasses <> false_predicate def
+R13605:13618 Coq.Classes.RelationClasses <> true_predicate def
+not 13590:13590 <> ::predicate_scope:'∙⊤∙'
+R13663:13677 Coq.Classes.RelationClasses <> false_predicate def
+not 13648:13648 <> ::predicate_scope:'∙⊥∙'
+inst 13811:13843 <> predicate_equivalence_equivalence
+R13850:13860 Coq.Classes.RelationClasses <> Equivalence class
+R13864:13884 Coq.Classes.RelationClasses <> predicate_equivalence def
+R14031:14047 Coq.Classes.RelationClasses <> pointwise_lifting def
+R14031:14047 Coq.Classes.RelationClasses <> pointwise_lifting def
+inst 14187:14216 <> predicate_implication_preorder
+R14222:14229 Coq.Classes.RelationClasses <> PreOrder class
+R14233:14253 Coq.Classes.RelationClasses <> predicate_implication def
+R14382:14402 Coq.Classes.RelationClasses <> predicate_implication def
+sec 14609:14614 <> Binary
+def 14653:14672 <> relation_equivalence
+R14676:14683 Coq.Relations.Relation_Definitions <> relation def
+R14686:14693 Coq.Relations.Relation_Definitions <> relation def
+R14695:14695 Coq.Classes.RelationClasses <> Binary.A var
+R14706:14726 Coq.Classes.RelationClasses <> predicate_equivalence def
+R14730:14731 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R14733:14734 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R14735:14738 Coq.Classes.RelationClasses <> Tnil constr
+R14762:14776 Coq.Classes.RelationClasses <> RewriteRelation class
+R14778:14797 Coq.Classes.RelationClasses <> relation_equivalence def
+def 14827:14846 <> relation_conjunction
+R14853:14860 Coq.Relations.Relation_Definitions <> relation def
+R14862:14862 Coq.Classes.RelationClasses <> Binary.A var
+R14871:14878 Coq.Relations.Relation_Definitions <> relation def
+R14880:14880 Coq.Classes.RelationClasses <> Binary.A var
+R14885:14892 Coq.Relations.Relation_Definitions <> relation def
+R14894:14894 Coq.Classes.RelationClasses <> Binary.A var
+R14904:14925 Coq.Classes.RelationClasses <> predicate_intersection def
+R14942:14943 Coq.Classes.RelationClasses <> R' var
+R14940:14940 Coq.Classes.RelationClasses <> R var
+R14929:14930 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R14928:14928 Coq.Classes.RelationClasses <> Binary.A var
+R14932:14933 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R14931:14931 Coq.Classes.RelationClasses <> Binary.A var
+R14934:14937 Coq.Classes.RelationClasses <> Tnil constr
+def 14960:14979 <> relation_disjunction
+R14986:14993 Coq.Relations.Relation_Definitions <> relation def
+R14995:14995 Coq.Classes.RelationClasses <> Binary.A var
+R15004:15011 Coq.Relations.Relation_Definitions <> relation def
+R15013:15013 Coq.Classes.RelationClasses <> Binary.A var
+R15018:15025 Coq.Relations.Relation_Definitions <> relation def
+R15027:15027 Coq.Classes.RelationClasses <> Binary.A var
+R15037:15051 Coq.Classes.RelationClasses <> predicate_union def
+R15068:15069 Coq.Classes.RelationClasses <> R' var
+R15066:15066 Coq.Classes.RelationClasses <> R var
+R15055:15056 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R15054:15054 Coq.Classes.RelationClasses <> Binary.A var
+R15058:15059 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R15057:15057 Coq.Classes.RelationClasses <> Binary.A var
+R15060:15063 Coq.Classes.RelationClasses <> Tnil constr
+inst 15184:15215 <> relation_equivalence_equivalence
+R15223:15233 Coq.Classes.RelationClasses <> Equivalence class
+R15235:15254 Coq.Classes.RelationClasses <> relation_equivalence def
+R15274:15306 Coq.Classes.RelationClasses <> predicate_equivalence_equivalence inst
+R15310:15311 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R15309:15309 Coq.Classes.RelationClasses <> Binary.A var
+R15313:15314 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R15312:15312 Coq.Classes.RelationClasses <> Binary.A var
+R15315:15318 Coq.Classes.RelationClasses <> Tnil constr
+R15274:15306 Coq.Classes.RelationClasses <> predicate_equivalence_equivalence inst
+R15310:15311 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R15309:15309 Coq.Classes.RelationClasses <> Binary.A var
+R15313:15314 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R15312:15312 Coq.Classes.RelationClasses <> Binary.A var
+R15315:15318 Coq.Classes.RelationClasses <> Tnil constr
+inst 15349:15377 <> relation_implication_preorder
+R15381:15388 Coq.Classes.RelationClasses <> PreOrder class
+R15392:15402 Coq.Classes.RelationClasses <> subrelation class
+R15404:15404 Coq.Classes.RelationClasses <> Binary.A var
+R15425:15454 Coq.Classes.RelationClasses <> predicate_implication_preorder inst
+R15458:15459 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R15457:15457 Coq.Classes.RelationClasses <> Binary.A var
+R15461:15462 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R15460:15460 Coq.Classes.RelationClasses <> Binary.A var
+R15463:15466 Coq.Classes.RelationClasses <> Tnil constr
+R15425:15454 Coq.Classes.RelationClasses <> predicate_implication_preorder inst
+R15458:15459 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R15457:15457 Coq.Classes.RelationClasses <> Binary.A var
+R15461:15462 Coq.Classes.RelationClasses <> :::x_'::'_x not
+R15460:15460 Coq.Classes.RelationClasses <> Binary.A var
+R15463:15466 Coq.Classes.RelationClasses <> Tnil constr
+ind 15670:15681 <> PartialOrder
+constr 15746:15770 <> partial_order_equivalence
+rec 15670:15681 <> PartialOrder
+proj 15746:15770 <> partial_order_equivalence
+R15695:15705 Coq.Classes.RelationClasses <> Equivalence class
+R15709:15711 Coq.Classes.RelationClasses <> eqA var
+R15707:15707 Coq.Classes.RelationClasses <> Binary.A var
+R15725:15732 Coq.Classes.RelationClasses <> PreOrder class
+R15736:15736 Coq.Classes.RelationClasses <> R var
+R15734:15734 Coq.Classes.RelationClasses <> Binary.A var
+R15774:15793 Coq.Classes.RelationClasses <> relation_equivalence def
+R15800:15819 Coq.Classes.RelationClasses <> relation_conjunction def
+R15824:15827 Coq.Program.Basics <> flip def
+R15829:15829 Coq.Classes.RelationClasses <> R var
+R15821:15821 Coq.Classes.RelationClasses <> R var
+R15795:15797 Coq.Classes.RelationClasses <> eqA var
+inst 16050:16070 <> partial_order_antisym
+R16074:16085 Coq.Classes.RelationClasses <> PartialOrder class
+R16098:16110 Coq.Classes.RelationClasses <> Antisymmetric class
+R16118:16118 Coq.Classes.RelationClasses <> R var
+R16114:16116 Coq.Classes.RelationClasses <> eqA var
+R16112:16112 Coq.Classes.RelationClasses <> Binary.A var
+R16172:16196 Coq.Classes.RelationClasses <> partial_order_equivalence def
+R16172:16196 Coq.Classes.RelationClasses <> partial_order_equivalence def
+prf 16270:16289 <> PartialOrder_inverse
+R16293:16304 Coq.Classes.RelationClasses <> PartialOrder class
+R16315:16326 Coq.Classes.RelationClasses <> PartialOrder class
+R16333:16336 Coq.Program.Basics <> flip def
+R16338:16338 Coq.Classes.RelationClasses <> R var
+R16328:16330 Coq.Classes.RelationClasses <> eqA var
+R16372:16377 Coq.Classes.RelationClasses Binary <> sec
+R16396:16407 Coq.Classes.RelationClasses <> PartialOrder class
+R16410:16413 Coq.Program.Basics <> flip def
+inst 16571:16595 <> subrelation_partial_order
+R16603:16614 Coq.Classes.RelationClasses <> PartialOrder class
+R16650:16660 Coq.Classes.RelationClasses <> subrelation class
+R16629:16648 Coq.Classes.RelationClasses <> relation_equivalence def
+R16617:16624 Coq.Relations.Relation_Definitions <> relation def
+R16697:16716 Coq.Classes.RelationClasses <> relation_equivalence def

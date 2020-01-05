@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/vernac/proof_using.ml: Aux_file CAst CList Context Declarations Environ Feedback Flags G_vernac Goptions Id List Names Option Pcoq Pp Ppvernac Printer Stream Summary Util Vernacexpr

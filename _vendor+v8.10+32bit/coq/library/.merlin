@@ -1,0 +1,18 @@
+EXCLUDE_QUERY_DIR
+B /Users/erutuf/.opam/jscoq+32bit/lib/ocaml
+B /Users/erutuf/.opam/jscoq+32bit/lib/ocaml/threads
+B ../../../_build/jscoq+32bit/_vendor+v8.10+32bit/coq/clib/.clib.objs/byte
+B ../../../_build/jscoq+32bit/_vendor+v8.10+32bit/coq/config/.config.objs/byte
+B ../../../_build/jscoq+32bit/_vendor+v8.10+32bit/coq/kernel/.kernel.objs/byte
+B ../../../_build/jscoq+32bit/_vendor+v8.10+32bit/coq/kernel/byterun/.byterun.objs/byte
+B ../../../_build/jscoq+32bit/_vendor+v8.10+32bit/coq/lib/.lib.objs/byte
+B ../../../_build/jscoq+32bit/_vendor+v8.10+32bit/coq/library/.library.objs/byte
+S /Users/erutuf/.opam/jscoq+32bit/lib/ocaml
+S /Users/erutuf/.opam/jscoq+32bit/lib/ocaml/threads
+S ../clib
+S ../config
+S ../kernel
+S ../kernel/byterun
+S ../lib
+S .
+FLG -w -40 -rectypes

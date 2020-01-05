@@ -1,0 +1,59 @@
+DIGEST e8d88b47a947f580d51b167ea43fa52e
+FCoq.Setoids.Setoid
+R691:715 Coq.Classes.SetoidTactics <> <> lib
+def 800:812 <> Setoid_Theory
+R818:828 Coq.Classes.RelationClasses <> Equivalence class
+def 842:860 <> Build_Setoid_Theory
+R866:882 Coq.Classes.RelationClasses <> Build_Equivalence constr
+def 971:978 <> Seq_refl
+R991:1003 Coq.Setoids.Setoid <> Setoid_Theory def
+R1007:1009 Coq.Setoids.Setoid <> Aeq var
+R1005:1005 Coq.Setoids.Setoid <> A var
+R1023:1023 Coq.Setoids.Setoid <> A var
+R1026:1028 Coq.Setoids.Setoid <> Aeq var
+R1032:1032 Coq.Setoids.Setoid <> x var
+R1030:1030 Coq.Setoids.Setoid <> x var
+R1051:1063 Coq.Setoids.Setoid <> Setoid_Theory def
+def 1114:1120 <> Seq_sym
+R1133:1145 Coq.Setoids.Setoid <> Setoid_Theory def
+R1149:1151 Coq.Setoids.Setoid <> Aeq var
+R1147:1147 Coq.Setoids.Setoid <> A var
+R1167:1167 Coq.Setoids.Setoid <> A var
+R1177:1180 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1181:1183 Coq.Setoids.Setoid <> Aeq var
+R1187:1187 Coq.Setoids.Setoid <> x var
+R1185:1185 Coq.Setoids.Setoid <> y var
+R1170:1172 Coq.Setoids.Setoid <> Aeq var
+R1176:1176 Coq.Setoids.Setoid <> y var
+R1174:1174 Coq.Setoids.Setoid <> x var
+R1206:1218 Coq.Setoids.Setoid <> Setoid_Theory def
+def 1279:1287 <> Seq_trans
+R1300:1312 Coq.Setoids.Setoid <> Setoid_Theory def
+R1316:1318 Coq.Setoids.Setoid <> Aeq var
+R1314:1314 Coq.Setoids.Setoid <> A var
+R1336:1336 Coq.Setoids.Setoid <> A var
+R1346:1349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1357:1360 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1361:1363 Coq.Setoids.Setoid <> Aeq var
+R1367:1367 Coq.Setoids.Setoid <> z var
+R1365:1365 Coq.Setoids.Setoid <> x var
+R1350:1352 Coq.Setoids.Setoid <> Aeq var
+R1356:1356 Coq.Setoids.Setoid <> z var
+R1354:1354 Coq.Setoids.Setoid <> y var
+R1339:1341 Coq.Setoids.Setoid <> Aeq var
+R1345:1345 Coq.Setoids.Setoid <> y var
+R1343:1343 Coq.Setoids.Setoid <> x var
+R1386:1398 Coq.Setoids.Setoid <> Setoid_Theory def
+R1692:1704 Coq.Setoids.Setoid <> Setoid_Theory def
+R1692:1704 Coq.Setoids.Setoid <> Setoid_Theory def
+R1741:1749 Coq.Setoids.Setoid <> Seq_trans def
+R1916:1928 Coq.Setoids.Setoid <> Setoid_Theory def
+R1916:1928 Coq.Setoids.Setoid <> Setoid_Theory def
+R1965:1971 Coq.Setoids.Setoid <> Seq_sym def
+R2136:2148 Coq.Setoids.Setoid <> Setoid_Theory def
+R2136:2148 Coq.Setoids.Setoid <> Setoid_Theory def
+R2185:2192 Coq.Setoids.Setoid <> Seq_refl def
+def 2226:2231 <> gen_st
+R2251:2263 Coq.Setoids.Setoid <> Setoid_Theory def
+R2269:2270 Coq.Init.Logic <> eq ind
+R2272:2272 Coq.Setoids.Setoid <> A var

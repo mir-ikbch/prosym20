@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/pretyping/glob_ops.ml: Array CAst CList CWarnings Constr Context DAst Decl_kinds Declarations DirPath Evar_kinds GlobRef Glob_term Global Globnames Id Inductiveops Int Libnames List Ltac_pretype Name Namegen Nameops Names Nametab Option Pp Rel Sorts Uint63 Util

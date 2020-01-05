@@ -1,0 +1,287 @@
+(** @canonical Serlib.SerType *)
+module SerType = Serlib__SerType
+
+(** @canonical Serlib.Ser_attributes *)
+module Ser_attributes = Serlib__Ser_attributes
+
+(** @canonical Serlib.Ser_bigint *)
+module Ser_bigint = Serlib__Ser_bigint
+
+(** @canonical Serlib.Ser_cAst *)
+module Ser_cAst = Serlib__Ser_cAst
+
+(** @canonical Serlib.Ser_cEphemeron *)
+module Ser_cEphemeron = Serlib__Ser_cEphemeron
+
+(** @canonical Serlib.Ser_cMap *)
+module Ser_cMap = Serlib__Ser_cMap
+
+(** @canonical Serlib.Ser_cPrimitives *)
+module Ser_cPrimitives = Serlib__Ser_cPrimitives
+
+(** @canonical Serlib.Ser_cSet *)
+module Ser_cSet = Serlib__Ser_cSet
+
+(** @canonical Serlib.Ser_cemitcodes *)
+module Ser_cemitcodes = Serlib__Ser_cemitcodes
+
+(** @canonical Serlib.Ser_class_tactics *)
+module Ser_class_tactics = Serlib__Ser_class_tactics
+
+(** @canonical Serlib.Ser_constr *)
+module Ser_constr = Serlib__Ser_constr
+
+(** @canonical Serlib.Ser_constr_matching *)
+module Ser_constr_matching = Serlib__Ser_constr_matching
+
+(** @canonical Serlib.Ser_constrexpr *)
+module Ser_constrexpr = Serlib__Ser_constrexpr
+
+(** @canonical Serlib.Ser_context *)
+module Ser_context = Serlib__Ser_context
+
+(** @canonical Serlib.Ser_conv_oracle *)
+module Ser_conv_oracle = Serlib__Ser_conv_oracle
+
+(** @canonical Serlib.Ser_cooking *)
+module Ser_cooking = Serlib__Ser_cooking
+
+(** @canonical Serlib.Ser_dAst *)
+module Ser_dAst = Serlib__Ser_dAst
+
+(** @canonical Serlib.Ser_decl_kinds *)
+module Ser_decl_kinds = Serlib__Ser_decl_kinds
+
+(** @canonical Serlib.Ser_declarations *)
+module Ser_declarations = Serlib__Ser_declarations
+
+(** @canonical Serlib.Ser_declaremods *)
+module Ser_declaremods = Serlib__Ser_declaremods
+
+(** @canonical Serlib.Ser_eConstr *)
+module Ser_eConstr = Serlib__Ser_eConstr
+
+(** @canonical Serlib.Ser_entries *)
+module Ser_entries = Serlib__Ser_entries
+
+(** @canonical Serlib.Ser_environ *)
+module Ser_environ = Serlib__Ser_environ
+
+(** @canonical Serlib.Ser_equality *)
+module Ser_equality = Serlib__Ser_equality
+
+(** @canonical Serlib.Ser_evar *)
+module Ser_evar = Serlib__Ser_evar
+
+(** @canonical Serlib.Ser_evar_kinds *)
+module Ser_evar_kinds = Serlib__Ser_evar_kinds
+
+(** @canonical Serlib.Ser_evd *)
+module Ser_evd = Serlib__Ser_evd
+
+(** @canonical Serlib.Ser_extend *)
+module Ser_extend = Serlib__Ser_extend
+
+(** @canonical Serlib.Ser_feedback *)
+module Ser_feedback = Serlib__Ser_feedback
+
+(** @canonical Serlib.Ser_flags *)
+module Ser_flags = Serlib__Ser_flags
+
+(** @canonical Serlib.Ser_future *)
+module Ser_future = Serlib__Ser_future
+
+(** @canonical Serlib.Ser_genarg *)
+module Ser_genarg = Serlib__Ser_genarg
+
+(** @canonical Serlib.Ser_genintern *)
+module Ser_genintern = Serlib__Ser_genintern
+
+(** @canonical Serlib.Ser_geninterp *)
+module Ser_geninterp = Serlib__Ser_geninterp
+
+(** @canonical Serlib.Ser_genredexpr *)
+module Ser_genredexpr = Serlib__Ser_genredexpr
+
+(** @canonical Serlib.Ser_glob_term *)
+module Ser_glob_term = Serlib__Ser_glob_term
+
+(** @canonical Serlib.Ser_globnames *)
+module Ser_globnames = Serlib__Ser_globnames
+
+(** @canonical Serlib.Ser_goal *)
+module Ser_goal = Serlib__Ser_goal
+
+(** @canonical Serlib.Ser_goal_select *)
+module Ser_goal_select = Serlib__Ser_goal_select
+
+(** @canonical Serlib.Ser_goptions *)
+module Ser_goptions = Serlib__Ser_goptions
+
+(** @canonical Serlib.Ser_gramlib *)
+module Ser_gramlib = Serlib__Ser_gramlib
+
+(** @canonical Serlib.Ser_hints *)
+module Ser_hints = Serlib__Ser_hints
+
+(** @canonical Serlib.Ser_impargs *)
+module Ser_impargs = Serlib__Ser_impargs
+
+(** @canonical Serlib.Ser_int *)
+module Ser_int = Serlib__Ser_int
+
+(** @canonical Serlib.Ser_inv *)
+module Ser_inv = Serlib__Ser_inv
+
+(** @canonical Serlib.Ser_libnames *)
+module Ser_libnames = Serlib__Ser_libnames
+
+(** @canonical Serlib.Ser_library *)
+module Ser_library = Serlib__Ser_library
+
+(** @canonical Serlib.Ser_loc *)
+module Ser_loc = Serlib__Ser_loc
+
+(** @canonical Serlib.Ser_locus *)
+module Ser_locus = Serlib__Ser_locus
+
+(** @canonical Serlib.Ser_ltac_pretype *)
+module Ser_ltac_pretype = Serlib__Ser_ltac_pretype
+
+(** @canonical Serlib.Ser_mltop *)
+module Ser_mltop = Serlib__Ser_mltop
+
+(** @canonical Serlib.Ser_mod_subst *)
+module Ser_mod_subst = Serlib__Ser_mod_subst
+
+(** @canonical Serlib.Ser_namegen *)
+module Ser_namegen = Serlib__Ser_namegen
+
+(** @canonical Serlib.Ser_names *)
+module Ser_names = Serlib__Ser_names
+
+(** @canonical Serlib.Ser_nametab *)
+module Ser_nametab = Serlib__Ser_nametab
+
+(** @canonical Serlib.Ser_notation *)
+module Ser_notation = Serlib__Ser_notation
+
+(** @canonical Serlib.Ser_notation_gram *)
+module Ser_notation_gram = Serlib__Ser_notation_gram
+
+(** @canonical Serlib.Ser_notation_term *)
+module Ser_notation_term = Serlib__Ser_notation_term
+
+(** @canonical Serlib.Ser_numTok *)
+module Ser_numTok = Serlib__Ser_numTok
+
+(** @canonical Serlib.Ser_opaqueproof *)
+module Ser_opaqueproof = Serlib__Ser_opaqueproof
+
+(** @canonical Serlib.Ser_pattern *)
+module Ser_pattern = Serlib__Ser_pattern
+
+(** @canonical Serlib.Ser_pp *)
+module Ser_pp = Serlib__Ser_pp
+
+(** @canonical Serlib.Ser_ppextend *)
+module Ser_ppextend = Serlib__Ser_ppextend
+
+(** @canonical Serlib.Ser_pretype_errors *)
+module Ser_pretype_errors = Serlib__Ser_pretype_errors
+
+(** @canonical Serlib.Ser_printer *)
+module Ser_printer = Serlib__Ser_printer
+
+(** @canonical Serlib.Ser_proof *)
+module Ser_proof = Serlib__Ser_proof
+
+(** @canonical Serlib.Ser_proof_bullet *)
+module Ser_proof_bullet = Serlib__Ser_proof_bullet
+
+(** @canonical Serlib.Ser_proof_global *)
+module Ser_proof_global = Serlib__Ser_proof_global
+
+(** @canonical Serlib.Ser_range *)
+module Ser_range = Serlib__Ser_range
+
+(** @canonical Serlib.Ser_reduction *)
+module Ser_reduction = Serlib__Ser_reduction
+
+(** @canonical Serlib.Ser_retroknowledge *)
+module Ser_retroknowledge = Serlib__Ser_retroknowledge
+
+(** @canonical Serlib.Ser_rtree *)
+module Ser_rtree = Serlib__Ser_rtree
+
+(** @canonical Serlib.Ser_safe_typing *)
+module Ser_safe_typing = Serlib__Ser_safe_typing
+
+(** @canonical Serlib.Ser_sorts *)
+module Ser_sorts = Serlib__Ser_sorts
+
+(** @canonical Serlib.Ser_stateid *)
+module Ser_stateid = Serlib__Ser_stateid
+
+(** @canonical Serlib.Ser_stdarg *)
+module Ser_stdarg = Serlib__Ser_stdarg
+
+(** @canonical Serlib.Ser_stdlib *)
+module Ser_stdlib = Serlib__Ser_stdlib
+
+(** @canonical Serlib.Ser_stm *)
+module Ser_stm = Serlib__Ser_stm
+
+(** @canonical Serlib.Ser_tactics *)
+module Ser_tactics = Serlib__Ser_tactics
+
+(** @canonical Serlib.Ser_tactypes *)
+module Ser_tactypes = Serlib__Ser_tactypes
+
+(** @canonical Serlib.Ser_tok *)
+module Ser_tok = Serlib__Ser_tok
+
+(** @canonical Serlib.Ser_type_errors *)
+module Ser_type_errors = Serlib__Ser_type_errors
+
+(** @canonical Serlib.Ser_typeclasses *)
+module Ser_typeclasses = Serlib__Ser_typeclasses
+
+(** @canonical Serlib.Ser_uGraph *)
+module Ser_uGraph = Serlib__Ser_uGraph
+
+(** @canonical Serlib.Ser_uState *)
+module Ser_uState = Serlib__Ser_uState
+
+(** @canonical Serlib.Ser_uint63 *)
+module Ser_uint63 = Serlib__Ser_uint63
+
+(** @canonical Serlib.Ser_univ *)
+module Ser_univ = Serlib__Ser_univ
+
+(** @canonical Serlib.Ser_univNames *)
+module Ser_univNames = Serlib__Ser_univNames
+
+(** @canonical Serlib.Ser_universes *)
+module Ser_universes = Serlib__Ser_universes
+
+(** @canonical Serlib.Ser_util *)
+module Ser_util = Serlib__Ser_util
+
+(** @canonical Serlib.Ser_vernacexpr *)
+module Ser_vernacexpr = Serlib__Ser_vernacexpr
+
+(** @canonical Serlib.Ser_vernacextend *)
+module Ser_vernacextend = Serlib__Ser_vernacextend
+
+(** @canonical Serlib.Ser_vmvalues *)
+module Ser_vmvalues = Serlib__Ser_vmvalues
+
+(** @canonical Serlib.Ser_xml_datatype *)
+module Ser_xml_datatype = Serlib__Ser_xml_datatype
+
+(** @canonical Serlib.Serlib_base *)
+module Serlib_base = Serlib__Serlib_base
+
+(** @canonical Serlib.Serlib_init *)
+module Serlib_init = Serlib__Serlib_init

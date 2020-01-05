@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/library/declaremods.ml: CAst CErrors Declarations DirPath Entries Environ Flags GlobDirRef Global Id Int KerName Label Lib Libnames Libobject List MBId MPmap ModPath Mod_subst Mod_typing Modops Names Nametab Pp Safe_typing String Subtyping Summary Univ Util

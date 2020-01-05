@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/interp/notation.mli: Bigint CMap Classops Constr Constrexpr DirPath EConstr Environ Evd GlobRef Glob_term Id KerName Libnames Loc Mod_subst Name Names Notation_term Pp Set Uint63

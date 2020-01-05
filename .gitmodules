@@ -1,0 +1,3 @@
+[submodule "jscoq"]
+	path = jscoq
+	url = https://github.com/ejgallego/jscoq

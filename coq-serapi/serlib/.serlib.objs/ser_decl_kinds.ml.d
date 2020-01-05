@@ -1,0 +1,1 @@
+coq-serapi/serlib/ser_decl_kinds.ml: Decl_kinds Ppx_deriving_yojson_runtime Ppx_sexp_conv_lib Sexplib Yojson

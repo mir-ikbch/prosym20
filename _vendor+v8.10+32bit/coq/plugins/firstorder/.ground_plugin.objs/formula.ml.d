@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/plugins/firstorder/formula.ml: Array CClosure Constr Context Declarations EConstr GlobRef Global Globnames Hipattern Id Inductiveops Int List Names Reductionops Termops Util Vars

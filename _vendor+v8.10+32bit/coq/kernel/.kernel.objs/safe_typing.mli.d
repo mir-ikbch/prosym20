@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/kernel/safe_typing.mli: CPrimitives Constant Constr Conv_oracle Cooking Declarations Digest DirPath Entries Environ Future Id KerName Label MBId ModPath Mod_subst MutInd Names Nativecode Univ

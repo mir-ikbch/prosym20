@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/tactics/redexpr.ml: CClosure CErrors CWarnings Constr Conv_oracle Coq_config Csymtable Declarations EConstr Environ Genredexpr GlobRef Global Goptions Id Lib Libobject List Locus Locusops Mod_subst Names Nametab Nativenorm Pattern Patternops Pp RedFlags Redops Reductionops Retyping String Summary Tacred TransparentState Util Vnorm

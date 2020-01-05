@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/kernel/environ.mli: AUContext CEphemeron CPrimitives Constant Constr Conv_oracle Declarations GlobRef Id ModPath MutInd Names Opaqueproof Range Retroknowledge Sorts UGraph Univ Vmvalues

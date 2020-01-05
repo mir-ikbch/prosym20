@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/plugins/ltac/taccoerce.ml: CAst CErrors Constant Constr EConstr ESorts Empty Environ Evd Genarg Geninterp Genprint Globnames Id Label List Locus Ltac_pretype Name Namegen Names Nametab Option Pp Pptactic Printer Sorts Stdarg Tacarg Tacexpr Tacred Tactypes Termops Util Val

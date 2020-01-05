@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/vernac/obligations.mli: Constr Constrexpr Decl_kinds Environ Evar Evar_kinds Evd Exninfo Genarg GlobRef Hook Id Int Lemmas Loc Names Notation_term Pp Proof_global Proofview Summary UState

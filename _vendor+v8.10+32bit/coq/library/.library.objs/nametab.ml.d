@@ -1,0 +1,1 @@
+_vendor+v8.10+32bit/coq/library/nametab.ml: CAst CErrors CList CString CWarnings DirPath ExtRefOrdered Feedback Flags Globnames HMap Id Int Libnames List Loc MPmap ModIdmap ModPath Names Pp Summary Univ Util
