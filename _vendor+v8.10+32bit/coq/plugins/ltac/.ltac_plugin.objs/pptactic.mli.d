@@ -1,1 +1,0 @@
-_vendor+v8.10+32bit/coq/plugins/ltac/pptactic.mli: Constrexpr EConstr Environ Evd Extend Genarg Genintern Geninterp Genprint Genredexpr Goal_select KerName Loc Locus Names Notation_gram Pp Tacexpr Tactypes Val

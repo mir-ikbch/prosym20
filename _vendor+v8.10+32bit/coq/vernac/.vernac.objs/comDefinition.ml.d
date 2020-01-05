@@ -1,1 +1,0 @@
-_vendor+v8.10+32bit/coq/vernac/comDefinition.ml: CWarnings Constrexpr_ops Constrintern Context Declare DeclareDef EConstr Entries Evd Future Global Impargs List Obligations Option Pervasives Pp Pretyping Redexpr Retyping Safe_typing Term Termops Univ Util

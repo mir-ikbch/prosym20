@@ -1,1 +1,0 @@
-_vendor+v8.10+32bit/coq/kernel/inductive.ml: Array CErrors CList Constr Context Declarations Declareops DirPath Environ Exninfo Id Int Lazy Level List Names Pp Projection Reduction Rtree Sorts Term Type_errors UGlobal Univ Universe Util Vars

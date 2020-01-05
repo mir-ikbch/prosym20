@@ -1,2 +1,0 @@
-(** @canonical Int63_syntax_plugin.Int63_syntax *)
-module Int63_syntax = Int63_syntax_plugin__Int63_syntax

@@ -1,1 +1,0 @@
-_vendor+v8.10+32bit/coq/printing/printer.mli: CMap Constant Constr Cpred Declarations EConstr Environ Evar Evd GlobRef Glob_term Goal Id Label Ltac_pretype MutInd Names Notation_gram Pattern Pp Proof Set Sorts TransparentState Univ

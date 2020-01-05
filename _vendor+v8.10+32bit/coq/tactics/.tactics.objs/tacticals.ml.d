@@ -1,1 +1,0 @@
-_vendor+v8.10+32bit/coq/tactics/tacticals.ml: Array CAst CErrors Clenv Clenvtac Constr Context Declarations Declareops EConstr EInstance Evd Exninfo Global Goal_select Id Indrec Int List Loc Locusops Namegen Names Option Pp Pretype_errors Printer Proofview Reduction Refiner Retyping String Tacmach Tactypes Termops Unification Util

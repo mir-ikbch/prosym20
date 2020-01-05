@@ -1,9 +1,0 @@
-DIGEST 2a0c5be055987893738e157321d6f318
-FCoq.extraction.ExtrOcamlString
-R751:775 Coq.extraction.Extraction <> <> lib
-R794:798 Coq.Strings.Ascii <> <> lib
-R800:805 Coq.Strings.String <> <> lib
-R807:822 Coq.Strings.Byte <> <> lib
-R844:848 Coq.Strings.Ascii <> ascii ind
-R1574:1579 Coq.Strings.String <> string ind
-R1861:1864 Coq.Init.Byte <> byte ind

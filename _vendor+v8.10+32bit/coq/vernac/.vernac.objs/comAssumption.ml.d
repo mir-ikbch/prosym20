@@ -1,1 +1,0 @@
-_vendor+v8.10+32bit/coq/vernac/comAssumption.ml: CAst CErrors Class Constr Constrexpr_ops Constrintern Context Decl_kinds Declare DeclareDef Declaremods Dumpglob EConstr Entries Evd Feedback Flags Global Globnames Goptions Id Impargs Lib List Names Option Pp Pretyping Retyping Typeclasses UState Univ Util Vars

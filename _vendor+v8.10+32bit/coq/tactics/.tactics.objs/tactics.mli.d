@@ -1,1 +1,0 @@
-_vendor+v8.10+32bit/coq/tactics/tactics.mli: CAst Clenv Constr Constrexpr Coqlib EConstr Environ Evd GlobRef Goal Hook Id Locus Logic Ltac_pretype Name Names Pattern Proofview Redexpr Reductionops Tactypes TransparentState Unification

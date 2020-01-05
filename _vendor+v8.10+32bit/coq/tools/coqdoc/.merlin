@@ -1,8 +1,0 @@
-EXCLUDE_QUERY_DIR
-B /Users/erutuf/.opam/jscoq+32bit/lib/ocaml
-B ../../../../_build/jscoq+32bit/_vendor+v8.10+32bit/coq/config/.config.objs/byte
-B ../../../../_build/jscoq+32bit/_vendor+v8.10+32bit/coq/tools/coqdoc/.main.eobjs/byte
-S /Users/erutuf/.opam/jscoq+32bit/lib/ocaml
-S ../../config
-S .
-FLG -w -40 -rectypes

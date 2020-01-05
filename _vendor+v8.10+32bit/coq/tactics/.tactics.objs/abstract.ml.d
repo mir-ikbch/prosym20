@@ -1,1 +1,0 @@
-_vendor+v8.10+32bit/coq/tactics/abstract.ml: CErrors Constr Context Decl_kinds Declare EConstr EInstance Entries Environ Evarutil Evd Future Global Impargs List Logic_monad Namegen Nameops Pfedit Pp Proofview Safe_typing Tacmach Tacticals Tactics Term Termops UState Univ Util Vars

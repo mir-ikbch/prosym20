@@ -1,1 +1,0 @@
-_vendor+v8.10+32bit/coq/doc/plugin_tutorial/tuto1/src/g_tuto1.ml: Attributes Constrintern EConstr Environ Evd Extend Feedback Genarg Global Ltac_plugin Mltop Nametab Option Pfedit Pp Ppconstr Printer Proof Proof_global Simple_check Simple_declare Simple_print Stdarg Tacentries Tactics Vernacextend Vernacstate

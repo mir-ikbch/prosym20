@@ -1,1 +1,0 @@
-_vendor+v8.10+32bit/coq/printing/prettyp.mli: Classops Constant Constr Constrexpr EConstr Environ Evd GlobRef KerName Lib Libnames Libobject ModPath MutInd Name Names Pp Reductionops Safe_typing Termops UnivNames

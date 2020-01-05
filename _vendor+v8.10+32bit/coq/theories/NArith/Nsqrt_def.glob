@@ -1,8 +1,0 @@
-DIGEST 0a02fec4ab6c3dfacb04944c64a2f59d
-FCoq.NArith.Nsqrt_def
-R691:696 Coq.NArith.BinNat <> <> lib
-syndef 796:805 <> Nsqrt_spec
-R820:830 Coq.NArith.BinNat N sqrt_spec thm
-R835:842 Coq.NArith.BinNat N le_0_l thm
-R844:844 Coq.NArith.Nsqrt_def <> n var
-R832:832 Coq.NArith.Nsqrt_def <> n var

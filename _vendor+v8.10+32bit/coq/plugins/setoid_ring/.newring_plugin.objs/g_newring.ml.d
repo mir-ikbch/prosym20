@@ -1,1 +1,0 @@
-_vendor+v8.10+32bit/coq/plugins/setoid_ring/g_newring.ml: Attributes CLexer Extend Genarg List Ltac_plugin Mltop Newring Newring_ast Option Pcoq Pltac Pp Ppconstr Pptactic Stdarg Tacarg Tacentries Util Vernacextend

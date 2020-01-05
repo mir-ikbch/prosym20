@@ -1,1 +1,0 @@
-_vendor+v8.10+32bit/coq/kernel/indtypes.ml: Array CErrors Constr Context Declarations Declareops Entries Environ Id IndTyping Inductive Int Label List Names Pp Projection Reduction Rtree Sorts Term Type_errors Univ Util Vars

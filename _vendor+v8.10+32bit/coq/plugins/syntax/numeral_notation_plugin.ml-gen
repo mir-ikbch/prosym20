@@ -1,5 +1,0 @@
-(** @canonical Numeral_notation_plugin.G_numeral *)
-module G_numeral = Numeral_notation_plugin__G_numeral
-
-(** @canonical Numeral_notation_plugin.Numeral *)
-module Numeral = Numeral_notation_plugin__Numeral

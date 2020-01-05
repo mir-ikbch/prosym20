@@ -1,1 +1,0 @@
-_vendor+v8.10+32bit/coq/vernac/g_vernac.ml: Attributes CAst CErrors CLexer CPrimitives CWarnings Constr Constrexpr Constrexpr_ops Conv_oracle Decl_kinds Declarations Declaremods Entry Extend Flags Genredexpr Glob_term Gramlib Impargs List Namegen Names Notation_term Option Pcoq Pp Printf Proof_bullet Pvernac Stream String Tok Typeclasses UState Univ Util Vernacexpr

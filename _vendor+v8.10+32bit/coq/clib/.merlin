@@ -1,8 +1,0 @@
-EXCLUDE_QUERY_DIR
-B /Users/erutuf/.opam/jscoq+32bit/lib/ocaml
-B /Users/erutuf/.opam/jscoq+32bit/lib/ocaml/threads
-B ../../../_build/jscoq+32bit/_vendor+v8.10+32bit/coq/clib/.clib.objs/byte
-S /Users/erutuf/.opam/jscoq+32bit/lib/ocaml
-S /Users/erutuf/.opam/jscoq+32bit/lib/ocaml/threads
-S .
-FLG -w -40 -rectypes
