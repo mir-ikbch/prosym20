@@ -16,7 +16,7 @@
   <div>
 		<h1>項書換による証明付き最適化</h1>
 		<h2>池渕未来 MIT</h2>
-  <div style="visibility: hidden;">
+  <div>
 		<textarea id="initial">
 From Coq Require Import Init.Prelude.
 From Coq Require Import List.
@@ -34,7 +34,7 @@ Ltac optimize db :=
   repeat autounfold with db;
   autorewrite with db;
   reflexivity.</textarea>
-	</div>
+	</di
 	<div>
 		<h2>内容</h2>
 	</div>	
@@ -45,6 +45,15 @@ Definition sqr_list xs := map (fun x => x * x) xs.
 Definition sqr_add2_list xs :=
 	map (fun x => x + 2) (sqr_list xs).</textarea>
 		<p>map関数が二重になっていて，リストを二回走査する分効率が少し悪い</p>
+		<textarea id="list_ex_sig">
+Hint Rewrite map_map : my_db.
+Hint Unfold sqr_list sqr_add2_list : my_db.
+
+Definition sa_optimized_sig :
+	{ f | forall xs, sqr_add2_list xs = f xs } :=
+	ltac:(optimize my_db).
+		</textarea>
+
   </div> <!-- panel-heading -->
   </div> <!-- /#panel body -->
   </div> <!-- /#document -->
@@ -54,7 +63,7 @@ Definition sqr_add2_list xs :=
   <script src="jscoq-builds/ui-js/jscoq-loader.js" type="text/javascript"></script>
   <script type="text/javascript">
 
-    var jscoq_ids  = ['initial', 'list_ex' ];
+    var jscoq_ids  = ['initial', 'list_ex', 'list_ex_sig' ];
     var jscoq_opts = {
         prelude:   false,
         implicit_libs: false,
