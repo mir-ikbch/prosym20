@@ -1,1 +1,0 @@
-coq-serapi/serlib/ser_notation_term.ml: Notation_term Ppx_deriving_yojson_runtime Ppx_sexp_conv_lib Ser_loc Ser_names Ser_tok Sexplib Yojson

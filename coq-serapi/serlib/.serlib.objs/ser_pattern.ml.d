@@ -1,1 +1,0 @@
-coq-serapi/serlib/ser_pattern.ml: Pattern Ppx_deriving_yojson_runtime Ppx_sexp_conv_lib Ser_constr Ser_eConstr Ser_evar Ser_glob_term Ser_names Ser_sorts Ser_uint63 Sexplib Yojson

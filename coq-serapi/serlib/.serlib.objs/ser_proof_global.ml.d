@@ -1,1 +1,0 @@
-coq-serapi/serlib/ser_proof_global.ml: Ppx_deriving_yojson_runtime Ppx_sexp_conv_lib Proof_global Yojson

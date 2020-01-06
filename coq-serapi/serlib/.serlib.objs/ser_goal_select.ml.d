@@ -1,1 +1,0 @@
-coq-serapi/serlib/ser_goal_select.ml: Goal_select Ppx_deriving_yojson_runtime Ppx_sexp_conv_lib Ser_names Sexplib Yojson

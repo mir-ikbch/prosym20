@@ -1,1 +1,0 @@
-coq-serapi/serlib/ser_conv_oracle.ml: Conv_oracle Ppx_deriving_yojson_runtime Ppx_sexp_conv_lib Sexplib Yojson

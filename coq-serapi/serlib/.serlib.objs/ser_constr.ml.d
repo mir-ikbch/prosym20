@@ -1,1 +1,0 @@
-coq-serapi/serlib/ser_constr.ml: Array Constr Ppx_deriving_runtime Ppx_deriving_yojson_runtime Ppx_sexp_conv_lib Result Ser_context Ser_evar Ser_names Ser_sorts Ser_uint63 Ser_univ Sexp Sexplib Yojson
