@@ -187,9 +187,9 @@ Definition fft_aux xs N n :=
   in
   map2 mul omegs xs.</pre>
 	<ul>
-		<li>mul, powは\(\mod 2^{2^N}+1\)での乗算，累乗</li>
-		<li>[0;..;2^n]は0から2^nまでの自然数のリスト</li>
-		<li>map2 f [x0; x1; ...; xn] [y0; y1; ...; yn] = [f x0 y0; f x1 y1; ...; f xn yn]</li>
+		<li><code>mul</code>, <code>pow</code>は\(\mod 2^{2^N}+1\)での乗算，累乗</li>
+		<li><code>map2 f [x0;...;xn] [y0;...;yn]
+= [f x0 y0;...;f xn yn]</code></li>
 	</ul>
 	数式に近い表現で書かれている
 </div>
