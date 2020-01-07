@@ -5,8 +5,12 @@
     <meta name="description" content="An Online IDE for the Coq Theorem Prover" />
 
     <link rel="stylesheet" type="text/css" href="jscoq-buidls/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
 
-    <title>Use Coq in Your Browser: The Js Coq Theorem Prover Online IDE!</title>
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <title>項書換による証明付き最適化</title>
   </head>
 
 <body>
@@ -14,11 +18,10 @@
   <div id="code-wrapper">
   <div id="document">
   <div>
-		<h1>項書換による証明付き最適化</h1>
-		<h2>池渕未来 MIT</h2>
+		<h2>項書換による証明付き最適化</h2>
+		<h3>池渕未来 MIT</h3>
   <div>
 		<textarea id="initial">
-From Coq Require Import Init.Prelude.
 From Coq Require Import List.
 Import ListNotations.
 Set Implicit Arguments.
@@ -34,26 +37,166 @@ Ltac optimize db :=
   repeat autounfold with db;
   autorewrite with db;
   reflexivity.</textarea>
-	</di
-	<div>
+		</div>
 		<h2>内容</h2>
-	</div>	
+		<ul>
+		<li>プログラムの読みやすさと効率はしばしば競合する
+		<ul>
+			<li>
+				コードは読みやすく書き，コンパイラ等に最適化させる
+			</li>
+			<li>
+				GHCではユーザーが独自に(書換による)最適化規則を追加できる
+			</li>
+			</ul>
+			</li>
+			<li>
+				最適化のバグを防ぎたい<br>
+				⇒ 証明支援系Coqで最適化とその正しさの証明を同時に行う
+			</li>
+		</ul>
+
+		<h2>証明支援系Coq</h2> 
+		<ul>
+			<li>関数型プログラミング言語+数学的性質，証明を記述できる</li>
+			<li>証明の正しさはCoqシステムがチェック</li>
+			<li>簡単な自動証明機能</li>
+		</ul>
+自動証明機能を利用してプログラムの導出をする方法を紹介
   <div>
 		<h2>例</h2>
 		<textarea id="list_ex">
-Definition sqr_list xs := map (fun x => x * x) xs.
+Definition sqr_list xs :=
+  map (fun x => x * x) xs.
 Definition sqr_add2_list xs :=
 	map (fun x => x + 2) (sqr_list xs).</textarea>
-		<p>map関数が二重になっていて，リストを二回走査する分効率が少し悪い</p>
+	<ul>
+		<li>mapが二重になっていて，リストを二回走査する分効率が少し悪い</li>
+		<li>標準ライブラリにある書換規則
+			<div class="code-body">map_map :<br>map f (map g xs) = map (fun x => f (g x)) xs</div>
+		を使って最適化する
+		</li>
+		</ul>
+		</div>
 		<textarea id="list_ex_sig">
-Hint Rewrite map_map : my_db.
 Hint Unfold sqr_list sqr_add2_list : my_db.
+Hint Rewrite map_map : my_db.
 
 Definition sa_optimized_sig :
-	{ f | forall xs, sqr_add2_list xs = f xs } :=
-	ltac:(optimize my_db).
-		</textarea>
+	{ f | forall xs,
+		    sqr_add2_list xs = f xs }
+	:= ltac:(optimize my_db).
 
+Eval simpl in
+	(proj1_sig sa_optimized_sig).</textarea>
+
+<div style="margin-top: 25px; margin-bottom: 10px;">
+
+<div style="padding: 7px; margin-bottom: 10px; border: 2px solid #555; background: #e0edff; color: #333333; border-radius: 15px;">
+
+
+	<ul>
+		<li><div class="code-body">Hint Unfold/Rewrite ○○ : ××.</div>
+	⇒ 定義/書換規則 ○○ を ×× という名前のDBに登録</li>
+	<li>
+<div class="code-body">{ <span style="color: #228b22" >f</span> | <span style="color: #b22222">P</span> }</div>
+⇒ 性質 <span style="color: #b22222; font-family: monospace">P</span> をみたすようなプログラム <span style="color: #228b22; font-family: monospace">f</span> と，<span style="color: #b22222; font-family: monospace">P</span> の証明のペアの型
+	</li>
+	<li>
+<div class="code-body">ltac:(optimize my_db)</div>
+⇒ my_dbに登録した定義/書換規則を使って最適化
+	</li>
+	</ul>
+</div>
+
+<div>
+	<h3>optimize my_dbの動作</h3>
+	{ f | given_function x = f x } の形の型に対し
+	<ul>
+		<li>Hint Unfoldで登録したmy_db内の定義をすべて展開</li>
+		<li>Hint Rewriteで登録したmy_db内の書換規則をすべて適用</li>
+		<li>書換後の左辺を右辺にマッチさせる→fが決まる</li>
+	</ul>
+</div>
+<div>
+
+	<h2>例</h2>
+	<textarea id="sum_ex">
+Definition sum xs := fold_left Nat.add xs 0.
+Definition sum_of_sqr xs := sum (sqr_list xs).</textarea>
+		<ul>
+			<li>fold_left f [x0; x1; ...; xn] init == f (... (f (f init x0) x1)...) xn</li>
+			<li>fが中置演算子+とすると == init + x0 + x1 + ... + xn</li>
+		</ul>
+<textarea id="fold_left_map">
+Lemma fold_left_map : forall A B C f (g : A -> B) xs (init : C),
+	fold_left f (map g xs) init
+	= fold_left (fun x y => f x (g y)) xs init.
+Proof.
+  induction xs; simpl; auto.
+Qed.</textarea>
+新しい書換規則を追加
+<textarea id="ss_sig">
+Hint Unfold sum sum_of_sqr : my_db.
+Hint Rewrite fold_left_map : my_db.
+
+Definition ss_optimized_sig :
+	{ f | forall xs, sum_of_sqr xs = f xs }
+	:= ltac:(optimize my_db).
+
+Eval simpl in (proj1_sig ss_optimized_sig).</textarea>
+</div>
+
+<div>
+
+	<h3>離散フーリエ変換</h3>
+	<p>フーリエ変換$$\hat f(\xi) = \int_\infty^\infty f(x)e^{-2\pi ix\xi}dx$$の離散化$$\hat f(\xi) = \sum_{x=0}^{n-1} f(x)e^{-2\pi ix\xi/n}$$</p>
+	<p>分割統治で高速に計算するアルゴリズムを高速フーリエ変換(FFT)と呼ぶ</p>
+	<p>\(1\)の\(n\)乗根\(e^{-2\pi i/n}\)を性質のよい整数\(\omega_n\)に取り替えたものが整数の高速乗算，多項式乗算などに使われる(今回はこっちのバージョン)</p>
+	<h3>FFTアルゴリズム</h3>
+	<p>入力：長さが2の累乗のリスト \(l\,(= [f(0); f(1); \dots; f(2^n-1)])\)</p>
+	<ul>
+		<li>\(l\) の長さが \(1 (= 2^0)\) なら \(l\) を返す</li>
+		<li>\(l = [v_0; v_1; \dots; v_{2^{n+1}-1}]\) ならば
+			$$\begin{eqnarray}
+			l_0 &:=& [v_0; v_2; \dots; v_{2^{n+1}-2}]\\
+			l_1 &:=& [v_1; v_3; \dots; v_{2^{n+1}-1}]\\
+			l_0' &:=& {\rm FFT}(l_0)\\
+			l_1' &:=& [\omega_{n+1}^0; \omega_{n+1}^1; \dots; \omega_{n+1}^{2^n-1}]\cdot {\rm FFT}(l_1)
+			\end{eqnarray}$$
+			を計算して \((l_0' + l_1') +\kern-1.3ex+\kern0.8ex (l_0'-l_1')\) を返す<br>
+			\(+,-,\cdot\)はリストの要素ごとの和，差，積
+		</li>
+	</ul>
+	<p>今回は\(\omega_n=2^{2^N-n}\) (\(N\)は大きい整数)を使う．\((2^{2^{N-n}})^n=1 \mod 2^{2^N}+1\)<br>
+		\(+,-,\cdot\)は\(\mod 2^{2^N}+1\)で考える<br>
+		自然数\(k\)に対し\(2^k\cdot m\)は左シフトでの計算に書き換えて高速化できる</p>
+	<p>\(l_1'\)の計算に注目</p>
+</div>
+<div>
+	<h3>\(l_1'\)の計算</h3>
+	\(l_1' = [\omega_{n+1}^0; \omega_{n+1}^1; \dots; \omega_{n+1}^{2^n-1}]\cdot {\rm FFT}(l_1)\)
+	コード(一部)
+	<div id="fft_aux">
+		<pre>
+Definition omeg N n := pow 2 (pow 2 (N-n)).
+
+Definition fft_aux xs N n :=
+  let omegs :=
+    map (fun k => pow (omeg N (n+1)) k) [0;..;2^n]
+  in
+  map2 mul omegs xs.</pre>
+	<ul>
+		<li>mul, powは\(\mod 2^{2^N}+1\)での乗算，累乗</li>
+		<li>[0;..;2^n]は0から2^nまでの自然数のリスト</li>
+		<li>map2 f [x0; x1; ...; xn] [y0; y1; ...; yn] = [f x0 y0; f x1 y1; ...; f xn yn]</li>
+	</ul>
+	数式に近い表現で書かれている
+</div>
+
+</div>
+
+	
   </div> <!-- panel-heading -->
   </div> <!-- /#panel body -->
   </div> <!-- /#document -->
@@ -63,16 +206,17 @@ Definition sa_optimized_sig :
   <script src="jscoq-builds/ui-js/jscoq-loader.js" type="text/javascript"></script>
   <script type="text/javascript">
 
-    var jscoq_ids  = ['initial', 'list_ex', 'list_ex_sig' ];
+    var jscoq_ids  = ['initial', 'list_ex', 'list_ex_sig', 'sum_ex', 'fold_left_map',
+										  'ss_sig' ];
     var jscoq_opts = {
-        prelude:   false,
+        prelude:   true,
         implicit_libs: false,
         base_path: 'jscoq-builds/',
         editor: { keyMap: 'default' },
 				theme: 'light',
         init_pkgs: ['init'],
         all_pkgs:  ['init', 'stdpp',
-                    'coq-base', 'coq-collections', 'coq-arith', 'coq-reals', 'lf', 'plf']
+                    'coq-base', 'coq-collections', 'coq-arith']
     };
 
     /* Global reference */
