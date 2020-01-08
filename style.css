@@ -1,3 +1,17 @@
+html {
+  font-family: sans-serif;
+}
+h1,
+.h1 {
+  color: #0000cd;
+}
+h2,
+.h2 {
+  color: royalblue;
+}
+section {
+  margin-bottom: 10em;
+}
 .balloon-left {
   position: relative;
   display: inline-block;

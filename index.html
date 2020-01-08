@@ -4,12 +4,16 @@
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta name="description" content="An Online IDE for the Coq Theorem Prover" />
 
-    <link rel="stylesheet" type="text/css" href="jscoq-buidls/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="jscoq-builds/node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="./style.css">
 
 		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+		<link rel="stylesheet"
+      href="highlight/styles/default.css">
+		<script src="highlight/highlight.pack.js"></script>
+		<script>hljs.initHighlightingOnLoad();</script>
     <title>項書換による証明付き最適化</title>
   </head>
 
@@ -18,9 +22,15 @@
   <div id="code-wrapper">
   <div id="document">
   <div>
-		<h2>項書換による証明付き最適化</h2>
+		<section>
+
+		<h1>項書換による証明付き最適化</h1>
 		<h3>池渕未来 MIT</h3>
-  <div>
+		</section>
+		<form name="form" action="" style="font-size: 10px;">
+			<input type="button" id="button" value="Show" onclick="onButtonClick();">
+    </form>
+  <div id="init_code" style="visibility: hidden;">
 		<textarea id="initial">
 From Coq Require Import List.
 Import ListNotations.
@@ -38,6 +48,7 @@ Ltac optimize db :=
   autorewrite with db;
   reflexivity.</textarea>
 		</div>
+		<section>
 		<h2>内容</h2>
 		<ul>
 		<li>プログラムの読みやすさと効率はしばしば競合する
@@ -54,16 +65,22 @@ Ltac optimize db :=
 				最適化のバグを防ぎたい<br>
 				⇒ 証明支援系Coqで最適化とその正しさの証明を同時に行う
 			</li>
+			<li>
+				簡単なリスト操作の関数，FFTを例に見る
+			</li>
 		</ul>
-
+</section>
+<section>
 		<h2>証明支援系Coq</h2> 
 		<ul>
 			<li>関数型プログラミング言語+数学的性質，証明を記述できる</li>
 			<li>証明の正しさはCoqシステムがチェック</li>
+			<li>プログラムはOCamlやHaskellなどに抽出可能</li>
 			<li>簡単な自動証明機能</li>
 		</ul>
 自動証明機能を利用してプログラムの導出をする方法を紹介
-  <div>
+</section>
+  <section>
 		<h2>例</h2>
 		<textarea id="list_ex">
 Definition sqr_list xs :=
@@ -77,7 +94,6 @@ Definition sqr_add2_list xs :=
 		を使って最適化する
 		</li>
 		</ul>
-		</div>
 		<textarea id="list_ex_sig">
 Hint Unfold sqr_list sqr_add2_list : my_db.
 Hint Rewrite map_map : my_db.
@@ -104,22 +120,22 @@ Eval simpl in
 	</li>
 	<li>
 <div class="code-body">ltac:(optimize my_db)</div>
-⇒ my_dbに登録した定義/書換規則を使って最適化
+  ⇒ my_dbに登録した定義/書換規則を使って最適化した f と，P の証明を生成
 	</li>
 	</ul>
 </div>
+</section>
 
-<div>
-	<h3>optimize my_dbの動作</h3>
+<section>
+	<h2>optimize my_dbの動作</h2>
 	{ f | given_function x = f x } の形の型に対し
 	<ul>
 		<li>Hint Unfoldで登録したmy_db内の定義をすべて展開</li>
 		<li>Hint Rewriteで登録したmy_db内の書換規則をすべて適用</li>
-		<li>書換後の左辺を右辺にマッチさせる→fが決まる</li>
+		<li>書換後の左辺を右辺にマッチさせる → f が決まる</li>
 	</ul>
-</div>
-<div>
-
+</section>
+<section>
 	<h2>例</h2>
 	<textarea id="sum_ex">
 Definition sum xs := fold_left Nat.add xs 0.
@@ -145,15 +161,17 @@ Definition ss_optimized_sig :
 	:= ltac:(optimize my_db).
 
 Eval simpl in (proj1_sig ss_optimized_sig).</textarea>
-</div>
+</section>
 
-<div>
-
-	<h3>離散フーリエ変換</h3>
+<section>
+	<h2>離散フーリエ変換</h2>
 	<p>フーリエ変換$$\hat f(\xi) = \int_\infty^\infty f(x)e^{-2\pi ix\xi}dx$$の離散化$$\hat f(\xi) = \sum_{x=0}^{n-1} f(x)e^{-2\pi ix\xi/n}$$</p>
 	<p>分割統治で高速に計算するアルゴリズムを高速フーリエ変換(FFT)と呼ぶ</p>
+	<p>\(\hat f(\xi) \hat g(\xi) = \hat{(f\star g)}(\xi)\), (\((f\star g)(x) := \sum_{k=0}^{x}f(k)g(x-k)\))</p>
 	<p>\(1\)の\(n\)乗根\(e^{-2\pi i/n}\)を性質のよい整数\(\omega_n\)に取り替えたものが整数の高速乗算，多項式乗算などに使われる(今回はこっちのバージョン)</p>
-	<h3>FFTアルゴリズム</h3>
+</section>
+<section>
+	<h2>FFTアルゴリズム</h2>
 	<p>入力：長さが2の累乗のリスト \(l\,(= [f(0); f(1); \dots; f(2^n-1)])\)</p>
 	<ul>
 		<li>\(l\) の長さが \(1 (= 2^0)\) なら \(l\) を返す</li>
@@ -165,40 +183,113 @@ Eval simpl in (proj1_sig ss_optimized_sig).</textarea>
 			l_1' &:=& [\omega_{n+1}^0; \omega_{n+1}^1; \dots; \omega_{n+1}^{2^n-1}]\cdot {\rm FFT}(l_1)
 			\end{eqnarray}$$
 			を計算して \((l_0' + l_1') +\kern-1.3ex+\kern0.8ex (l_0'-l_1')\) を返す<br>
-			\(+,-,\cdot\)はリストの要素ごとの和，差，積
+			\(+,-,\cdot\) はリストの要素ごとの和，差，積
 		</li>
 	</ul>
 	<p>今回は\(\omega_n=2^{2^N-n}\) (\(N\)は大きい整数)を使う．\((2^{2^{N-n}})^n=1 \mod 2^{2^N}+1\)<br>
-		\(+,-,\cdot\)は\(\mod 2^{2^N}+1\)で考える<br>
-		自然数\(k\)に対し\(2^k\cdot m\)は左シフトでの計算に書き換えて高速化できる</p>
-	<p>\(l_1'\)の計算に注目</p>
-</div>
+		\(+,-,\cdot\) は\(\mod 2^{2^N}+1\) で考える<br>
+		自然数 \(k\) に対し \(2^k\cdot m\) は左シフトでの計算に書き換えて高速化できる</p>
+	<p>\(l_1'\) の計算に注目</p>
+</section>
 <div>
-	<h3>\(l_1'\)の計算</h3>
+
+	<section>
+	<h2>\(l_1'\) の計算</h2>
 	\(l_1' = [\omega_{n+1}^0; \omega_{n+1}^1; \dots; \omega_{n+1}^{2^n-1}]\cdot {\rm FFT}(l_1)\)
-	コード(一部)
 	<div id="fft_aux">
-		<pre>
-Definition omeg N n := pow 2 (pow 2 (N-n)).
+		<pre><code class="coq">Definition omeg N n := pow 2 (pow 2 (N-n)).
 
 Definition fft_aux xs N n :=
   let omegs :=
-    map (fun k => pow (omeg N (n+1)) k) [0;..;2^n]
+    map (fun k => (omeg N (n+1)) ^ k) [0;..;2^n]
   in
-  map2 mul omegs xs.</pre>
+  map2 (fun x y => x * y) omegs xs.</code></pre>
 	<ul>
-		<li><code>mul</code>, <code>pow</code>は\(\mod 2^{2^N}+1\)での乗算，累乗</li>
+		<li><code>*</code>, <code>^</code> は\(\mod 2^{2^N}+1\) での乗算，累乗</li>
 		<li><code>map2 f [x0;...;xn] [y0;...;yn]
 = [f x0 y0;...;f xn yn]</code></li>
 	</ul>
 	数式に近い表現で書かれている
 </div>
+</section>
+<section>
+<h2>書換規則</h2>
+	以下の書換規則を使う：
+<pre><code class="coq">shiftl_mul_pow2 : forall x y,
+  (2 ^ x) * y = shiftl y x
 
+pow_pow : forall x y,
+  (x ^ y) ^ z = x ^ (y * z)
+
+map2_map : forall A A' B C
+             (f : A -> B -> C)(g : A' -> A)
+             (xs : list A')(ys : list B),
+  map2 f (map g xs) ys
+  = map2 (fun x y => f (g x) y) xs ys</code></pre>
+書換の様子
+<pre><code class="coq">fft_aux xs N n
+= let omegs :=
+    map (fun k => (omeg N (n+1)) ^ k) [0;..;2^n]
+  in
+  map2 (fun x y => x * y) omegs xs
+
+= let omegs :=
+    map (fun k => (2 ^ (2 ^ (N-n-1))) ^ k)
+        [0;..;2^n]
+  in
+  map2 (fun x y => x * y) omegs xs
+
+= let omegs :=
+    map (fun k => 2 ^ (2 ^ (N-n-1) * k))
+        [0;..;2^n]
+  in
+  map2 (fun x y => x * y) omegs xs
+
+= let omegs :=
+    map (fun k => 2 ^ (shiftl k (N-n-1)))
+        [0;..;2^n]
+  in
+  map2 (fun x y => x * y) omegs xs
+
+= map2 (fun x y => x * y)
+       (map (fun k => 2 ^ (shiftl k (N-n-1))))
+            [0;..;2^n])
+       xs
+
+= map2 (fun x y =>
+         (2 ^ (shiftl x (N-n-1))) * y)
+       [0;..;2^n] xs
+
+= map2 (fun x y => shiftl y (shiftl x (N-n-1)))
+       [0;..;2^n] xs</code></pre>
+これまでの例と同様にして自動で最適化できる
+</section>
+</div>
+<section>
+	<h2>まとめ</h2>
+	<ul>
+		<li>書換による最適化と証明を同時に生成する方法を見た</li>
+		<li>高速化のためにコードが分かりにくくなることを安全に防ぐ</li>
+		<li>書換規則を与えるだけで利用できる</li>
+		<li>最適化後のプログラムをOCaml, Haskell等に抽出して使える</li>
+	</ul>
+</section>
+
+<!--
+<div style="padding: 15px; font-family: monospace;">
+<b>map</b> <span style="background-color: aquamarine;">(fun x => x + 2)</span> <b>(map</b> <span style="background-color: lightgoldenrodyellow;">(fun x => x * x)</span> <span style="background-color:mistyrose;">xs</span><b>)</b>
+</div>
+<div style="padding: 15px; font-family: monospace;">
+<b>map (</b>fun y => <code style="background-color: aquamarine;">                </code> <b>(</b><code style="background-color: lightgoldenrodyellow;">                </code> y<b>))</b> <code style="background-color: mistyrose;">  </code>
 </div>
 
+<div style="padding: 15px; margin-bottom: 10px; border: 2px solid #555; background: #e0edff; color: #333333; border-radius: 15px;">
+	foo
+</div>-->
 	
   </div> <!-- panel-heading -->
-  </div> <!-- /#panel body -->
+	</div> <!-- /#panel body -->
+	
   </div> <!-- /#document -->
   </div> <!-- /#code-wrapper -->
   </div> <!-- /#ide-wrapper -->
@@ -223,7 +314,17 @@ Definition fft_aux xs N n :=
     var coq;
 
     loadJsCoq(jscoq_opts.base_path)
-        .then( () => coq = new CoqManager(jscoq_ids, jscoq_opts) );
+				.then( () => coq = new CoqManager(jscoq_ids, jscoq_opts) );
+		
+		function onButtonClick() {
+			if (document.getElementById("button").value == "Show") {
+			document.getElementById("button").value = "Hide";
+			document.getElementById("init_code").style.visibility = "";
+			} else {
+				document.getElementById("button").value = "Show";
+				document.getElementById("init_code").style.visibility = "hidden";
+			}
+		}
   </script>
 </body>
 </html>
