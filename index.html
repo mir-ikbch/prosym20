@@ -88,8 +88,8 @@ Definition sqr_list xs :=
 Definition sqr_add2_list xs :=
 	map (fun x => x + 2) (sqr_list xs).
 
-Eval simpl in (sqr_list [0;1;2;3]).
-Eval simpl in (sqr_add2_list [0;1;2;3]).</textarea>
+Compute (sqr_list [0;1;2;3]).
+Compute (sqr_add2_list [0;1;2;3]).</textarea>
 	<ul>
 		<li>mapが二重になっていて，リストを二回走査する分効率が少し悪い</li>
 		<li>標準ライブラリにある書換規則
@@ -108,7 +108,7 @@ Proof.
 	unfold sqr_add2_list, sqr_list.
 	rewrite map_map.
 	reflexivity.
-Qed.
+Defined.
 
 Eval simpl in
 	(proj1_sig sa_optimized_sig').</textarea>
