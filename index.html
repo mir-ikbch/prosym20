@@ -86,7 +86,10 @@ Ltac optimize db :=
 Definition sqr_list xs :=
   map (fun x => x * x) xs.
 Definition sqr_add2_list xs :=
-	map (fun x => x + 2) (sqr_list xs).</textarea>
+	map (fun x => x + 2) (sqr_list xs).
+
+Eval simpl in (sqr_list [0;1;2;3]).
+Eval simpl in (sqr_add2_list [0;1;2;3]).</textarea>
 	<ul>
 		<li>mapが二重になっていて，リストを二回走査する分効率が少し悪い</li>
 		<li>標準ライブラリにある書換規則
@@ -94,6 +97,25 @@ Definition sqr_add2_list xs :=
 		を使って最適化する
 		</li>
 		</ul>
+<h3>対話的なやり方</h3>
+<textarea id="list_ex_sig0">
+Definition sa_optimized_sig' :
+	{ f | forall xs,
+				sqr_add2_list xs = f xs }.
+Proof.
+	eexists.
+	intros.
+	unfold sqr_add2_list, sqr_list.
+	rewrite map_map.
+	reflexivity.
+Qed.
+
+Eval simpl in
+	(proj1_sig sa_optimized_sig').</textarea>
+<br>
+<div class="code-body">{ <span style="color: #228b22" >f</span> | <span style="color: #b22222">P</span> }</div>
+⇒ 性質 <span style="color: #b22222; font-family: monospace">P</span> をみたすようなプログラム <span style="color: #228b22; font-family: monospace">f</span> と，<span style="color: #b22222; font-family: monospace">P</span> の証明のペアの型
+<h3>一括してやる</h3>
 		<textarea id="list_ex_sig">
 Hint Unfold sqr_list sqr_add2_list : my_db.
 Hint Rewrite map_map : my_db.
@@ -114,10 +136,6 @@ Eval simpl in
 	<ul>
 		<li><div class="code-body">Hint Unfold/Rewrite ○○ : ××.</div>
 	⇒ 定義/書換規則 ○○ を ×× という名前のDBに登録</li>
-	<li>
-<div class="code-body">{ <span style="color: #228b22" >f</span> | <span style="color: #b22222">P</span> }</div>
-⇒ 性質 <span style="color: #b22222; font-family: monospace">P</span> をみたすようなプログラム <span style="color: #228b22; font-family: monospace">f</span> と，<span style="color: #b22222; font-family: monospace">P</span> の証明のペアの型
-	</li>
 	<li>
 <div class="code-body">ltac:(optimize my_db)</div>
   ⇒ my_dbに登録した定義/書換規則を使って最適化した f と，P の証明を生成
@@ -297,7 +315,7 @@ map2_map : forall A A' B C
   <script src="jscoq-builds/ui-js/jscoq-loader.js" type="text/javascript"></script>
   <script type="text/javascript">
 
-    var jscoq_ids  = ['initial', 'list_ex', 'list_ex_sig', 'sum_ex', 'fold_left_map',
+    var jscoq_ids  = ['initial', 'list_ex', 'list_ex_sig0', 'list_ex_sig', 'sum_ex', 'fold_left_map',
 										  'ss_sig' ];
     var jscoq_opts = {
         prelude:   true,
