@@ -185,7 +185,7 @@ Eval simpl in (proj1_sig ss_optimized_sig).</textarea>
 	<h2>離散フーリエ変換</h2>
 	<p>フーリエ変換$$\hat f(\xi) = \int_\infty^\infty f(x)e^{-2\pi ix\xi}dx$$の離散化$$\hat f(\xi) = \sum_{x=0}^{n-1} f(x)e^{-2\pi ix\xi/n}$$</p>
 	<p>分割統治で高速に計算するアルゴリズムを高速フーリエ変換(FFT)と呼ぶ</p>
-	<p>\(\hat f(\xi) \hat g(\xi) = \hat{(f\star g)}(\xi)\), (\((f\star g)(x) := \sum_{k=0}^{x}f(k)g(x-k)\))</p>
+	<!--<p>\(\hat f(\xi) \hat g(\xi) = \hat{(f\star g)}(\xi)\), (\((f\star g)(x) := \sum_{k=0}^{x}f(k)g(x-k)\))</p>-->
 	<p>\(1\)の\(n\)乗根\(e^{-2\pi i/n}\)を性質のよい整数\(\omega_n\)に取り替えたものが整数の高速乗算，多項式乗算などに使われる(今回はこっちのバージョン)</p>
 </section>
 <section>
@@ -204,7 +204,7 @@ Eval simpl in (proj1_sig ss_optimized_sig).</textarea>
 			\(+,-,\cdot\) はリストの要素ごとの和，差，積
 		</li>
 	</ul>
-	<p>今回は\(\omega_n=2^{2^N-n}\) (\(N\)は大きい整数)を使う．\((2^{2^{N-n}})^n=1 \mod 2^{2^N}+1\)<br>
+	<p>今回は\(\omega_n=2^{2^{N-n}}\) (\(N\)は大きい整数)を使う．\((2^{2^{N-n}})^n=1 \mod 2^{2^N}+1\)<br>
 		\(+,-,\cdot\) は\(\mod 2^{2^N}+1\) で考える<br>
 		自然数 \(k\) に対し \(2^k\cdot m\) は左シフトでの計算に書き換えて高速化できる</p>
 	<p>\(l_1'\) の計算に注目</p>
