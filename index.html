@@ -183,7 +183,7 @@ Eval simpl in (proj1_sig ss_optimized_sig).</textarea>
 
 <section>
 	<h2>離散フーリエ変換</h2>
-	<p>フーリエ変換$$\hat f(\xi) = \int_\infty^\infty f(x)e^{-2\pi ix\xi}dx$$の離散化$$\hat f(\xi) = \sum_{x=0}^{n-1} f(x)e^{-2\pi ix\xi/n}$$</p>
+	<p><!--フーリエ変換$$\hat f(\xi) = \int_\infty^\infty f(x)e^{-2\pi ix\xi}dx$$の離散化-->$$\hat f(\xi) = \sum_{x=0}^{n-1} f(x)e^{-2\pi i x \xi /n}$$</p>
 	<p>分割統治で高速に計算するアルゴリズムを高速フーリエ変換(FFT)と呼ぶ</p>
 	<!--<p>\(\hat f(\xi) \hat g(\xi) = \hat{(f\star g)}(\xi)\), (\((f\star g)(x) := \sum_{k=0}^{x}f(k)g(x-k)\))</p>-->
 	<p>\(1\)の\(n\)乗根\(e^{-2\pi i/n}\)を性質のよい整数\(\omega_n\)に取り替えたものが整数の高速乗算，多項式乗算などに使われる(今回はこっちのバージョン)</p>
@@ -215,7 +215,7 @@ Eval simpl in (proj1_sig ss_optimized_sig).</textarea>
 	<h2>\(l_1'\) の計算</h2>
 	\(l_1' = [\omega_{n+1}^0; \omega_{n+1}^1; \dots; \omega_{n+1}^{2^n-1}]\cdot {\rm FFT}(l_1)\)
 	<div id="fft_aux">
-		<pre><code class="coq">Definition omeg N n := pow 2 (pow 2 (N-n)).
+		<pre><code class="coq">Definition omeg N n := 2 ^ (2 ^ (N-n)).
 
 Definition fft_aux xs N n :=
   let omegs :=
@@ -243,7 +243,13 @@ map2_map : forall A A' B C
              (f : A -> B -> C)(g : A' -> A)
              (xs : list A')(ys : list B),
   map2 f (map g xs) ys
-  = map2 (fun x y => f (g x) y) xs ys</code></pre>
+	= map2 (fun x y => f (g x) y) xs ys</code></pre>
+	mapの中身を書き換えるためにもう少し拡張したタクティクoptimize'を使う
+	<pre><code class="coq">Definition fft_aux_optimized_sig :
+  { f | forall xs N n,
+        fft_aux xs N n = f xs N n }
+  := ltac:(optimize' my_db my_db_rew).
+	</code></pre>
 書換の様子
 <pre><code class="coq">fft_aux xs N n
 = let omegs :=
